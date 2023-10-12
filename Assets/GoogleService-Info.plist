@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>43333396819-hfdqbg9asfvecblhvjfdt5dv75evpa1p.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.43333396819-hfdqbg9asfvecblhvjfdt5dv75evpa1p</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>43333396819-1fru4f9s17b86519bbmloo7pgi557144.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBb9XhmohlSQbvDCm-XZ1q417rdiaBpdAQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>43333396819</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.i911.AdventureTraveler</string>
+	<key>PROJECT_ID</key>
+	<string>adventure-traveler-330901</string>
+	<key>STORAGE_BUCKET</key>
+	<string>adventure-traveler-330901.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:43333396819:ios:509434968cf2e87c75d9a6</string>
+</dict>
+</plist>

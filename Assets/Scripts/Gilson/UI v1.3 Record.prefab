@@ -1,0 +1,2796 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &946551538009779444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6527076525326644026}
+  - component: {fileID: 3198027610479426528}
+  m_Layer: 0
+  m_Name: UI v1.3 Record
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6527076525326644026
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946551538009779444}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.20665403, y: 0.20665403, z: 0.20665403}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3198027610479426528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946551538009779444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cf80bbe4a3317749ac6e3dc47b289ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  excelDemoData:
+    languages:
+    - label: About this company
+      content:
+        english: About this company
+        french: "\xC0 propos de cette entreprise\r"
+        spanish: "Sobre la compa\xF1\xEDa"
+    - label: Account
+      content:
+        english: Account
+        french: "Compte\r"
+        spanish: Cuenta
+    - label: Account Information
+      content:
+        english: Account Information
+        french: "Information sur le compte\r"
+        spanish: "Informaci\xF3n de la Cuenta"
+    - label: Activity
+      content:
+        english: Activity
+        french: "Activit\xE9\r"
+        spanish: Actividad
+    - label: Activity Details
+      content:
+        english: Activity Details
+        french: "D\xE9tails de l'activit\xE9\r"
+        spanish: Detalles de la Actividad
+    - label: Add Visa
+      content:
+        english: Add Visa
+        french: "Ajouter un visa\r"
+        spanish: "A\xF1adir Visa"
+    - label: Additional Notes
+      content:
+        english: Additional Notes
+        french: "Notes compl\xE9mentaires\r"
+        spanish: Notas Adicionales
+    - label: Adventure Traveller
+      content:
+        english: Adventure Traveller
+        french: "Voyageur d'aventure\r"
+        spanish: Viajero de Aventuras
+    - label: All Adventures
+      content:
+        english: All Adventures
+        french: "Toutes les aventures\r"
+        spanish: Todas las Aventuras
+    - label: Apple Pay
+      content:
+        english: Apple Pay
+        french: "Apple Pay\r"
+        spanish: Apple Pay
+    - label: APPLY
+      content:
+        english: APPLY
+        french: "APPLIQUER\r"
+        spanish: APLICAR
+    - label: APPLY CHANGE
+      content:
+        english: APPLY CHANGE
+        french: "APPLIQUER LE CHANGEMENT\r"
+        spanish: APLICAR CAMBIO
+    - label: Apply Change
+      content:
+        english: Apply Change
+        french: "Appliquer le changement\r"
+        spanish: Aplicar Cambio
+    - label: Are you sure
+      content:
+        english: Are you sure
+        french: "Es-tu s\xFBr?\r"
+        spanish: "\xBFEst\xE1s seguro?"
+    - label: 'Are you sure you have completed this journey? '
+      content:
+        english: 'Are you sure you have completed this journey? '
+        french: "\xCAtes-vous s\xFBr d'avoir termin\xE9 ce voyage?\r"
+        spanish: "\xBFEst\xE1 seguro de haber completado este viaje? "
+    - label: 'Are you sure you would like to discard this journey? All posts will
+        be lost '
+      content:
+        english: 'Are you sure you would like to discard this journey? All posts
+          will be lost '
+        french: "\xCAtes-vous s\xFBr de vouloir supprimer ce voyage ? Tous les messages
+          seront perdus\r"
+        spanish: "\xBFEst\xE1s seguro de que quieres descartar este viaje? Todas
+          las publicaciones se perder\xE1n "
+    - label: Are you sure you would like to logout of your account
+      content:
+        english: Are you sure you would like to logout of your account
+        french: "\xCAtes-vous s\xFBr de vouloir vous d\xE9connecter de votre compte\r"
+        spanish: "\xBFEst\xE1 seguro de que desea cerrar la sesi\xF3n de su cuenta?"
+    - label: Aviator Timer
+      content:
+        english: Aviator Timer
+        french: "Minuterie d'aviateur\r"
+        spanish: Temporizador Aviador
+    - label: Aviator timer
+      content:
+        english: Aviator timer
+        french: "Minuterie d'aviateur\r"
+        spanish: Temporizador Aviador
+    - label: Awards
+      content:
+        english: Awards
+        french: "R\xE9compenses\r"
+        spanish: Premios
+    - label: BACK
+      content:
+        english: BACK
+        french: "ARRI\xC8RE\r"
+        spanish: "ATR\xC1S"
+    - label: Back
+      content:
+        english: Back
+        french: "Arri\xE8re\r"
+        spanish: "Atr\xE1s"
+    - label: Blood Type
+      content:
+        english: Blood Type
+        french: "Groupe sanguin\r"
+        spanish: "Grupo Sangu\xEDneo"
+    - label: Boating
+      content:
+        english: Boating
+        french: "Nautique\r"
+        spanish: "Navegaci\xF3n"
+    - label: Brewed Passion
+      content:
+        english: Brewed Passion
+        french: "Passion brass\xE9e\r"
+        spanish: "Pasi\xF3n Elaborada"
+    - label: Brewed passion
+      content:
+        english: Brewed passion
+        french: "La passion brass\xE9e\r"
+        spanish: "Pasi\xF3n Elaborada"
+    - label: Canoeing
+      content:
+        english: Canoeing
+        french: "Cano\xEB\r"
+        spanish: "Pirag\xFCismo"
+    - label: Capture
+      content:
+        english: Capture
+        french: "Capturer\r"
+        spanish: Captura
+    - label: Card number
+      content:
+        english: Card number
+        french: "Num\xE9ro de carte\r"
+        spanish: "N\xFAmero de tarjeta"
+    - label: CHECK OUT
+      content:
+        english: CHECK OUT
+        french: "V\xC9RIFIER\r"
+        spanish: Comprar
+    - label: Choose Payment Method
+      content:
+        english: Choose Payment Method
+        french: "Choisissez le mode de paiement\r"
+        spanish: "Elija un m\xE9todo de pago"
+    - label: Choose Payment Type
+      content:
+        english: Choose Payment Type
+        french: "Choisissez le type de paiement\r"
+        spanish: Elige una forma de pago
+    - label: Click here to switch to video
+      content:
+        english: Click here to switch to video
+        french: "Cliquez ici pour passer \xE0 la vid\xE9o\r"
+        spanish: "Haga clic para cambiar al v\xEDdeo"
+    - label: Cold weather activity
+      content:
+        english: Cold weather activity
+        french: "Activit\xE9 par temps froid\r"
+        spanish: "Actividad de clima fr\xEDo"
+    - label: Contact Number
+      content:
+        english: Contact Number
+        french: "Num\xE9ro de contact\r"
+        spanish: Numero de Contacto
+    - label: CONTINUE
+      content:
+        english: CONTINUE
+        french: "CONTINUEZ\r"
+        spanish: CONTINUAR
+    - label: Create 15 journeys over 2 hour in duration
+      content:
+        english: Create 15 journeys over 2 hour in duration
+        french: "Cr\xE9ez 15 trajets sur une dur\xE9e de 2 heures\r"
+        spanish: "Crear 15 viajes de m\xE1s de dos horas de duraci\xF3n"
+    - label: Create 3 journeys over 5 miles in distance
+      content:
+        english: Create 3 journeys over 5 miles in distance
+        french: "Cr\xE9ez 3 trajets sur 5 miles de distance\r"
+        spanish: "Crear 3 viajes de m\xE1s de 5 millas cada uno."
+    - label: Create 3 journeys over an hours in duration
+      content:
+        english: Create 3 journeys over an hours in duration
+        french: "Cr\xE9er 3 trajets sur une dur\xE9e d'une heure\r"
+        spanish: "Crear 3 viajes de m\xE1s de una hora de duraci\xF3n"
+    - label: Create 6 journeys over 10 miles in distance
+      content:
+        english: Create 6 journeys over 10 miles in distance
+        french: "Cr\xE9ez 6 trajets sur 10 miles de distance\r"
+        spanish: "Crear 6 viajes de m\xE1s de 10 millas cada uno."
+    - label: Create 8 journeys over 2 hours in duration
+      content:
+        english: Create 8 journeys over 2 hours in duration
+        french: "Cr\xE9ez 8 trajets sur une dur\xE9e de 2 heures\r"
+        spanish: "Crear 15 viajes de m\xE1s de dos horas de duraci\xF3n"
+    - label: Create a journey to unlock awards
+      content:
+        english: Create a journey to unlock awards
+        french: "Cr\xE9ez un parcours pour d\xE9bloquer des r\xE9compenses\r"
+        spanish: Crear un viaje para desbloquear premios
+    - label: Create a total of 20 Journeys
+      content:
+        english: Create a total of 20 Journeys
+        french: "Cr\xE9er un total de 20 voyages\r"
+        spanish: Crear un total de 20 viajes
+    - label: Create a total of 40 Journeys
+      content:
+        english: Create a total of 40 Journeys
+        french: "Cr\xE9er un total de 40 voyages\r"
+        spanish: Crear un total de 40 viajes
+    - label: Create a total of 8 journeys
+      content:
+        english: Create a total of 8 journeys
+        french: "Cr\xE9er un total de 8 trajets\r"
+        spanish: Crear un total de 8 viajes
+    - label: 'Create your 1st Journey '
+      content:
+        english: 'Create your 1st Journey '
+        french: "Cr\xE9ez votre 1er voyage\r"
+        spanish: Crear tu primera Viaje
+    - label: Createa 3 journys each over 5 hours
+      content:
+        english: Createa 3 journys each over 5 hours
+        french: "Cr\xE9er 3 voyages chacun sur 5 heures\r"
+        spanish: "Crear 3 viajes de m\xE1s de 5 horas cada uno."
+    - label: 'Createa total of 20 journeys  '
+      content:
+        english: 'Createa total of 20 journeys  '
+        french: "Cr\xE9er un total de 20 trajets\r"
+        spanish: Hacer un total de 20 viajes
+    - label: CVV
+      content:
+        english: CVV
+        french: "CVV\r"
+        spanish: CVV
+    - label: Cycling
+      content:
+        english: Cycling
+        french: "Cyclisme\r"
+        spanish: Ciclismo
+    - label: Date of Birth
+      content:
+        english: Date of Birth
+        french: "Date de naissance\r"
+        spanish: Fecha de Nacimiento
+    - label: Delete Account
+      content:
+        english: Delete Account
+        french: "Supprimer le compte\r"
+        spanish: BORRAR CUENTA
+    - label: DELETE ACCOUNT
+      content:
+        english: DELETE ACCOUNT
+        french: "SUPPRIMER LE COMPTE\r"
+        spanish: BORRAR CUENTA
+    - label: DISCARD
+      content:
+        english: DISCARD
+        french: "JETER\r"
+        spanish: BORRAR
+    - label: DISCARD & LEAVE
+      content:
+        english: DISCARD & LEAVE
+        french: "JETER ET LAISSER\r"
+        spanish: DESCARTAR Y DEJAR
+    - label: DISCARD JOURNEY
+      content:
+        english: DISCARD JOURNEY
+        french: "ABANDONNER LE VOYAGE\r"
+        spanish: BORRAR EL VIAJE
+    - label: Discard Journey
+      content:
+        english: Discard Journey
+        french: "ABANDONNER LE VOYAGE\r"
+        spanish: Abandonar el viaje
+    - label: Done
+      content:
+        english: Done
+        french: "Termin\xE9\r"
+        spanish: Terminar
+    - label: DONE
+      content:
+        english: DONE
+        french: "TERMIN\xC9\r"
+        spanish: TERMINAR
+    - label: Duration
+      content:
+        english: Duration
+        french: "Dur\xE9e\r"
+        spanish: "Duraci\xF3n"
+    - label: Eager Beaver
+      content:
+        english: Eager Beaver
+        french: "Personne z\xE9l\xE9e\r"
+        spanish: Currante
+    - label: Eager beaver
+      content:
+        english: Eager beaver
+        french: "Personne z\xE9l\xE9e\r"
+        spanish: Currante
+    - label: E-biking
+      content:
+        english: E-biking
+        french: "V\xE9lo \xE9lectrique\r"
+        spanish: "Ciclismo electr\xF3nico"
+    - label: Edge Cutter
+      content:
+        english: Edge Cutter
+        french: "Coupe-bordure\r"
+        spanish: Cortador de Bordes
+    - label: Email
+      content:
+        english: Email
+        french: "E-mail\r"
+        spanish: "Correo Electr\xF3nico"
+    - label: English
+      content:
+        english: English
+        french: "Anglais\r"
+        spanish: Ingles
+    - label: Enter Area to Search
+      content:
+        english: Enter Area to Search
+        french: "Entrez la zone \xE0 rechercher\r"
+        spanish: Introduzca la zona a buscar
+    - label: Enter Medical Allergies
+      content:
+        english: Enter Medical Allergies
+        french: "Entrez les allergies m\xE9dicales\r"
+        spanish: Introduzca sus alergias
+    - label: Expiration
+      content:
+        english: Expiration
+        french: "Expiration\r"
+        spanish: Vencimiento
+    - label: Filter Selection
+      content:
+        english: Filter Selection
+        french: "S\xE9lection de filtre\r"
+        spanish: "Selecci\xF3n de Filtro"
+    - label: Fine Prints
+      content:
+        english: Fine Prints
+        french: "Impressions fines\r"
+        spanish: "Letra peque\xF1a"
+    - label: Finish Journey
+      content:
+        english: Finish Journey
+        french: "Terminer le voyage\r"
+        spanish: Terminar el viaje
+    - label: FINISH JOURNEY
+      content:
+        english: FINISH JOURNEY
+        french: "FIN DU VOYAGE\r"
+        spanish: TERMINAR AL VIAJE
+    - label: First Name
+      content:
+        english: First Name
+        french: "Pr\xE9nom\r"
+        spanish: Nombre
+    - label: Fishing
+      content:
+        english: Fishing
+        french: "Faire de la p\xEAche\r"
+        spanish: Pescuera
+    - label: French
+      content:
+        english: French
+        french: "fran\xE7ais\r"
+        spanish: Frances
+    - label: Gender
+      content:
+        english: Gender
+        french: "Genre\r"
+        spanish: "G\xE9nero"
+    - label: Global
+      content:
+        english: Global
+        french: "Global\r"
+        spanish: Global
+    - label: Go Ahead
+      content:
+        english: Go Ahead
+        french: "Vas-y\r"
+        spanish: Continuar
+    - label: Go Getter
+      content:
+        english: Go Getter
+        french: "Allez Getter\r"
+        spanish: Emprendedora
+    - label: Goals
+      content:
+        english: Goals
+        french: "Buts\r"
+        spanish: Metas
+    - label: Golfing
+      content:
+        english: Golfing
+        french: "Golf\r"
+        spanish: Golf
+    - label: Google Pay
+      content:
+        english: Google Pay
+        french: "Google\_Pay\r"
+        spanish: Google Pay
+    - label: Height
+      content:
+        english: Height
+        french: "Hauteur\r"
+        spanish: Estatura
+    - label: Herculean Ring
+      content:
+        english: Herculean Ring
+        french: "Anneau hercul\xE9en\r"
+        spanish: "Anillo Herc\xFAleo"
+    - label: Hiking
+      content:
+        english: Hiking
+        french: "Randonn\xE9e\r"
+        spanish: Senderismo
+    - label: Home
+      content:
+        english: Home
+        french: "Accueil\r"
+        spanish: Inicio
+    - label: Horizon Summit
+      content:
+        english: Horizon Summit
+        french: "Sommet Horizon\r"
+        spanish: Cumbre del Horizonte
+    - label: Ice Skating
+      content:
+        english: Ice Skating
+        french: "Patinage sur glace\r"
+        spanish: Patinaje sobre hielo
+    - label: If you leave this page without saving you will lose the content you
+        have provided
+      content:
+        english: If you leave this page without saving you will lose the content
+          you have provided
+        french: "Si vous quittez cette page sans enregistrer, vous perdrez le contenu
+          que vous avez fourni\r"
+        spanish: "Si abandona esta p\xE1gina sin guardar, perder\xE1 el contenido
+          que haya proporcionado"
+    - label: Indoor activity
+      content:
+        english: Indoor activity
+        french: "Activit\xE9 int\xE9rieure\r"
+        spanish: Actividades de Interior
+    - label: Jetskiing
+      content:
+        english: Jetskiing
+        french: "Faire du jet ski\r"
+        spanish: "Esqu\xED acu\xE1tico"
+    - label: JOIN NEW JOURNEY
+      content:
+        english: JOIN NEW JOURNEY
+        french: "REJOIGNEZ UN NOUVEAU VOYAGE\r"
+        spanish: UNIRSE NUEVO VIAJE
+    - label: Journey Active
+      content:
+        english: Journey Active
+        french: "Parcours Actif\r"
+        spanish: Viaje Activa
+    - label: Journey Details
+      content:
+        english: Journey Details
+        french: "D\xE9tails du voyage\r"
+        spanish: Detalles del Viaje
+    - label: Journey director
+      content:
+        english: Journey director
+        french: "Directeur de voyage\r"
+        spanish: Director del Viaje
+    - label: Journey Director
+      content:
+        english: Journey Director
+        french: "Directeur de voyage\r"
+        spanish: Director del Viaje
+    - label: Journey Paused
+      content:
+        english: Journey Paused
+        french: "Trajet en pause\r"
+        spanish: Viaje en pausa
+    - label: Kayaking
+      content:
+        english: Kayaking
+        french: "Kayak\r"
+        spanish: Kayak
+    - label: 'Language '
+      content:
+        english: 'Language '
+        french: "Langue\r"
+        spanish: Idioma
+    - label: Last Name
+      content:
+        english: Last Name
+        french: "Nom de famille\r"
+        spanish: Apellido
+    - label: List Medical Conditions. If any.
+      content:
+        english: List Medical Conditions. If any.
+        french: "\xC9num\xE9rez les conditions m\xE9dicales. Si seulement.\r"
+        spanish: "Inscribir todas tus condiciones m\xE9dicas, si las hay"
+    - label: List View
+      content:
+        english: List View
+        french: "Affichage en liste\r"
+        spanish: Vista de lista
+    - label: Listing Detail
+      content:
+        english: Listing Detail
+        french: "D\xE9tail de l'annonce\r"
+        spanish: Detalles de Listado
+    - label: Live Journey
+      content:
+        english: Live Journey
+        french: "Voyage en direct\r"
+        spanish: Viajes en Vivo
+    - label: LOAD MORE
+      content:
+        english: LOAD MORE
+        french: "CHARGER PLUS\r"
+        spanish: "CARGAR M\xC1S"
+    - label: Locked
+      content:
+        english: Locked
+        french: "Ferm\xE9 \xE0 cl\xE9\r"
+        spanish: Bloqueado
+    - label: LOG OUT
+      content:
+        english: LOG OUT
+        french: "SE D\xC9CONNECTER\r"
+        spanish: "CERRAR SESI\xD3N"
+    - label: Logout
+      content:
+        english: Logout
+        french: "Se d\xE9connecter\r"
+        spanish: "Cerrar Sesi\xF3n"
+    - label: Luminary Icon
+      content:
+        english: Luminary Icon
+        french: "Ic\xF4ne Luminaire\r"
+        spanish: Icono de la Luminaria
+    - label: Marathon
+      content:
+        english: Marathon
+        french: "Marathon\r"
+        spanish: "Marat\xF3n"
+    - label: marathon
+      content:
+        english: marathon
+        french: "marathon\r"
+        spanish: "Marat\xF3n"
+    - label: 'Medical '
+      content:
+        english: 'Medical '
+        french: "M\xE9dical\r"
+        spanish: "M\xE9dica "
+    - label: Miles
+      content:
+        english: Miles
+        french: "Milles\r"
+        spanish: Millas
+    - label: Mountain Biking
+      content:
+        english: Mountain Biking
+        french: "V\xE9lo de montagne\r"
+        spanish: "Cicilisimo de monta\xF1a"
+    - label: Multiple Journeys
+      content:
+        english: Multiple Journeys
+        french: "Voyages multiples\r"
+        spanish: "Viajes M\xFAltiples"
+    - label: My Journeys
+      content:
+        english: My Journeys
+        french: "Mes voyages\r"
+        spanish: Mis Viajes
+    - label: Once deleted you will not be able to retrieve this account. All information
+        will be lost. Are you sure you would like to proceed?
+      content:
+        english: Once deleted you will not be able to retrieve this account. All
+          information will be lost. Are you sure you would like to proceed?
+        french: "Une fois supprim\xE9, vous ne pourrez plus r\xE9cup\xE9rer ce compte.
+          Toutes les informations seront perdues. \xCAtes-vous s\xFBr de vouloir
+          continuer\_?\r"
+        spanish: "Cuando eliminada, no podr\xE1 recuperar esta cuenta. Toda la informaci\xF3n
+          se perder\xE1. \xBFEst\xE1 seguro de que desea continuar?"
+    - label: 'Once you drop a pin you will not be able to delete it. Are you sure
+        you would like to proceed? '
+      content:
+        english: 'Once you drop a pin you will not be able to delete it. Are you
+          sure you would like to proceed? '
+        french: "Une fois que vous avez d\xE9pos\xE9 une \xE9pingle, vous ne pourrez
+          plus la supprimer. \xCAtes-vous s\xFBr de vouloir continuer?\r"
+        spanish: "Cuando sueltes un pin, no podr\xE1 eliminarlo. \xBFEst\xE1 seguro
+          de que desea continuar? "
+    - label: Other
+      content:
+        english: Other
+        french: "Autre\r"
+        spanish: Otros
+    - label: Other Adventures
+      content:
+        english: Other Adventures
+        french: "Autres Aventures\r"
+        spanish: Otras Aventuras
+    - label: Outdoor activity
+      content:
+        english: Outdoor activity
+        french: "Activit\xE9 de plein air\r"
+        spanish: Actividades de Exterior
+    - label: Paddle Boarding
+      content:
+        english: Paddle Boarding
+        french: "Paddle Boarding\r"
+        spanish: Surf de Remo
+    - label: Passage Of Silver
+      content:
+        english: Passage Of Silver
+        french: "Passage d'argent\r"
+        spanish: La Via de la Plata
+    - label: Photo
+      content:
+        english: Photo
+        french: "photo\r"
+        spanish: Foto
+    - label: PLACE ORDER
+      content:
+        english: PLACE ORDER
+        french: "PASSER LA COMMANDE\r"
+        spanish: REALIZAR UN PEDIDO
+    - label: Please choose the type of adventure you will be doing
+      content:
+        english: Please choose the type of adventure you will be doing
+        french: "Veuillez choisir le type d'aventure que vous ferez\r"
+        spanish: Por favor, elija el tipo de aventura que va a realizar
+    - label: "Please enter your friend\u2019s phone number"
+      content:
+        english: "Please enter your friend\u2019s phone number"
+        french: "Veuillez entrer le num\xE9ro de t\xE9l\xE9phone de votre ami\r"
+        spanish: "Por favor, introduzca el n\xFAmero de tel\xE9fono de su amigo"
+    - label: POST
+      content:
+        english: POST
+        french: "PUBLIER\r"
+        spanish: PUBLICAR
+    - label: Profile
+      content:
+        english: Profile
+        french: "Profil\r"
+        spanish: Perfil
+    - label: Progress
+      content:
+        english: Progress
+        french: "Le progr\xE8s\r"
+        spanish: Progreso
+    - label: Purchase Date
+      content:
+        english: Purchase Date
+        french: "date d'achat\r"
+        spanish: Fecha de Comprar
+    - label: Purchase Details
+      content:
+        english: Purchase Details
+        french: "D\xE9tails d'achat\r"
+        spanish: Detalles de Comprar
+    - label: Purchases
+      content:
+        english: Purchases
+        french: "Achats\r"
+        spanish: Compras
+    - label: Recents
+      content:
+        english: Recents
+        french: "R\xE9cent\r"
+        spanish: Recientes
+    - label: Record
+      content:
+        english: Record
+        french: "Enregistrer\r"
+        spanish: Grabar
+    - label: Refresh
+      content:
+        english: Refresh
+        french: "Rafra\xEEchir\r"
+        spanish: Actualizar
+    - label: RESUME
+      content:
+        english: RESUME
+        french: "REPRENDRE\r"
+        spanish: Reanudar
+    - label: Rowing
+      content:
+        english: Rowing
+        french: "Aviron\r"
+        spanish: Remo
+    - label: Sailing
+      content:
+        english: Sailing
+        french: "Voile\r"
+        spanish: Surf a Vela
+    - label: SAVE EDIT
+      content:
+        english: SAVE EDIT
+        french: "ENREGISTRER MODIFIER\r"
+        spanish: "GUARDAR EDICI\xD3N"
+    - label: Save Information
+      content:
+        english: Save Information
+        french: "Enregistrer les informations\r"
+        spanish: "Guardar Informaci\xF3n"
+    - label: Save Journey
+      content:
+        english: Save Journey
+        french: "Enregistrer le trajet\r"
+        spanish: Guardar el viaje
+    - label: SAVE VISA
+      content:
+        english: SAVE VISA
+        french: "\xC9CONOMISEZ LE VISA\r"
+        spanish: GUARDAR VISA
+    - label: 'Saving adventure! Will be ready momentarily  '
+      content:
+        english: 'Saving adventure! Will be ready momentarily  '
+        french: "Aventure salvatrice ! Sera pr\xEAt momentan\xE9ment\r"
+        spanish: "\xA1Guardando tu aventura! Estar\xE1 listo en breve  "
+    - label: SEARCH CONTACT
+      content:
+        english: SEARCH CONTACT
+        french: "RECHERCHE CONTACT\r"
+        spanish: BUSCAR CONTACTO
+    - label: Select a pin that matches content below
+      content:
+        english: Select a pin that matches content below
+        french: "S\xE9lectionnez une \xE9pingle qui correspond au contenu ci-dessous\r"
+        spanish: Seleccione un pin que coincida con el contenido de abajo
+    - label: Select Activity
+      content:
+        english: Select Activity
+        french: "S\xE9lectionnez l'activit\xE9\r"
+        spanish: Selecciona la actividad
+    - label: Select Item
+      content:
+        english: Select Item
+        french: "S\xE9lectionner un article\r"
+        spanish: "Seleccionar el \xEDtem"
+    - label: Settings
+      content:
+        english: Settings
+        french: "Param\xE8tres\r"
+        spanish: "Configuraci\xF3nes"
+    - label: Share
+      content:
+        english: Share
+        french: "Partager\r"
+        spanish: Compartir
+    - label: Share journey
+      content:
+        english: Share journey
+        french: "Partager le voyage\r"
+        spanish: Compartir tu viaje
+    - label: Share Location
+      content:
+        english: Share Location
+        french: "Emplacement partag\xE9\r"
+        spanish: Compartir tu viaje
+    - label: Skiing
+      content:
+        english: Skiing
+        french: "Ski\r"
+        spanish: "Esqu\xED"
+    - label: Snow Boarding
+      content:
+        english: Snow Boarding
+        french: "Planche a neige\r"
+        spanish: Snowboarding (or Snowboard)
+    - label: Spanish
+      content:
+        english: Spanish
+        french: "Espagnol\r"
+        spanish: "Espa\xF1ol"
+    - label: STAY ON CURRENT
+      content:
+        english: STAY ON CURRENT
+        french: "RESTEZ SUR COURANT\r"
+        spanish: PERMANECER EN LA CORRIENTE
+    - label: Surfing
+      content:
+        english: Surfing
+        french: "Surfant\r"
+        spanish: Surf (or Surfear)
+    - label: Swimming
+      content:
+        english: Swimming
+        french: "Natation\r"
+        spanish: Nadando
+    - label: "Take a water break \r\nand start again"
+      content:
+        english: "Take a water break \r\nand start again"
+        french: "Faites une pause aquatique\r\net recommencer\r"
+        spanish: "Tomar un descanso \r\ny vuelve a empezar"
+    - label: Terms of Use and Services
+      content:
+        english: Terms of Use and Services
+        french: "Conditions d'utilisation et services\r"
+        spanish: Condiciones de Uso y Servicios
+    - label: The Explorer
+      content:
+        english: The Explorer
+        french: "L'explorateur\r"
+        spanish: El Explorador
+    - label: The extra mile
+      content:
+        english: The extra mile
+        french: "Le mile suppl\xE9mentaire\r"
+        spanish: Esfuerzo Adicional
+    - label: The Passage of Silver
+      content:
+        english: The Passage of Silver
+        french: "Le passage de l'argent\r"
+        spanish: "La V\xEDa de la Plata"
+    - label: The Vibrant Notch
+      content:
+        english: The Vibrant Notch
+        french: "L'encoche vibrante\r"
+        spanish: La Muesca Vibrante
+    - label: There are currently no listings in this area
+      content:
+        english: There are currently no listings in this area
+        french: "Il n'y a actuellement aucune annonce dans ce domaine\r"
+        spanish: "Actualmente no hay listadas en su \xE1rea"
+    - label: Thurlodge Pass
+      content:
+        english: Thurlodge Pass
+        french: "Pass Thurlodge\r"
+        spanish: Paso de Thurlodge
+    - label: To be unlocked
+      content:
+        english: To be unlocked
+        french: "A d\xE9bloquer\r"
+        spanish: Para ser desbloqueado
+    - label: Travel Bug
+      content:
+        english: Travel Bug
+        french: "Bug de voyage\r"
+        spanish: Gusanillo de Viajar
+    - label: Turbo Simmer
+      content:
+        english: Turbo Simmer
+        french: "Mijoter Turbo\r"
+        spanish: Tremendo Fuego Lento
+    - label: Turbo simmer
+      content:
+        english: Turbo simmer
+        french: "Mijotage turbo\r"
+        spanish: Tremendo Fuego Lento
+    - label: Type of Adventure
+      content:
+        english: Type of Adventure
+        french: "Type d'aventure\r"
+        spanish: Tipo de Aventura
+    - label: Unlocked
+      content:
+        english: Unlocked
+        french: "D\xE9bloqu\xE9\r"
+        spanish: Desbloqueada
+    - label: Upload
+      content:
+        english: Upload
+        french: "T\xE9l\xE9charger\r"
+        spanish: Subir
+    - label: User Name
+      content:
+        english: User Name
+        french: "Nom d'utilisateur\r"
+        spanish: Nombre de Usuario
+    - label: Video
+      content:
+        english: Video
+        french: "Vid\xE9o\r"
+        spanish: "V\xEDdeo"
+    - label: Visa
+      content:
+        english: Visa
+        french: "Visa\r"
+        spanish: Visa
+    - label: 'VISA Error '
+      content:
+        english: 'VISA Error '
+        french: "Erreur VISA\r"
+        spanish: Error de Visa
+    - label: Vise Setup
+      content:
+        english: Vise Setup
+        french: "Configuration de l'\xE9tau\r"
+        spanish: Configuar Visa
+    - label: Walking
+      content:
+        english: Walking
+        french: "Marche \xE0 pied\r"
+        spanish: Caminando
+    - label: Wander Luster
+      content:
+        english: Wander Luster
+        french: "Lustre d'errance\r"
+        spanish: "El Esp\xEDritu Viajero"
+    - label: Warm weather activity
+      content:
+        english: Warm weather activity
+        french: "Activit\xE9 par temps chaud\r"
+        spanish: "Actividad de clima c\xE1lido"
+    - label: We were not able process the VISA card you provided. Please check your
+        payment inforamtion and try again
+      content:
+        english: We were not able process the VISA card you provided. Please check
+          your payment inforamtion and try again
+        french: "Nous n'avons pas pu traiter la carte VISA que vous avez fournie.
+          Veuillez v\xE9rifier vos informations de paiement et r\xE9essayer\r"
+        spanish: "No hemos podido procesar la tarjeta VISA que nos ha facilitado.
+          Por favor, compruebe su informaci\xF3n de pago e int\xE9ntelo de nuevo."
+    - label: 'We were unable to login with the email and password you have provided.
+        Please try again. '
+      content:
+        english: 'We were unable to login with the email and password you have provided.
+          Please try again. '
+        french: "\r\nNous n'avons pas pu nous connecter avec l'adresse e-mail et
+          le mot de passe que vous avez fournis. Veuillez r\xE9essayer.\r"
+        spanish: "Nos hemos podido iniciar la sesi\xF3n con esa correo electr\xF3nico
+          o contrase\xF1a. Por favor, int\xE9ntelo de nuevo."
+    - label: Weight
+      content:
+        english: Weight
+        french: "Poids\r"
+        spanish: Peso
+    - label: wisdom tree
+      content:
+        english: wisdom tree
+        french: "arbre de la sagesse\r"
+        spanish: "\xC1rbol de la Sabidur\xEDa"
+    - label: Wisdom Tree
+      content:
+        english: Wisdom Tree
+        french: "Arbre de la sagesse\r"
+        spanish: "\xC1rbol de la Sabiduria"
+    - label: Would you like to post this journey to global feed?
+      content:
+        english: Would you like to post this journey to global feed?
+        french: "Souhaitez-vous publier ce voyage dans le flux mondial ?\r"
+        spanish: "\xBFLe gustar\xEDa publicar este viaje a la feed global?"
+    - label: 'You are able to share you journey live with a friend. A link will be
+        texted to your friend notifying that your journey is avalible to view '
+      content:
+        english: 'You are able to share you journey live with a friend. A link will
+          be texted to your friend notifying that your journey is avalible to view '
+        french: "Vous pouvez partager votre voyage en direct avec un ami. Un lien
+          sera envoy\xE9 par SMS \xE0 votre ami l'informant que votre voyage est
+          disponible pour voir\r"
+        spanish: "Puedes compartir tu viaje en directo con un amigo. Se enviar\xE1
+          un enlace a tu amigo para notificarle que tu viaje est\xE1 disponible para
+          verlo. "
+    - label: 'You are currently viewing a live journey shared by your friend '
+      content:
+        english: 'You are currently viewing a live journey shared by your friend '
+        french: "Vous regardez actuellement un voyage en direct partag\xE9 par votre
+          ami\r"
+        spanish: "Est\xE1s viendo un viaje en directo compartido por tu amigo "
+    - label: You currently dont have any activites purchased
+      content:
+        english: You currently dont have any activites purchased
+        french: "Vous n'avez actuellement aucune activit\xE9 achet\xE9e\r"
+        spanish: No has comprado ninguna actividades
+    - label: 'You do not currently have any adventures '
+      content:
+        english: 'You do not currently have any adventures '
+        french: "Vous n'avez actuellement aucune aventure\r"
+        spanish: Actualmente no tienes ninguna aventuras
+    - label: 'You have multiple Live Journeys shared with you. Would you like to
+        discard the current journey and join the journey share with you by '
+      content:
+        english: 'You have multiple Live Journeys shared with you. Would you like
+          to discard the current journey and join the journey share with you by '
+        french: "Vous avez plusieurs parcours en direct partag\xE9s avec vous. Souhaitez-vous
+          supprimer le trajet en cours et rejoindre le trajet partag\xE9 avec vous
+          en\r"
+        spanish: "Tienes varios Viajes en directo compartidos contigo. \xBFDesea
+          descartar el viaje actual y unirse al viaje compartido con usted por "
+    - label: Your journey has been save to your home view
+      content:
+        english: Your journey has been save to your home view
+        french: "Votre trajet a \xE9t\xE9 enregistr\xE9 dans votre vue d'accueil\r"
+        spanish: Tu viaje ha sido guardado en tu vista de inicio
+    - label: Your journey has been saved to your home view
+      content:
+        english: Your journey has been saved to your home view
+        french: "Votre trajet a \xE9t\xE9 enregistr\xE9 dans votre vue d'accueil\r"
+        spanish: Tu viaje se ha guardado en tu vista de inicio
+    - label: 'Your journey is currently paused due to bad GPS signal. Please resume
+        when you move to an area with better signal. '
+      content:
+        english: 'Your journey is currently paused due to bad GPS signal. Please
+          resume when you move to an area with better signal. '
+        french: "Votre trajet est actuellement interrompu en raison d'un mauvais
+          signal GPS. Veuillez reprendre lorsque vous vous d\xE9placez dans une zone
+          avec un meilleur signal.\r"
+        spanish: "Su viaje est\xE1 en pausa debido a la mala se\xF1al del GPS. Por
+          favor, rean\xFAdelo cuando se desplace a una zona con mejor se\xF1al. "
+    - label: Your journey is posted onto the global feed
+      content:
+        english: Your journey is posted onto the global feed
+        french: "Votre voyage est publi\xE9 sur le flux global\r"
+        spanish: Su viaje se publica en el feed global
+    - label: Zip Code
+      content:
+        english: Zip Code
+        french: "Code postal\r"
+        spanish: "C\xF3digo postal"
+    - label: RECORD
+      content:
+        english: RECORD
+        french: "\rENREGISTRER"
+        spanish: GRABAR
+  languageUnits:
+  - label: About this company
+    content:
+      english: About this company
+      french: "\xC0 propos de cette entreprise\r"
+      spanish: "Sobre la compa\xF1\xEDa"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Account
+    content:
+      english: Account
+      french: "Compte\r"
+      spanish: Cuenta
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Account Information
+    content:
+      english: Account Information
+      french: "Information sur le compte\r"
+      spanish: "Informaci\xF3n de la Cuenta"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Activity
+    content:
+      english: Activity
+      french: "Activit\xE9\r"
+      spanish: Actividad
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Activity Details
+    content:
+      english: Activity Details
+      french: "D\xE9tails de l'activit\xE9\r"
+      spanish: Detalles de la Actividad
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Add Visa
+    content:
+      english: Add Visa
+      french: "Ajouter un visa\r"
+      spanish: "A\xF1adir Visa"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Additional Notes
+    content:
+      english: Additional Notes
+      french: "Notes compl\xE9mentaires\r"
+      spanish: Notas Adicionales
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Adventure Traveller
+    content:
+      english: Adventure Traveller
+      french: "Voyageur d'aventure\r"
+      spanish: Viajero de Aventuras
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: All Adventures
+    content:
+      english: All Adventures
+      french: "Toutes les aventures\r"
+      spanish: Todas las Aventuras
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Apple Pay
+    content:
+      english: Apple Pay
+      french: "Apple Pay\r"
+      spanish: Apple Pay
+    unitText:
+    - {fileID: 0}
+    unitTextMesh:
+    - {fileID: 0}
+  - label: APPLY
+    content:
+      english: APPLY
+      french: "APPLIQUER\r"
+      spanish: APLICAR
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: APPLY CHANGE
+    content:
+      english: APPLY CHANGE
+      french: "APPLIQUER LE CHANGEMENT\r"
+      spanish: APLICAR CAMBIO
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Apply Change
+    content:
+      english: Apply Change
+      french: "Appliquer le changement\r"
+      spanish: Aplicar Cambio
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Are you sure
+    content:
+      english: Are you sure
+      french: "Es-tu s\xFBr?\r"
+      spanish: "\xBFEst\xE1s seguro?"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: 'Are you sure you have completed this journey? '
+    content:
+      english: 'Are you sure you have completed this journey? '
+      french: "\xCAtes-vous s\xFBr d'avoir termin\xE9 ce voyage?\r"
+      spanish: "\xBFEst\xE1 seguro de haber completado este viaje? "
+    unitText: []
+    unitTextMesh: []
+  - label: 'Are you sure you would like to discard this journey? All posts will be
+      lost '
+    content:
+      english: 'Are you sure you would like to discard this journey? All posts will
+        be lost '
+      french: "\xCAtes-vous s\xFBr de vouloir supprimer ce voyage ? Tous les messages
+        seront perdus\r"
+      spanish: "\xBFEst\xE1s seguro de que quieres descartar este viaje? Todas las
+        publicaciones se perder\xE1n "
+    unitText: []
+    unitTextMesh: []
+  - label: Are you sure you would like to logout of your account
+    content:
+      english: Are you sure you would like to logout of your account
+      french: "\xCAtes-vous s\xFBr de vouloir vous d\xE9connecter de votre compte\r"
+      spanish: "\xBFEst\xE1 seguro de que desea cerrar la sesi\xF3n de su cuenta?"
+    unitText: []
+    unitTextMesh: []
+  - label: Aviator Timer
+    content:
+      english: Aviator Timer
+      french: "Minuterie d'aviateur\r"
+      spanish: Temporizador Aviador
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Aviator timer
+    content:
+      english: Aviator timer
+      french: "Minuterie d'aviateur\r"
+      spanish: Temporizador Aviador
+    unitText: []
+    unitTextMesh: []
+  - label: Awards
+    content:
+      english: Awards
+      french: "R\xE9compenses\r"
+      spanish: Premios
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: BACK
+    content:
+      english: BACK
+      french: "ARRI\xC8RE\r"
+      spanish: "ATR\xC1S"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Back
+    content:
+      english: Back
+      french: "Arri\xE8re\r"
+      spanish: "Atr\xE1s"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Blood Type
+    content:
+      english: Blood Type
+      french: "Groupe sanguin\r"
+      spanish: "Grupo Sangu\xEDneo"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Boating
+    content:
+      english: Boating
+      french: "Nautique\r"
+      spanish: "Navegaci\xF3n"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Brewed Passion
+    content:
+      english: Brewed Passion
+      french: "Passion brass\xE9e\r"
+      spanish: "Pasi\xF3n Elaborada"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Brewed passion
+    content:
+      english: Brewed passion
+      french: "La passion brass\xE9e\r"
+      spanish: "Pasi\xF3n Elaborada"
+    unitText: []
+    unitTextMesh: []
+  - label: Canoeing
+    content:
+      english: Canoeing
+      french: "Cano\xEB\r"
+      spanish: "Pirag\xFCismo"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Capture
+    content:
+      english: Capture
+      french: "Capturer\r"
+      spanish: Captura
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Card number
+    content:
+      english: Card number
+      french: "Num\xE9ro de carte\r"
+      spanish: "N\xFAmero de tarjeta"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: CHECK OUT
+    content:
+      english: CHECK OUT
+      french: "V\xC9RIFIER\r"
+      spanish: Comprar
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Choose Payment Method
+    content:
+      english: Choose Payment Method
+      french: "Choisissez le mode de paiement\r"
+      spanish: "Elija un m\xE9todo de pago"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Choose Payment Type
+    content:
+      english: Choose Payment Type
+      french: "Choisissez le type de paiement\r"
+      spanish: Elige una forma de pago
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Click here to switch to video
+    content:
+      english: Click here to switch to video
+      french: "Cliquez ici pour passer \xE0 la vid\xE9o\r"
+      spanish: "Haga clic para cambiar al v\xEDdeo"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Cold weather activity
+    content:
+      english: Cold weather activity
+      french: "Activit\xE9 par temps froid\r"
+      spanish: "Actividad de clima fr\xEDo"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Contact Number
+    content:
+      english: Contact Number
+      french: "Num\xE9ro de contact\r"
+      spanish: Numero de Contacto
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: CONTINUE
+    content:
+      english: CONTINUE
+      french: "CONTINUEZ\r"
+      spanish: CONTINUAR
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Create 15 journeys over 2 hour in duration
+    content:
+      english: Create 15 journeys over 2 hour in duration
+      french: "Cr\xE9ez 15 trajets sur une dur\xE9e de 2 heures\r"
+      spanish: "Crear 15 viajes de m\xE1s de dos horas de duraci\xF3n"
+    unitText:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    unitTextMesh: []
+  - label: Create 3 journeys over 5 miles in distance
+    content:
+      english: Create 3 journeys over 5 miles in distance
+      french: "Cr\xE9ez 3 trajets sur 5 miles de distance\r"
+      spanish: "Crear 3 viajes de m\xE1s de 5 millas cada uno."
+    unitText:
+    - {fileID: 0}
+    - {fileID: 0}
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Create 3 journeys over an hours in duration
+    content:
+      english: Create 3 journeys over an hours in duration
+      french: "Cr\xE9er 3 trajets sur une dur\xE9e d'une heure\r"
+      spanish: "Crear 3 viajes de m\xE1s de una hora de duraci\xF3n"
+    unitText: []
+    unitTextMesh: []
+  - label: Create 6 journeys over 10 miles in distance
+    content:
+      english: Create 6 journeys over 10 miles in distance
+      french: "Cr\xE9ez 6 trajets sur 10 miles de distance\r"
+      spanish: "Crear 6 viajes de m\xE1s de 10 millas cada uno."
+    unitText:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    unitTextMesh: []
+  - label: Create 8 journeys over 2 hours in duration
+    content:
+      english: Create 8 journeys over 2 hours in duration
+      french: "Cr\xE9ez 8 trajets sur une dur\xE9e de 2 heures\r"
+      spanish: "Crear 15 viajes de m\xE1s de dos horas de duraci\xF3n"
+    unitText:
+    - {fileID: 0}
+    - {fileID: 0}
+    unitTextMesh: []
+  - label: Create a journey to unlock awards
+    content:
+      english: Create a journey to unlock awards
+      french: "Cr\xE9ez un parcours pour d\xE9bloquer des r\xE9compenses\r"
+      spanish: Crear un viaje para desbloquear premios
+    unitText: []
+    unitTextMesh: []
+  - label: Create a total of 20 Journeys
+    content:
+      english: Create a total of 20 Journeys
+      french: "Cr\xE9er un total de 20 voyages\r"
+      spanish: Crear un total de 20 viajes
+    unitText:
+    - {fileID: 0}
+    unitTextMesh: []
+  - label: Create a total of 40 Journeys
+    content:
+      english: Create a total of 40 Journeys
+      french: "Cr\xE9er un total de 40 voyages\r"
+      spanish: Crear un total de 40 viajes
+    unitText:
+    - {fileID: 0}
+    - {fileID: 0}
+    unitTextMesh: []
+  - label: Create a total of 8 journeys
+    content:
+      english: Create a total of 8 journeys
+      french: "Cr\xE9er un total de 8 trajets\r"
+      spanish: Crear un total de 8 viajes
+    unitText: []
+    unitTextMesh: []
+  - label: 'Create your 1st Journey '
+    content:
+      english: 'Create your 1st Journey '
+      french: "Cr\xE9ez votre 1er voyage\r"
+      spanish: Crear tu primera Viaje
+    unitText: []
+    unitTextMesh: []
+  - label: Createa 3 journys each over 5 hours
+    content:
+      english: Createa 3 journys each over 5 hours
+      french: "Cr\xE9er 3 voyages chacun sur 5 heures\r"
+      spanish: "Crear 3 viajes de m\xE1s de 5 horas cada uno."
+    unitText: []
+    unitTextMesh: []
+  - label: 'Createa total of 20 journeys  '
+    content:
+      english: 'Createa total of 20 journeys  '
+      french: "Cr\xE9er un total de 20 trajets\r"
+      spanish: Hacer un total de 20 viajes
+    unitText: []
+    unitTextMesh: []
+  - label: CVV
+    content:
+      english: CVV
+      french: "CVV\r"
+      spanish: CVV
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Cycling
+    content:
+      english: Cycling
+      french: "Cyclisme\r"
+      spanish: Ciclismo
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Date of Birth
+    content:
+      english: Date of Birth
+      french: "Date de naissance\r"
+      spanish: Fecha de Nacimiento
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Delete Account
+    content:
+      english: Delete Account
+      french: "Supprimer le compte\r"
+      spanish: BORRAR CUENTA
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: DELETE ACCOUNT
+    content:
+      english: DELETE ACCOUNT
+      french: "SUPPRIMER LE COMPTE\r"
+      spanish: BORRAR CUENTA
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: DISCARD
+    content:
+      english: DISCARD
+      french: "JETER\r"
+      spanish: BORRAR
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: DISCARD & LEAVE
+    content:
+      english: DISCARD & LEAVE
+      french: "JETER ET LAISSER\r"
+      spanish: DESCARTAR Y DEJAR
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: DISCARD JOURNEY
+    content:
+      english: DISCARD JOURNEY
+      french: "ABANDONNER LE VOYAGE\r"
+      spanish: BORRAR EL VIAJE
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Discard Journey
+    content:
+      english: Discard Journey
+      french: "ABANDONNER LE VOYAGE\r"
+      spanish: Abandonar el viaje
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Done
+    content:
+      english: Done
+      french: "Termin\xE9\r"
+      spanish: Terminar
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: DONE
+    content:
+      english: DONE
+      french: "TERMIN\xC9\r"
+      spanish: TERMINAR
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Duration
+    content:
+      english: Duration
+      french: "Dur\xE9e\r"
+      spanish: "Duraci\xF3n"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Eager Beaver
+    content:
+      english: Eager Beaver
+      french: "Personne z\xE9l\xE9e\r"
+      spanish: Currante
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Eager beaver
+    content:
+      english: Eager beaver
+      french: "Personne z\xE9l\xE9e\r"
+      spanish: Currante
+    unitText: []
+    unitTextMesh: []
+  - label: E-biking
+    content:
+      english: E-biking
+      french: "V\xE9lo \xE9lectrique\r"
+      spanish: "Ciclismo electr\xF3nico"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Edge Cutter
+    content:
+      english: Edge Cutter
+      french: "Coupe-bordure\r"
+      spanish: Cortador de Bordes
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Email
+    content:
+      english: Email
+      french: "E-mail\r"
+      spanish: "Correo Electr\xF3nico"
+    unitText:
+    - {fileID: 0}
+    - {fileID: 0}
+    unitTextMesh:
+    - {fileID: 0}
+  - label: English
+    content:
+      english: English
+      french: "Anglais\r"
+      spanish: Ingles
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Enter Area to Search
+    content:
+      english: Enter Area to Search
+      french: "Entrez la zone \xE0 rechercher\r"
+      spanish: Introduzca la zona a buscar
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Enter Medical Allergies
+    content:
+      english: Enter Medical Allergies
+      french: "Entrez les allergies m\xE9dicales\r"
+      spanish: Introduzca sus alergias
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Expiration
+    content:
+      english: Expiration
+      french: "Expiration\r"
+      spanish: Vencimiento
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Filter Selection
+    content:
+      english: Filter Selection
+      french: "S\xE9lection de filtre\r"
+      spanish: "Selecci\xF3n de Filtro"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Fine Prints
+    content:
+      english: Fine Prints
+      french: "Impressions fines\r"
+      spanish: "Letra peque\xF1a"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Finish Journey
+    content:
+      english: Finish Journey
+      french: "Terminer le voyage\r"
+      spanish: Terminar el viaje
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: FINISH JOURNEY
+    content:
+      english: FINISH JOURNEY
+      french: "FIN DU VOYAGE\r"
+      spanish: TERMINAR AL VIAJE
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: First Name
+    content:
+      english: First Name
+      french: "Pr\xE9nom\r"
+      spanish: Nombre
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Fishing
+    content:
+      english: Fishing
+      french: "Faire de la p\xEAche\r"
+      spanish: Pescuera
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: French
+    content:
+      english: French
+      french: "fran\xE7ais\r"
+      spanish: Frances
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Gender
+    content:
+      english: Gender
+      french: "Genre\r"
+      spanish: "G\xE9nero"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Global
+    content:
+      english: Global
+      french: "Global\r"
+      spanish: Global
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Go Ahead
+    content:
+      english: Go Ahead
+      french: "Vas-y\r"
+      spanish: Continuar
+    unitText: []
+    unitTextMesh: []
+  - label: Go Getter
+    content:
+      english: Go Getter
+      french: "Allez Getter\r"
+      spanish: Emprendedora
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Goals
+    content:
+      english: Goals
+      french: "Buts\r"
+      spanish: Metas
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Golfing
+    content:
+      english: Golfing
+      french: "Golf\r"
+      spanish: Golf
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Google Pay
+    content:
+      english: Google Pay
+      french: "Google\_Pay\r"
+      spanish: Google Pay
+    unitText:
+    - {fileID: 0}
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Height
+    content:
+      english: Height
+      french: "Hauteur\r"
+      spanish: Estatura
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Herculean Ring
+    content:
+      english: Herculean Ring
+      french: "Anneau hercul\xE9en\r"
+      spanish: "Anillo Herc\xFAleo"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Hiking
+    content:
+      english: Hiking
+      french: "Randonn\xE9e\r"
+      spanish: Senderismo
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Home
+    content:
+      english: Home
+      french: "Accueil\r"
+      spanish: Inicio
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Horizon Summit
+    content:
+      english: Horizon Summit
+      french: "Sommet Horizon\r"
+      spanish: Cumbre del Horizonte
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Ice Skating
+    content:
+      english: Ice Skating
+      french: "Patinage sur glace\r"
+      spanish: Patinaje sobre hielo
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: If you leave this page without saving you will lose the content you have
+      provided
+    content:
+      english: If you leave this page without saving you will lose the content you
+        have provided
+      french: "Si vous quittez cette page sans enregistrer, vous perdrez le contenu
+        que vous avez fourni\r"
+      spanish: "Si abandona esta p\xE1gina sin guardar, perder\xE1 el contenido que
+        haya proporcionado"
+    unitText: []
+    unitTextMesh: []
+  - label: Indoor activity
+    content:
+      english: Indoor activity
+      french: "Activit\xE9 int\xE9rieure\r"
+      spanish: Actividades de Interior
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Jetskiing
+    content:
+      english: Jetskiing
+      french: "Faire du jet ski\r"
+      spanish: "Esqu\xED acu\xE1tico"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: JOIN NEW JOURNEY
+    content:
+      english: JOIN NEW JOURNEY
+      french: "REJOIGNEZ UN NOUVEAU VOYAGE\r"
+      spanish: UNIRSE NUEVO VIAJE
+    unitText: []
+    unitTextMesh: []
+  - label: Journey Active
+    content:
+      english: Journey Active
+      french: "Parcours Actif\r"
+      spanish: Viaje Activa
+    unitText: []
+    unitTextMesh: []
+  - label: Journey Details
+    content:
+      english: Journey Details
+      french: "D\xE9tails du voyage\r"
+      spanish: Detalles del Viaje
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Journey director
+    content:
+      english: Journey director
+      french: "Directeur de voyage\r"
+      spanish: Director del Viaje
+    unitText: []
+    unitTextMesh: []
+  - label: Journey Director
+    content:
+      english: Journey Director
+      french: "Directeur de voyage\r"
+      spanish: Director del Viaje
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Journey Paused
+    content:
+      english: Journey Paused
+      french: "Trajet en pause\r"
+      spanish: Viaje en pausa
+    unitText: []
+    unitTextMesh: []
+  - label: Kayaking
+    content:
+      english: Kayaking
+      french: "Kayak\r"
+      spanish: Kayak
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: 'Language '
+    content:
+      english: 'Language '
+      french: "Langue\r"
+      spanish: Idioma
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Last Name
+    content:
+      english: Last Name
+      french: "Nom de famille\r"
+      spanish: Apellido
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: List Medical Conditions. If any.
+    content:
+      english: List Medical Conditions. If any.
+      french: "\xC9num\xE9rez les conditions m\xE9dicales. Si seulement.\r"
+      spanish: "Inscribir todas tus condiciones m\xE9dicas, si las hay"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: List View
+    content:
+      english: List View
+      french: "Affichage en liste\r"
+      spanish: Vista de lista
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Listing Detail
+    content:
+      english: Listing Detail
+      french: "D\xE9tail de l'annonce\r"
+      spanish: Detalles de Listado
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Live Journey
+    content:
+      english: Live Journey
+      french: "Voyage en direct\r"
+      spanish: Viajes en Vivo
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: LOAD MORE
+    content:
+      english: LOAD MORE
+      french: "CHARGER PLUS\r"
+      spanish: "CARGAR M\xC1S"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Locked
+    content:
+      english: Locked
+      french: "Ferm\xE9 \xE0 cl\xE9\r"
+      spanish: Bloqueado
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: LOG OUT
+    content:
+      english: LOG OUT
+      french: "SE D\xC9CONNECTER\r"
+      spanish: "CERRAR SESI\xD3N"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Logout
+    content:
+      english: Logout
+      french: "Se d\xE9connecter\r"
+      spanish: "Cerrar Sesi\xF3n"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Luminary Icon
+    content:
+      english: Luminary Icon
+      french: "Ic\xF4ne Luminaire\r"
+      spanish: Icono de la Luminaria
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Marathon
+    content:
+      english: Marathon
+      french: "Marathon\r"
+      spanish: "Marat\xF3n"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: marathon
+    content:
+      english: marathon
+      french: "marathon\r"
+      spanish: "Marat\xF3n"
+    unitText: []
+    unitTextMesh: []
+  - label: 'Medical '
+    content:
+      english: 'Medical '
+      french: "M\xE9dical\r"
+      spanish: "M\xE9dica "
+    unitText: []
+    unitTextMesh: []
+  - label: Miles
+    content:
+      english: Miles
+      french: "Milles\r"
+      spanish: Millas
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Mountain Biking
+    content:
+      english: Mountain Biking
+      french: "V\xE9lo de montagne\r"
+      spanish: "Cicilisimo de monta\xF1a"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Multiple Journeys
+    content:
+      english: Multiple Journeys
+      french: "Voyages multiples\r"
+      spanish: "Viajes M\xFAltiples"
+    unitText: []
+    unitTextMesh: []
+  - label: My Journeys
+    content:
+      english: My Journeys
+      french: "Mes voyages\r"
+      spanish: Mis Viajes
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Once deleted you will not be able to retrieve this account. All information
+      will be lost. Are you sure you would like to proceed?
+    content:
+      english: Once deleted you will not be able to retrieve this account. All information
+        will be lost. Are you sure you would like to proceed?
+      french: "Une fois supprim\xE9, vous ne pourrez plus r\xE9cup\xE9rer ce compte.
+        Toutes les informations seront perdues. \xCAtes-vous s\xFBr de vouloir continuer\_?\r"
+      spanish: "Cuando eliminada, no podr\xE1 recuperar esta cuenta. Toda la informaci\xF3n
+        se perder\xE1. \xBFEst\xE1 seguro de que desea continuar?"
+    unitText: []
+    unitTextMesh: []
+  - label: 'Once you drop a pin you will not be able to delete it. Are you sure you
+      would like to proceed? '
+    content:
+      english: 'Once you drop a pin you will not be able to delete it. Are you sure
+        you would like to proceed? '
+      french: "Une fois que vous avez d\xE9pos\xE9 une \xE9pingle, vous ne pourrez
+        plus la supprimer. \xCAtes-vous s\xFBr de vouloir continuer?\r"
+      spanish: "Cuando sueltes un pin, no podr\xE1 eliminarlo. \xBFEst\xE1 seguro
+        de que desea continuar? "
+    unitText: []
+    unitTextMesh: []
+  - label: Other
+    content:
+      english: Other
+      french: "Autre\r"
+      spanish: Otros
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Other Adventures
+    content:
+      english: Other Adventures
+      french: "Autres Aventures\r"
+      spanish: Otras Aventuras
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Outdoor activity
+    content:
+      english: Outdoor activity
+      french: "Activit\xE9 de plein air\r"
+      spanish: Actividades de Exterior
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Paddle Boarding
+    content:
+      english: Paddle Boarding
+      french: "Paddle Boarding\r"
+      spanish: Surf de Remo
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Passage Of Silver
+    content:
+      english: Passage Of Silver
+      french: "Passage d'argent\r"
+      spanish: La Via de la Plata
+    unitText: []
+    unitTextMesh: []
+  - label: Photo
+    content:
+      english: Photo
+      french: "photo\r"
+      spanish: Foto
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: PLACE ORDER
+    content:
+      english: PLACE ORDER
+      french: "PASSER LA COMMANDE\r"
+      spanish: REALIZAR UN PEDIDO
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Please choose the type of adventure you will be doing
+    content:
+      english: Please choose the type of adventure you will be doing
+      french: "Veuillez choisir le type d'aventure que vous ferez\r"
+      spanish: Por favor, elija el tipo de aventura que va a realizar
+    unitText: []
+    unitTextMesh: []
+  - label: "Please enter your friend\u2019s phone number"
+    content:
+      english: "Please enter your friend\u2019s phone number"
+      french: "Veuillez entrer le num\xE9ro de t\xE9l\xE9phone de votre ami\r"
+      spanish: "Por favor, introduzca el n\xFAmero de tel\xE9fono de su amigo"
+    unitText: []
+    unitTextMesh: []
+  - label: POST
+    content:
+      english: POST
+      french: "PUBLIER\r"
+      spanish: PUBLICAR
+    unitText: []
+    unitTextMesh: []
+  - label: Profile
+    content:
+      english: Profile
+      french: "Profil\r"
+      spanish: Perfil
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Progress
+    content:
+      english: Progress
+      french: "Le progr\xE8s\r"
+      spanish: Progreso
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Purchase Date
+    content:
+      english: Purchase Date
+      french: "date d'achat\r"
+      spanish: Fecha de Comprar
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Purchase Details
+    content:
+      english: Purchase Details
+      french: "D\xE9tails d'achat\r"
+      spanish: Detalles de Comprar
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Purchases
+    content:
+      english: Purchases
+      french: "Achats\r"
+      spanish: Compras
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Recents
+    content:
+      english: Recents
+      french: "R\xE9cent\r"
+      spanish: Recientes
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Record
+    content:
+      english: Record
+      french: "Enregistrer\r"
+      spanish: Grabar
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Refresh
+    content:
+      english: Refresh
+      french: "Rafra\xEEchir\r"
+      spanish: Actualizar
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: RESUME
+    content:
+      english: RESUME
+      french: "REPRENDRE\r"
+      spanish: Reanudar
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Rowing
+    content:
+      english: Rowing
+      french: "Aviron\r"
+      spanish: Remo
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Sailing
+    content:
+      english: Sailing
+      french: "Voile\r"
+      spanish: Surf a Vela
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: SAVE EDIT
+    content:
+      english: SAVE EDIT
+      french: "ENREGISTRER MODIFIER\r"
+      spanish: "GUARDAR EDICI\xD3N"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Save Information
+    content:
+      english: Save Information
+      french: "Enregistrer les informations\r"
+      spanish: "Guardar Informaci\xF3n"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Save Journey
+    content:
+      english: Save Journey
+      french: "Enregistrer le trajet\r"
+      spanish: Guardar el viaje
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: SAVE VISA
+    content:
+      english: SAVE VISA
+      french: "\xC9CONOMISEZ LE VISA\r"
+      spanish: GUARDAR VISA
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: 'Saving adventure! Will be ready momentarily  '
+    content:
+      english: 'Saving adventure! Will be ready momentarily  '
+      french: "Aventure salvatrice ! Sera pr\xEAt momentan\xE9ment\r"
+      spanish: "\xA1Guardando tu aventura! Estar\xE1 listo en breve  "
+    unitText: []
+    unitTextMesh: []
+  - label: SEARCH CONTACT
+    content:
+      english: SEARCH CONTACT
+      french: "RECHERCHE CONTACT\r"
+      spanish: BUSCAR CONTACTO
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Select a pin that matches content below
+    content:
+      english: Select a pin that matches content below
+      french: "S\xE9lectionnez une \xE9pingle qui correspond au contenu ci-dessous\r"
+      spanish: Seleccione un pin que coincida con el contenido de abajo
+    unitText: []
+    unitTextMesh: []
+  - label: Select Activity
+    content:
+      english: Select Activity
+      french: "S\xE9lectionnez l'activit\xE9\r"
+      spanish: Selecciona la actividad
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Select Item
+    content:
+      english: Select Item
+      french: "S\xE9lectionner un article\r"
+      spanish: "Seleccionar el \xEDtem"
+    unitText: []
+    unitTextMesh: []
+  - label: Settings
+    content:
+      english: Settings
+      french: "Param\xE8tres\r"
+      spanish: "Configuraci\xF3nes"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Share
+    content:
+      english: Share
+      french: "Partager\r"
+      spanish: Compartir
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Share journey
+    content:
+      english: Share journey
+      french: "Partager le voyage\r"
+      spanish: Compartir tu viaje
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Share Location
+    content:
+      english: Share Location
+      french: "Emplacement partag\xE9\r"
+      spanish: Compartir tu viaje
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Skiing
+    content:
+      english: Skiing
+      french: "Ski\r"
+      spanish: "Esqu\xED"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Snow Boarding
+    content:
+      english: Snow Boarding
+      french: "Planche a neige\r"
+      spanish: Snowboarding (or Snowboard)
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Spanish
+    content:
+      english: Spanish
+      french: "Espagnol\r"
+      spanish: "Espa\xF1ol"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: STAY ON CURRENT
+    content:
+      english: STAY ON CURRENT
+      french: "RESTEZ SUR COURANT\r"
+      spanish: PERMANECER EN LA CORRIENTE
+    unitText: []
+    unitTextMesh: []
+  - label: Surfing
+    content:
+      english: Surfing
+      french: "Surfant\r"
+      spanish: Surf (or Surfear)
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Swimming
+    content:
+      english: Swimming
+      french: "Natation\r"
+      spanish: Nadando
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: "Take a water break \r\nand start again"
+    content:
+      english: "Take a water break \r\nand start again"
+      french: "Faites une pause aquatique\r\net recommencer\r"
+      spanish: "Tomar un descanso \r\ny vuelve a empezar"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Terms of Use and Services
+    content:
+      english: Terms of Use and Services
+      french: "Conditions d'utilisation et services\r"
+      spanish: Condiciones de Uso y Servicios
+    unitText:
+    - {fileID: 0}
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: The Explorer
+    content:
+      english: The Explorer
+      french: "L'explorateur\r"
+      spanish: El Explorador
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: The extra mile
+    content:
+      english: The extra mile
+      french: "Le mile suppl\xE9mentaire\r"
+      spanish: Esfuerzo Adicional
+    unitText: []
+    unitTextMesh: []
+  - label: The Passage of Silver
+    content:
+      english: The Passage of Silver
+      french: "Le passage de l'argent\r"
+      spanish: "La V\xEDa de la Plata"
+    unitText: []
+    unitTextMesh: []
+  - label: The Vibrant Notch
+    content:
+      english: The Vibrant Notch
+      french: "L'encoche vibrante\r"
+      spanish: La Muesca Vibrante
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: There are currently no listings in this area
+    content:
+      english: There are currently no listings in this area
+      french: "Il n'y a actuellement aucune annonce dans ce domaine\r"
+      spanish: "Actualmente no hay listadas en su \xE1rea"
+    unitText: []
+    unitTextMesh: []
+  - label: Thurlodge Pass
+    content:
+      english: Thurlodge Pass
+      french: "Pass Thurlodge\r"
+      spanish: Paso de Thurlodge
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: To be unlocked
+    content:
+      english: To be unlocked
+      french: "A d\xE9bloquer\r"
+      spanish: Para ser desbloqueado
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Travel Bug
+    content:
+      english: Travel Bug
+      french: "Bug de voyage\r"
+      spanish: Gusanillo de Viajar
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Turbo Simmer
+    content:
+      english: Turbo Simmer
+      french: "Mijoter Turbo\r"
+      spanish: Tremendo Fuego Lento
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Turbo simmer
+    content:
+      english: Turbo simmer
+      french: "Mijotage turbo\r"
+      spanish: Tremendo Fuego Lento
+    unitText: []
+    unitTextMesh: []
+  - label: Type of Adventure
+    content:
+      english: Type of Adventure
+      french: "Type d'aventure\r"
+      spanish: Tipo de Aventura
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Unlocked
+    content:
+      english: Unlocked
+      french: "D\xE9bloqu\xE9\r"
+      spanish: Desbloqueada
+    unitText: []
+    unitTextMesh: []
+  - label: Upload
+    content:
+      english: Upload
+      french: "T\xE9l\xE9charger\r"
+      spanish: Subir
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: User Name
+    content:
+      english: User Name
+      french: "Nom d'utilisateur\r"
+      spanish: Nombre de Usuario
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Video
+    content:
+      english: Video
+      french: "Vid\xE9o\r"
+      spanish: "V\xEDdeo"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Visa
+    content:
+      english: Visa
+      french: "Visa\r"
+      spanish: Visa
+    unitText: []
+    unitTextMesh: []
+  - label: 'VISA Error '
+    content:
+      english: 'VISA Error '
+      french: "Erreur VISA\r"
+      spanish: Error de Visa
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Vise Setup
+    content:
+      english: Vise Setup
+      french: "Configuration de l'\xE9tau\r"
+      spanish: Configuar Visa
+    unitText: []
+    unitTextMesh: []
+  - label: Walking
+    content:
+      english: Walking
+      french: "Marche \xE0 pied\r"
+      spanish: Caminando
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Wander Luster
+    content:
+      english: Wander Luster
+      french: "Lustre d'errance\r"
+      spanish: "El Esp\xEDritu Viajero"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Warm weather activity
+    content:
+      english: Warm weather activity
+      french: "Activit\xE9 par temps chaud\r"
+      spanish: "Actividad de clima c\xE1lido"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: We were not able process the VISA card you provided. Please check your
+      payment inforamtion and try again
+    content:
+      english: We were not able process the VISA card you provided. Please check
+        your payment inforamtion and try again
+      french: "Nous n'avons pas pu traiter la carte VISA que vous avez fournie. Veuillez
+        v\xE9rifier vos informations de paiement et r\xE9essayer\r"
+      spanish: "No hemos podido procesar la tarjeta VISA que nos ha facilitado. Por
+        favor, compruebe su informaci\xF3n de pago e int\xE9ntelo de nuevo."
+    unitText: []
+    unitTextMesh: []
+  - label: 'We were unable to login with the email and password you have provided.
+      Please try again. '
+    content:
+      english: 'We were unable to login with the email and password you have provided.
+        Please try again. '
+      french: "\r\nNous n'avons pas pu nous connecter avec l'adresse e-mail et le
+        mot de passe que vous avez fournis. Veuillez r\xE9essayer.\r"
+      spanish: "Nos hemos podido iniciar la sesi\xF3n con esa correo electr\xF3nico
+        o contrase\xF1a. Por favor, int\xE9ntelo de nuevo."
+    unitText: []
+    unitTextMesh: []
+  - label: Weight
+    content:
+      english: Weight
+      french: "Poids\r"
+      spanish: Peso
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: wisdom tree
+    content:
+      english: wisdom tree
+      french: "arbre de la sagesse\r"
+      spanish: "\xC1rbol de la Sabidur\xEDa"
+    unitText: []
+    unitTextMesh: []
+  - label: Wisdom Tree
+    content:
+      english: Wisdom Tree
+      french: "Arbre de la sagesse\r"
+      spanish: "\xC1rbol de la Sabiduria"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Would you like to post this journey to global feed?
+    content:
+      english: Would you like to post this journey to global feed?
+      french: "Souhaitez-vous publier ce voyage dans le flux mondial ?\r"
+      spanish: "\xBFLe gustar\xEDa publicar este viaje a la feed global?"
+    unitText: []
+    unitTextMesh: []
+  - label: 'You are able to share you journey live with a friend. A link will be
+      texted to your friend notifying that your journey is avalible to view '
+    content:
+      english: 'You are able to share you journey live with a friend. A link will
+        be texted to your friend notifying that your journey is avalible to view '
+      french: "Vous pouvez partager votre voyage en direct avec un ami. Un lien sera
+        envoy\xE9 par SMS \xE0 votre ami l'informant que votre voyage est disponible
+        pour voir\r"
+      spanish: "Puedes compartir tu viaje en directo con un amigo. Se enviar\xE1
+        un enlace a tu amigo para notificarle que tu viaje est\xE1 disponible para
+        verlo. "
+    unitText: []
+    unitTextMesh: []
+  - label: 'You are currently viewing a live journey shared by your friend '
+    content:
+      english: 'You are currently viewing a live journey shared by your friend '
+      french: "Vous regardez actuellement un voyage en direct partag\xE9 par votre
+        ami\r"
+      spanish: "Est\xE1s viendo un viaje en directo compartido por tu amigo "
+    unitText: []
+    unitTextMesh: []
+  - label: You currently dont have any activites purchased
+    content:
+      english: You currently dont have any activites purchased
+      french: "Vous n'avez actuellement aucune activit\xE9 achet\xE9e\r"
+      spanish: No has comprado ninguna actividades
+    unitText: []
+    unitTextMesh: []
+  - label: 'You do not currently have any adventures '
+    content:
+      english: 'You do not currently have any adventures '
+      french: "Vous n'avez actuellement aucune aventure\r"
+      spanish: Actualmente no tienes ninguna aventuras
+    unitText: []
+    unitTextMesh: []
+  - label: 'You have multiple Live Journeys shared with you. Would you like to discard
+      the current journey and join the journey share with you by '
+    content:
+      english: 'You have multiple Live Journeys shared with you. Would you like to
+        discard the current journey and join the journey share with you by '
+      french: "Vous avez plusieurs parcours en direct partag\xE9s avec vous. Souhaitez-vous
+        supprimer le trajet en cours et rejoindre le trajet partag\xE9 avec vous
+        en\r"
+      spanish: "Tienes varios Viajes en directo compartidos contigo. \xBFDesea descartar
+        el viaje actual y unirse al viaje compartido con usted por "
+    unitText: []
+    unitTextMesh: []
+  - label: Your journey has been save to your home view
+    content:
+      english: Your journey has been save to your home view
+      french: "Votre trajet a \xE9t\xE9 enregistr\xE9 dans votre vue d'accueil\r"
+      spanish: Tu viaje ha sido guardado en tu vista de inicio
+    unitText: []
+    unitTextMesh: []
+  - label: Your journey has been saved to your home view
+    content:
+      english: Your journey has been saved to your home view
+      french: "Votre trajet a \xE9t\xE9 enregistr\xE9 dans votre vue d'accueil\r"
+      spanish: Tu viaje se ha guardado en tu vista de inicio
+    unitText: []
+    unitTextMesh: []
+  - label: 'Your journey is currently paused due to bad GPS signal. Please resume
+      when you move to an area with better signal. '
+    content:
+      english: 'Your journey is currently paused due to bad GPS signal. Please resume
+        when you move to an area with better signal. '
+      french: "Votre trajet est actuellement interrompu en raison d'un mauvais signal
+        GPS. Veuillez reprendre lorsque vous vous d\xE9placez dans une zone avec
+        un meilleur signal.\r"
+      spanish: "Su viaje est\xE1 en pausa debido a la mala se\xF1al del GPS. Por
+        favor, rean\xFAdelo cuando se desplace a una zona con mejor se\xF1al. "
+    unitText: []
+    unitTextMesh: []
+  - label: Your journey is posted onto the global feed
+    content:
+      english: Your journey is posted onto the global feed
+      french: "Votre voyage est publi\xE9 sur le flux global\r"
+      spanish: Su viaje se publica en el feed global
+    unitText: []
+    unitTextMesh: []
+  - label: Zip Code
+    content:
+      english: Zip Code
+      french: "Code postal\r"
+      spanish: "C\xF3digo postal"
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: RECORD
+    content:
+      english: RECORD
+      french: "\rENREGISTRER"
+      spanish: GRABAR
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  OnLanguageSetting:
+    m_PersistentCalls:
+      m_Calls: []

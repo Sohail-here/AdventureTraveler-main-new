@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "43333396819",
+    "project_id": "adventure-traveler-330901",
+    "storage_bucket": "adventure-traveler-330901.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43333396819:android:1a7877f22791c1f675d9a6",
+        "android_client_info": {
+          "package_name": "com.i911.AdventureTraveler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43333396819-1fru4f9s17b86519bbmloo7pgi557144.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.i911.AdventureTraveler",
+            "certificate_hash": "a7604bc67933bb4d9d43cebc70427b5facc90e53"
+          }
+        },
+        {
+          "client_id": "43333396819-8qhj9vbgta8092hkb66qekaloirq5ns1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1XC8p0LcIROTwR-zjYpRGixLS-hiOQhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43333396819-8qhj9vbgta8092hkb66qekaloirq5ns1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "43333396819-hfdqbg9asfvecblhvjfdt5dv75evpa1p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.i911.AdventureTraveler",
+                "app_store_id": "com.i911.AdventureTraveler"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

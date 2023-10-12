@@ -1,0 +1,3694 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3406221376452470439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3406221376452470436}
+  - component: {fileID: 3406221376452470435}
+  - component: {fileID: 3406221376452470434}
+  - component: {fileID: 3406221376452470437}
+  m_Layer: 5
+  m_Name: Viewport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3406221376452470436
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221376452470439}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3406221377747716048}
+  m_Father: {fileID: 3406221378297612317}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 9.719849}
+  m_SizeDelta: {x: 0, y: 19.4397}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3406221376452470435
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221376452470439}
+  m_CullTransparentMesh: 0
+--- !u!114 &3406221376452470434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221376452470439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10917, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3406221376452470437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221376452470439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShowMaskGraphic: 0
+--- !u!1 &3406221376968248658
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3406221376968248659}
+  - component: {fileID: 3406221376968248656}
+  - component: {fileID: 3406221376968248657}
+  m_Layer: 5
+  m_Name: ttxt_tos3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3406221376968248659
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221376968248658}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3406221377747716048}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 556.5, y: -25838.656}
+  m_SizeDelta: {x: 947, y: 9504.03}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3406221376968248656
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221376968248658}
+  m_CullTransparentMesh: 1
+--- !u!114 &3406221376968248657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221376968248658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '11. Indemnity
+
+
+    You agree to indemnify and hold harmless i911, its
+    officers, directors, employees,
+
+    consultants, affiliates, subsidiaries and
+    agents (together, the "i911 Entities") if the i911
+
+    Service fails or suffers
+    service interruption during use. You agree that you will be
+
+    responsible
+    for your use of the Service, and you agree to defend, hold harmless, and
+
+    indemnify
+    i911, its officers, directors, employees, consultants, affiliates, subsidiaries
+    and
+
+    agents and the i911 Entities from and against every claim, liability,
+    damage, loss, and
+
+    expense, including reasonable attorneys'' fees and costs,
+    arising out of or in any way
+
+    connected with: (a) your access to, use of,
+    or alleged use of, the Service; (b) your
+
+    violation of any portion of these
+    Terms, any representation, warranty, or agreement
+
+    referenced in these Terms,
+    or any applicable law or regulation; (c) your violation of any
+
+    third-party
+    right, including any intellectual property right or publicity, confidentiality,
+    other
+
+    property, or privacy right; or (d) any dispute or issue between you
+    and any third party.
+
+    We reserve the right, at our own expense, to assume
+    the exclusive defense and control
+
+    of any matter otherwise subject to indemnification
+    by you (without limiting your
+
+    indemnification obligations with respect to
+    that matter), and in that case, you agree to
+
+    cooperate with our defense
+    of that claim.
+
+
+    12. Disclaimers; No Warranties
+
+
+    BY USING THE SERVICE,
+    YOU AGREE THAT i911 CANNOT CONTROL THE
+
+    FREQUENCIES OR STRENGTH OF NETWORKS
+    ON AND UNDER WHICH i911
+
+    OPERATES, AND THEREFORE CANNOT BE HELD LIABLE OR
+    RESPONSIBLE FOR
+
+    ANY DISRUPTION IN SERVICE. YOU FURTHER AGREE THAT i911 CANNOT
+
+    CONTROL
+    THE MANNER IN WHICH EMERGENCY SERVICES ARE RENDERED,
+
+    AND THEREFORE i911
+    CANNOT AND DOES NOT GUARANTEE THAT
+
+    EMERGENCY SERVICE PROVIDERS WILL UTILIZE
+    THE INFORMATION
+
+    PROVIDED. NOT ALL EMERGENCY SERVICE PROVIDERS HAVE ACCESS
+    TO THE
+
+    SERVICE AND THE SERVICE MAY NOT BE UTILIZED BY EMERGENCY SERVICE
+
+    PROVIDERS
+    THAT DO HAVE ACCESS.
+
+
+    USE OF THE SERVICE DOES NOT CONSTITUTE AN AGREEMENT
+    BETWEEN
+
+    YOU AND OTHER SUBSCRIBERS, EMERGENCY SERVICE PROVIDERS, OR
+
+    USERS.
+    YOU WILL NOT RELY ON THE SERVICE AS THE SOLE MEANS BY
+
+    WHICH YOU WILL COMMUNICATE
+    INFORMATION TO USERS, OTHER
+
+    SUBSCRIBERS, OR EMERGENCY SERVICE PROVIDERS.
+    i911 IS NOT
+
+    RESPONSIBLE FOR THE ACTIONS OF ANY SUBSCRIBER, EMERGENCY
+
+    SERVICE
+    PROVIDER, OR USER. i911 DOES NOT GUARANTEE DELIVERY OF
+
+    ANY MESSAGE OR INFORMATION
+    AND IS NOT RESPONSIBLE FOR ANY ACTION
+
+    OR OMISSION BETWEEN OR AMONG USERS
+    OF THE SYSTEM. i911 DOES NOT
+
+    HAVE CONTROL OVER THE VOIP SERVICE, TELEPHONE
+    SERVICE OR
+
+    INTERNET SERVICE PROVIDERS NECESSARY FOR PROVIDING THE SERVICE
+
+    AND
+    ANY FAILURE DUE TO A THIRD PARTY SERVICE PROVIDER IS NOT THE
+
+    RESPONSIBILITY
+    OF i911 AND i911 ASSUMES NO LIABILITY OF ANY KIND.
+
+
+    YOU SOLELY ARE RESPONSIBLE
+    FOR MANAGING YOUR TELEPHONE SERVICE
+
+    PROVIDER ACCOUNT, ACCOUNT SUBSCRIPTIONS,
+    LOCATION TRACKING, AND
+
+    OTHER OPT-IN STATUSES AS REQUIRED TO ALLOW THE SERVICES
+    TO
+
+    LOCATE AND COMMUNICATE WITH YOUR PHONE. DEVICES THAT ARE
+
+    LOCATION
+    COMPATIBLE MAY NOT BE LOCATABLE BY THE SERVICE OR THE
+
+    TELEPHONE SERVICE
+    PROVIDER AT ALL TIMES. ANY LOCATION PROVIDED IS
+
+    APPROXIMATE AND DOES NOT
+    PROVIDE GUARANTEED RESULTS.
+
+
+    THE SERVICE AND ALL MATERIALS AND CONTENT AVAILABLE
+    THROUGH THE
+
+    SERVICE ARE PROVIDED "AS IS" AND ON AN "AS AVAILABLE" BASIS.
+    THE i911
+
+    ENTITIES DISCLAIM ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR
+
+    IMPLIED,
+    RELATING TO THE SERVICE AND ALL MATERIALS AND CONTENT
+
+
+    AVAILABLE THROUGH
+    THE SERVICE, INCLUDING: (A) ANY IMPLIED WARRANTY
+
+    OF MERCHANTABILITY, FITNESS
+    FOR A PARTICULAR PURPOSE, TITLE, QUIET
+
+    ENJOYMENT, OR NON-INFRINGEMENT; AND
+    (B) ANY WARRANTY ARISING OUT
+
+    OF COURSE OF DEALING, USAGE, OR TRADE. THE
+    i911 ENTITIES DO NOT
+
+    WARRANT THAT THE SERVICE OR ANY PORTION OF THE SERVICE,
+    OR ANY
+
+    MATERIALS OR CONTENT OFFERED THROUGH THE SERVICE, WILL BE
+
+    UNINTERRUPTED,
+    SECURE, OR FREE OF ERRORS, VIRUSES, OR OTHER
+
+    HARMFUL COMPONENTS, AND DO
+    NOT WARRANT THAT ANY OF THOSE
+
+    ISSUES WILL BE CORRECTED.
+
+
+    SOME JURISDICTIONS
+    MAY PROHIBIT A DISCLAIMER OF WARRANTIES AND
+
+    YOU MAY HAVE OTHER RIGHTS THAT
+    VARY FROM JURISDICTION TO
+
+    JURISDICTION, BUT BY USING THIS SERVICE AND AGREEING
+    TO THE TERMS
+
+    OF i911''S PRODUCT, YOU WAIVE THOSE RIGHTS AND ACCEPT THAT
+    NO
+
+    WARRANTIES ARE MADE RELATING TO THE USE OF i911.
+
+
+    13. Limitation
+    of Liability
+
+
+    IN NO EVENT WILL i911 OR ANY AFFILAITE OR RELATED i911 ENTITIES
+    BE
+
+    LIABLE TO YOU FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+
+    CONSEQUENTIAL
+    OR PUNITIVE DAMAGES (INCLUDING DAMAGES FOR LOSS
+
+    OF PROFITS, GOODWILL, OR
+    ANY OTHER INTANGIBLE LOSS) ARISING OUT OF
+
+    OR RELATING TO YOUR ACCESS TO
+    OR USE OF, OR YOUR INABILITY TO
+
+    ACCESS OR USE, THE SERVICE OR ANY MATERIALS
+    OR CONTENT ON THE
+
+    SERVICE, WHETHER BASED ON WARRANTY, CONTRACT, TORT (INCLUDING
+
+    NEGLIGENCE),
+    STATUTE, OR ANY OTHER LEGAL THEORY, AND WHETHER OR
+
+    NOT ANY i911 ENTITY HAS
+    BEEN INFORMED OF THE POSSIBILITY OF DAMAGE.
+
+
+    BY UTILIZING i911 AND REGISTERING
+    FOR AN ACCOUNT, YOU AGREE THAT
+
+    THE AGGREGATE LIABILITY OF THE i911 ENTITIES
+    TO YOU FOR ALL CLAIMS
+
+    ARISING OUT OF OR RELATING TO THE USE OF OR ANY INABILITY
+    TO USE ANY
+
+    PORTION OF THE SERVICE OR OTHERWISE UNDER THESE TERMS, WHETHER
+
+    IN
+    CONTRACT, TORT, OR OTHERWISE, IS LIMITED TO $100.
+
+
+
+    BY UTILIZING i911 AND
+    THE SERVICE, YOU WAIVE THE RIGHT TO PURSUE
+
+    CLAIMS IN ANY OTHER COURT OF
+    LAW. VENUE AND JURISDICTION WILL BE IN
+
+    THE STATE OF DELAWARE.
+
+
+    14.
+    Governing Law
+
+
+    These Terms are governed by the laws of the State of Delaware
+    without regard to
+
+    conflict of law principles. If a lawsuit or court proceeding
+    is permitted under these
+
+    Terms, you and i911 agree to submit to the personal
+    and exclusive jurisdiction in the
+
+    state of Delaware, for the purpose of
+    litigating any dispute. Choice of venue and
+
+    governing law shall have no
+    impact on whether, or create any representation that, the
+
+    Service is appropriate
+    or available for use in said jurisdiction.
+
+
+
+    15. General
+
+
+    These Terms,
+    together with the Privacy Policy and any other agreements expressly
+
+    incorporated
+    by reference into these Terms, are the entire and exclusive understanding
+
+    and
+    agreement between you and i911 regarding your use of the Service. You may not
+
+    assign
+    or transfer these Terms or your rights under these Terms, in whole or in part,
+    by
+
+    operation of law or otherwise, without our prior written consent. We
+    may assign these
+
+    Terms at any time without notice or consent. The failure
+    to require performance of any
+
+    provision will not affect our right to require
+    performance at any other time after that, nor
+
+    will a waiver by us of any
+    breach or default of these Terms, or any provision of these
+
+    Terms, be a
+    waiver of any subsequent breach or default or a waiver of the provision
+
+    itself.
+    Use of section headers in these Terms is for convenience only and will not have
+
+    any
+    impact on the interpretation of any provision. If any part of these Terms is
+    held to be
+
+    invalid or unenforceable, the unenforceable part will be given
+    effect to the greatest
+
+    extent possible, and the remaining parts will remain
+    in full force and effect. Upon
+
+    termination of these Terms, any provision
+    that by its nature or express terms should
+
+    survive, will survive, including
+    Sections 2, 4, and 5 through 18.
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2bea68d241121f245a20a0de9ffeb6d1, type: 2}
+  m_sharedMaterial: {fileID: 1475998191449698476, guid: 2bea68d241121f245a20a0de9ffeb6d1,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &3406221377137127427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3406221377137127424}
+  - component: {fileID: 3406221377137127425}
+  - component: {fileID: 3406221377137127438}
+  m_Layer: 5
+  m_Name: ttxt_tos0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3406221377137127424
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377137127427}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3406221377747716048}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 556.5, y: -1905.8}
+  m_SizeDelta: {x: 947, y: 3801.6}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3406221377137127425
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377137127427}
+  m_CullTransparentMesh: 1
+--- !u!114 &3406221377137127438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377137127427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'i911 Terms of Use & Service
+
+    Last Modified June 1, 2021
+
+
+    Welcome,
+    and thank you for your interest in i911, Inc. ("i911", "we," or "us") and our
+
+    Web
+    site at i911.com (the "Site"), and our related web sites, networks, embeddable
+
+    widgets,
+    downloadable software, mobile applications (including tablet applications), and
+
+    other
+    services provided by us and on which a link to these Terms of Use is displayed
+
+    (together
+    with the Site, our "Service"). These Terms of Use are a legally binding
+
+    contract
+    between you ("you") and i911 regarding your use of the Service.
+
+
+    PLEASE
+    READ THE FOLLOWING TERMS OF USE CAREFULLY. BY USING THE
+
+    i911 SERVICE, YOU
+    ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD,
+
+    AND AGREE TO BE BOUND BY THE
+    FOLLOWING TERMS OF USE, INCLUDING
+
+    THE i911 PRIVACY POLICY found here (referred
+    to, collectively, as "TERMS"). If you
+
+    are not eligible, or do not agree
+    to these Terms, then you do not have our permission to
+
+    use the Service,
+    and legal action may be taken against you or your entity.
+
+
+    These Terms provide
+    that all disputes between you and i911 will be resolved by
+
+    binding arbitration
+    in the State of Delaware. Your rights will be determined by a
+
+    neutral arbitrator
+    and NOT a judge or jury, and your claims cannot be brought as a
+
+    class action.
+    By utilizing i911 and agreeing to these Terms, you agree to give up your
+
+    right
+    to go before a judge and jury to assert or defend your rights under this binding
+
+    contract
+    Terms, except for matters that may be taken to small claims court. Please
+
+    review
+    the "Dispute Resolution and Arbitration" section below for the details regarding
+
+    your
+    agreement to arbitrate any disputes with i911.
+
+
+    The parties hereby agree
+    as follows that these are the Terms:
+
+
+    Definitions:
+
+
+    "i911" "i911 service"
+    or "the Service" refers to i911, Inc., a product built for the
+
+    purpose of
+    locating mobile devices of citizens with their consent, primarily for but not
+
+    limited
+    to public safety dispatch operations and search and rescue activities. Use of
+
+    products,
+    services, and offerings of i911, Inc. is governed by these Terms and the
+
+    Privacy
+    Policy of i911, Inc., and does not impute, incorporate, or engage i911 in any
+
+    manner.
+    Includes our website, network, embeddable widgets, downloadable software,
+
+    mobile
+    applications (including tablet apps), and other services provided.
+
+
+    "Emergency
+    Service Provider" or "User" includes any safety or emergency response
+
+    provider
+    including law enforcement, fire, police, coast guard, emergency medical,
+
+    emergency
+    management, campus safety officials, or public health services, whether a
+
+    municipal,
+    local, state, federal, or military, government agency, who uses i911/the
+
+    Service
+    to receive information in order to facilitate the provision of safety or emergency
+
+    services,
+    including but not limited to utilizing the Service to send emergency and
+
+    general
+    interest notifications and updates to Subscribers and other Users.
+
+
+    "Subscriber"
+    is any individual who utilizes the i911 application (mobile website) or the
+
+    Service
+    for emergency response. Anyone who uses the Service to communicate with, or
+
+    receive
+    communications from, Emergency Service Providers or Users is a Subscriber.
+
+
+    "Website
+    or Site" means i911.com.
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2bea68d241121f245a20a0de9ffeb6d1, type: 2}
+  m_sharedMaterial: {fileID: 1475998191449698476, guid: 2bea68d241121f245a20a0de9ffeb6d1,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &3406221377165813802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3406221377165813803}
+  - component: {fileID: 3406221377165813814}
+  - component: {fileID: 3406221377165813801}
+  - component: {fileID: 3406221377165813800}
+  m_Layer: 5
+  m_Name: btn_Back
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3406221377165813803
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377165813802}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3406221377297787249}
+  m_Father: {fileID: 3406221377174107961}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 14, y: -45}
+  m_SizeDelta: {x: 200, y: 200}
+  m_Pivot: {x: 0, y: 1}
+--- !u!222 &3406221377165813814
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377165813802}
+  m_CullTransparentMesh: 0
+--- !u!114 &3406221377165813801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377165813802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 20af7d098b88217498293eb492e458fe, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3406221377165813800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377165813802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 0
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 3406221377165813801}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: CloseObject
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 3406221377174107962}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &3406221377174107962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3406221377174107961}
+  - component: {fileID: 3406221377174107960}
+  - component: {fileID: 3406221377174107963}
+  m_Layer: 5
+  m_Name: TermsOfUse&Services
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &3406221377174107961
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377174107962}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3406221377165813803}
+  - {fileID: 3406221377752290977}
+  - {fileID: 3406221378297612317}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3406221377174107960
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377174107962}
+  m_CullTransparentMesh: 0
+--- !u!114 &3406221377174107963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377174107962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3e0a756a7b47af943b5fc09ddd082afd, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3406221377297787248
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3406221377297787249}
+  - component: {fileID: 3406221377297787263}
+  - component: {fileID: 3406221377297787262}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3406221377297787249
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377297787248}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3406221377165813803}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 60, y: 60}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3406221377297787263
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377297787248}
+  m_CullTransparentMesh: 0
+--- !u!114 &3406221377297787262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377297787248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5d96119e7dade1f45bc6f1ef8ec1f98d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &3406221377638471378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3406221377638471379}
+  - component: {fileID: 3406221377638471376}
+  - component: {fileID: 3406221377638471377}
+  m_Layer: 5
+  m_Name: ttxt_tos2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3406221377638471379
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377638471378}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3406221377747716048}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 556.5, y: -16745.03}
+  m_SizeDelta: {x: 947, y: 8683.22}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3406221377638471376
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377638471378}
+  m_CullTransparentMesh: 1
+--- !u!114 &3406221377638471377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377638471378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '5. Prohibited Conduct
+
+
+    BY USING THE SERVICE YOU AGREE NOT TO:
+
+
+    a)
+    use the Service for any illegal purpose or in violation of any local, state,
+    national,
+
+    or international law;
+
+
+    b) violate, or encourage others to
+    violate, any right of a third party, including by
+
+    infringing or misappropriating
+    any third party intellectual property right;
+
+
+    c) post, upload, or distribute
+    Your Content or other content that is unlawful,
+
+    defamatory, libelous, inaccurate,
+    or that a reasonable person could deem to be
+
+    objectionable, profane, indecent,
+    pornographic, harassing, threatening, embarrassing,
+
+    hateful, or otherwise
+    inappropriate;
+
+
+    d) interfere with security-related features of the Service,
+    including by: (a) disabling
+
+    or circumventing features that prevent or limit
+    use or copying of any content; or (b)
+
+    reverse engineering or otherwise attempting
+    to discover the source code of any portion
+
+    of the Service except to the
+    extent that the activity is expressly permitted by applicable
+
+    law;
+
+
+    e)
+    interfere with the operation of the Service or any other User''s enjoyment of
+    the
+
+    Service, including by: (1) uploading or otherwise any disseminating
+    virus, adware,
+
+    spyware, worm, or other malicious code; (2) making any unsolicited
+    offer or
+
+    advertisement to another User of the Service; (3) attempting to
+    collect, personal
+
+    information about another User or third party without
+    consent; or (4) interfering with or
+
+    disrupting any network, equipment, or
+    server connected to or used to provide the
+
+    Service, or violating any regulation,
+    policy, or procedure of any network, equipment, or
+
+    server;
+
+
+    f) perform
+    any fraudulent activity including impersonating any person or entity,
+
+    claiming
+    a false affiliation, accessing any other Service account without permission,
+    or
+
+    falsifying your age or date of birth;
+
+
+    g) perform any illegal or
+    fraudulent activity including impersonating an Emergency
+
+    Service Provider
+    in an attempt to locate an individual or subscriber for any unofficial or
+
+    unauthorized
+    purpose including but not limited to use of i911 for personal gain, personal
+
+    investigation,
+    or other unofficial or unauthorized Emergency Service
+
+    Response;
+
+
+    h)
+    sell or otherwise transfer the access granted under these Terms or any Materials
+
+    (as
+    defined in Section 10) or any right or ability to view, access, or use any Material;
+    or
+
+
+    i) attempt to do any of the acts described in this Section 5, or assist
+    or permit any
+
+    person in engaging in any of the acts described in this Section
+    5.
+
+
+    6. Third-Party Services and Linked Websites
+
+
+    i911 may provide tools
+    through the Service that enable you to export information,
+
+    including Your
+    Content, to third party services. By using one of these tools, you agree
+
+    that
+    we may transfer that information to the applicable third-party service. Third
+    party
+
+    services are not under our control, and we are not responsible for
+    any third party
+
+    service''s use of your exported information. The Service
+    may also contain links to
+
+    thirdparty websites. Linked websites are not under
+    our control, and we are not
+
+    responsible for their content.
+
+
+    7. Termination
+    of Use; Discontinuation and Modification of the Service
+
+
+    If you violate
+    any provision of these Terms, your permission or authorization to use the
+
+    Service
+    will terminate immediately and automatically. In addition, i911 may in its sole
+
+    discretion
+    terminate your account on the Service or suspend or terminate your access to
+
+    the
+    Service at any time, without notice. We also reserve the right to modify or
+
+    discontinue
+    the Service at any time (including by limiting or discontinuing certain
+
+    features
+    of the Service) without notice to you. If at any time after your account is
+
+    registered,
+    i911 decides to charge a fee for the use of all or certain features, i911 will
+
+    provide
+    you with prior notice before such fees take effect. i911 accepts no liability
+
+    relating
+    to any change to the Service or any suspension or termination of your access
+    to
+
+    or use of the Service.
+
+    You may terminate your account at any time
+    by logging into your account and clicking
+
+    on the "Remove Account" link within
+    the Account Settings menu. If you terminate your
+
+    account, or if your access
+    to the Service is terminated for any other reason, then i911
+
+    will no longer
+    provide you with the Service or provide your account to Emergency
+
+    Service
+    Providers. You remain obligated to pay all outstanding fees, if any, relating
+    to
+
+    your use of the Service incurred prior to termination. i911 may retain
+    Your Content or
+
+    account information after your account is terminated, as
+    previously delineated above.
+
+
+    8. Privacy Policy; Additional Terms
+
+
+    8.1
+    Privacy Policy. Please read the i911 Privacy Policy carefully for information
+    relating
+
+    to our collection, use, storage and disclosure of your personal
+    information. The i911
+
+    Privacy Policy is incorporated by this reference into,
+    and made a part of, these Terms.
+
+
+    8.2 Additional Terms. Your use of the
+    Service is subject to all additional terms, policies,
+
+    rules, or guidelines
+    applicable to the Service or certain features of the Service that we
+
+    may
+    post on or link to from the Service (the "Additional Terms"), such as enduser
+
+    license
+    agreements for any downloadable software applications, or rules applicable to
+    a
+
+    particular feature or content on the Service, subject to Section 9 below.
+    All Additional
+
+    Terms are incorporated by this reference into, and made a
+    part of, these Terms.
+
+
+    9. Modification of these Terms
+
+
+    We reserve the
+    right, at our discretion, to change these Terms on a going-forward basis
+
+    at
+    any time without advanced notice to you. You will be notified by email of any
+    changes
+
+    to these Terms, but you should check these Terms periodically for
+    changes. If a change
+
+    to these Terms materially modifies your rights or obligations,
+    you will be notified of the
+
+    modified Terms in order to continue to use the
+    Service. Material modifications are
+
+    effective upon your acceptance of the
+    modified Terms. Immaterial modifications are
+
+    effective upon publication.
+    Disputes arising under these Terms will be resolved in
+
+    accordance with the
+    version of these Terms that was in effect at the time the dispute
+
+    arose.
+
+
+    10.
+    Ownership; Proprietary Rights
+
+
+    The Service is owned and operated by i911.
+    The visual interfaces, graphics, design,
+
+    compilation, information, data,
+    computer code (including source code or object code),
+
+    products, software,
+    services, and all other elements of the Service ("Materials")
+
+    provided by
+    i911 are protected by intellectual property and other laws. All Materials
+
+    contained
+    in the Service are the property of i911 or our third-party licensors. i911 retains
+
+    all
+    rights to that such Materials. I911 grant you permission to display, copy, distribute
+
+    and
+    download the Materials, provided that you do not modify or create derivative
+    works
+
+    based upon the Materials. All rights not expressly granted are reserved
+    by i911.
+
+    Except as expressly authorized by i911, you may not make use of
+    the Materials. i911
+
+    reserves all rights to the Materials not granted expressly
+    in these Terms. You
+
+    acknowledge and agree that any feedback, comments or
+    suggestions you may provide
+
+    regarding the Service ("Feedback") will be the
+    sole and exclusive property of i911 and
+
+    you hereby irrevocably assign to
+    us all of your right, title and interest in and to all
+
+    Feedback. Any data
+    that we generate from your usage of the Service will be owned and
+
+    the sole
+    property of i911 and handled subject to the terms of our Privacy Policy, as
+
+    applicable.
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2bea68d241121f245a20a0de9ffeb6d1, type: 2}
+  m_sharedMaterial: {fileID: 1475998191449698476, guid: 2bea68d241121f245a20a0de9ffeb6d1,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &3406221377712970505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3406221377712970518}
+  - component: {fileID: 3406221377712970519}
+  - component: {fileID: 3406221377712970516}
+  m_Layer: 5
+  m_Name: ttxt_tos6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3406221377712970518
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377712970505}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3406221377747716048}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 556.5, y: -59232.355}
+  m_SizeDelta: {x: 947, y: 6307.21}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3406221377712970519
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377712970505}
+  m_CullTransparentMesh: 1
+--- !u!114 &3406221377712970516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377712970505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "5. Data Retention\r\n\nWe will retain your personal information for as
+    long as is necessary for the processing\r\npurpose for which it was collected;
+    however, if an Emergency Service Provider directs\r\nus to delete information
+    that it had directed us to collect, we typically comply with that\r\nrequest.\r\nWe
+    may also retain certain transaction details and correspondence for as long as\r\nnecessary
+    to defend against legal claims or to comply with regulatory requirements.\r\nWe
+    may retain an archived copy of your records as required by law or for legitimate\r\nbusiness
+    purposes.\r\na) Emergency Service Provider or Users:\r\nYour Content Generally.
+    Certain features of the Service may permit Emergency\r\nService Providers or
+    Users to upload content to the Service, including messages,\r\nreviews, photos,
+    video, images, folders, data, text, and other types of works (\"the\r\nContent
+    \") and to publish the Content on the Service. Emergency Service Providers\r\nor
+    Users retain copyright and any other proprietary rights that may exist in the\r\nContent
+    that you post to the Service.\r\nLimited License Grant to i911. By posting or
+    publishing the Content, Emergency\r\nService Providers or Users grant i911 a
+    worldwide, non-exclusive, royalty-free right\r\nand license (with the right to
+    sublicense) to host, store, transfer, display, perform,\r\nreproduce, modify,
+    and distribute your the Content, in whole or in part, in any media\r\nformats
+    and through any media channels (now known or hereafter developed). i911's\r\nuse
+    of the Content may be without any compensation paid to Emergency Service\r\nProviders
+    or Users.\r\nRepresentations and Warranties Regarding Your Content. Emergency
+    Service\r\nProviders or Users are solely responsible for the Content and the
+    consequences of\r\nposting or publishing the Content. By posting or publishing
+    the Content, you affirm,\r\nrepresent, and warrant that:\r\n\u2022 The Emergency
+    Service Providers or Users publishing the Content are the creator(s)\r\nand owner(s)
+    of, or have the necessary licenses, rights, consents, and permissions, to\r\nuse
+    and to authorize i911 to use and distribute the Content as necessary to exercise\r\nthe
+    licenses granted by you and in the manner contemplated by i911, the Service,
+    and\r\nthese Terms; and\r\n\u2022 The Content, and the use of the Content as
+    contemplated by these Terms, does not\r\nand will not: (i) infringe, violate,
+    or misappropriate any third-party right, including any\r\ncopyright, trademark,
+    patent, trade secret, moral right, privacy right, right of publicity,\r\nor any
+    other intellectual property or proprietary right; (ii) slander, defame, libel,
+    or\r\ninvade the right of privacy, publicity or other property rights of any
+    other person; or (iii)\r\ncause i911 to violate any law or regulation.\r\n\n6.
+    Your Rights and Choices\r\n\nYou have certain rights regarding the personal information
+    we maintain about you.\r\nIf you receive marketing emails from i911, such as
+    the i911 Newsletter, you may opt\r\nout or unsubscribe by following the directions
+    provided in the email. Please be aware\r\nthat if you opt-out of receiving commercial
+    email from us or otherwise modify the\r\nnature or frequency of promotional communications
+    you receive from us, it may take\r\nup to ten (10) business days for us to process
+    your request, and you may receive\r\npromotional communications from us that
+    you have opted-out from during that period.\r\nAdditionally, even after you opt-out
+    from receiving commercial messages from us, you\r\nwill continue to receive administrative
+    messages from us regarding the Service.\r\nIn addition, you may have certain
+    rights under applicable data protection law to access\r\nyour personal information
+    held by us. We may charge a fee to meet our costs in\r\nproviding you with details
+    of the personal information we hold about you, and there\r\nmay be certain categories
+    of information that we may be unable to, or have no right to,\r\nprovide.\r\nIn
+    addition, in connection with the i911 Services, you may, of course, decline to
+    share\r\ncertain Personal Information with us, in which case we may not be able
+    to provide to\r\nyou some of the features and functionality of the Service. You
+    may update, correct, or\r\ndelete your account information and preferences at
+    any time by accessing your\r\naccount preferences page on the Service. If you
+    wish to access or amend any other\r\nPersonal Information we hold about you,
+    you may contact us at hello@i911.com.\r\nPlease note that while any changes you
+    make will be reflected in active user\r\ndatabases instantly or within a reasonable
+    period of time, we may retain all\r\ninformation you submit for backups, archiving,
+    prevention of fraud and abuse,\r\nanalytics, satisfaction of legal obligations,
+    or where we otherwise reasonably believe\r\nthat we have a legitimate reason
+    to do so.\r\nYou may also choose to uninstall our mobile app or otherwise choose
+    to no longer use\r\nthe i911 Services.\r\nA. Children's Privacy\r\nProtecting
+    the privacy of young children is especially important. Our Site is a general\r\naudience
+    site not directed to children under the age of 13, and we do not knowingly\r\ncollect
+    Personal Information from children under the age of 13 without obtaining\r\nparental
+    consent. If you are under 13 years of age, then please do not use or access\r\nthe
+    Service at any time or in any manner unless specifically directed to by an\r\nEmergency
+    Service Provider to obtain your location for the purpose of emergency\r\nresponse.
+    If we learn that Personal Information has been collected on the Service\r\nfrom
+    persons under 13 years of age and without verifiable parental consent, then we\r\nwill
+    take the appropriate steps to delete this information. If you are a parent or\r\nguardian
+    and discover that your child under 13 years of age has obtained an account\r\non
+    the Service, then you may alert us at hello@i911.com and request that we delete\r\nthat
+    child's Personal Information from our systems.\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2bea68d241121f245a20a0de9ffeb6d1, type: 2}
+  m_sharedMaterial: {fileID: 1475998191449698476, guid: 2bea68d241121f245a20a0de9ffeb6d1,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &3406221377747716051
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3406221377747716048}
+  - component: {fileID: 3406221377747716062}
+  - component: {fileID: 3406221377747716049}
+  m_Layer: 5
+  m_Name: Content
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3406221377747716048
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377747716051}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3406221377137127424}
+  - {fileID: 3406221378070571345}
+  - {fileID: 3406221377638471379}
+  - {fileID: 3406221376968248659}
+  - {fileID: 3406221377844809400}
+  - {fileID: 3406221377989166326}
+  - {fileID: 3406221377712970518}
+  - {fileID: 3406221378051440338}
+  m_Father: {fileID: 3406221376452470436}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0.0018310547}
+  m_SizeDelta: {x: 0, y: 67181.17}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!114 &3406221377747716062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377747716051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 83
+    m_Right: 95
+    m_Top: 5
+    m_Bottom: 250
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 1
+  m_ChildControlHeight: 1
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &3406221377747716049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377747716051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 0
+  m_VerticalFit: 2
+--- !u!1 &3406221377752290976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3406221377752290977}
+  - component: {fileID: 3406221377752290991}
+  - component: {fileID: 3406221377752290988}
+  - component: {fileID: 3406221377752290990}
+  m_Layer: 5
+  m_Name: ttxt_Title
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3406221377752290977
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377752290976}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3406221377174107961}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -238}
+  m_SizeDelta: {x: 1115, y: 160}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!222 &3406221377752290991
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377752290976}
+  m_CullTransparentMesh: 0
+--- !u!114 &3406221377752290988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377752290976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Terms of Use and Services
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 9c809058c08dab54c9a2b6d8e4b305fc, type: 2}
+  m_sharedMaterial: {fileID: 7747417296445231129, guid: 9c809058c08dab54c9a2b6d8e4b305fc,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 68
+  m_fontSizeBase: 68
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &3406221377752290990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377752290976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3558934ab814c24590f24d72b8c7d92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnglishFont: {fileID: 0}
+  SpanishFont: {fileID: 0}
+  FrenchFont: {fileID: 0}
+  EnglishFontAsset: {fileID: 11400000, guid: 9c809058c08dab54c9a2b6d8e4b305fc, type: 2}
+  SpanishFontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  FrenchFontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  isChangeSize: 0
+  EnSize: 0
+  SpSize: 0
+  FrSize: 0
+--- !u!1 &3406221377844809403
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3406221377844809400}
+  - component: {fileID: 3406221377844809401}
+  - component: {fileID: 3406221377844809350}
+  m_Layer: 5
+  m_Name: ttxt_tos4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3406221377844809400
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377844809403}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3406221377747716048}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 556.5, y: -35817.887}
+  m_SizeDelta: {x: 947, y: 10454.43}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3406221377844809401
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377844809403}
+  m_CullTransparentMesh: 1
+--- !u!114 &3406221377844809350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377844809403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '16. Dispute Resolution and Arbitration
+
+
+    16.1 Generally. In the interest
+    of resolving disputes between you and i911 in the most
+
+    expedient and cost
+    effective manner, you and i911 agree that every dispute arising in
+
+    connection
+    with these Terms will be resolved by binding arbitration. Arbitration uses a
+
+    neutral
+    arbitrator instead of a judge or jury, may allow for more limited discovery than
+    in
+
+    court, and can be subject to very limited review by courts. Arbitrators
+    can award the
+
+    same damages and relief that a court can award. Our agreement
+    to arbitrate disputes
+
+    includes all claims arising out of or relating to
+    any aspect of these Terms, whether
+
+    based in contract, tort, statute, fraud,
+    misrepresentation, or any other legal theory, and
+
+    regardless of whether
+    a claim arises during or after the termination of these Terms.
+
+    YOU UNDERSTAND
+    AND AGREE THAT, BY ENTERING INTO THESE TERMS, YOU
+
+    AND i911 ARE EACH WAIVING
+    THE RIGHT TO A TRIAL BY JURY OR TO
+
+    PARTICIPATE IN A CLASS ACTION.
+
+
+    16.2
+    Exceptions. Despite the provisions of Section 16.1, we both agree that nothing
+    in
+
+    these Terms will be deemed to waive, preclude, or otherwise limit the
+    right of either of
+
+    us to: (a) bring an individual action in small claims
+    court; (b) pursue an enforcement
+
+    action through the applicable federal,
+    state, or local agency if that action is available; (c)
+
+    seek injunctive
+    relief in a court of law; or (d) to file suit in a court of law to address an
+
+    intellectual
+    property infringement claim.
+
+
+    16.3 Arbitrator. Any arbitration between you
+    and i911 will be governed by the
+
+    Commercial Dispute Resolution Procedures
+    and the Supplementary Procedures for
+
+    Consumer Related Disputes (collectively,
+    "AAA Rules") of the American Arbitration
+
+    Association ("AAA"), as modified
+    by these Terms, and will be administered by the AAA.
+
+    The AAA Rules and filing
+    forms are available online at www.adr.org, by calling the AAA
+
+    at 1-800-778-7879.
+
+
+    16.4
+    Notice Process. A party who intends to seek arbitration must first send a written
+
+    notice
+    of the dispute to the other, by certified mail or Federal Express (signature
+
+    required),
+    or if we do not have a physical address on file for you, by electronic mail
+
+    ("Notice").
+    i911''s address for Notice is: 500 Oleander Drive, Hallandale Beach, Florida
+
+    33009.
+    The Notice must: (a) describe the nature and basis of the claim or dispute; and
+
+    (b)
+    set forth the specific relief sought ("Demand"). We agree to use good faith efforts
+    to
+
+    resolve the claim directly, but if we do not reach an agreement to do
+    so within 30 days
+
+    after the Notice is received, you or i911 may commence
+    an arbitration proceeding.
+
+    During the arbitration, the amount of any settlement
+    offer made by you or i911 must not
+
+    be disclosed to the arbitrator until
+    after the arbitrator makes a final decision and award,
+
+    if any. If our dispute
+    is finally resolved through arbitration in your favor, i911 will pay you
+
+    the
+    highest of the following: (i) the amount awarded by the arbitrator, if any; (ii)
+    the last
+
+    written settlement amount offered by i911 in settlement of the
+    dispute prior to the
+
+    arbitrator''s award; or (iii) $1,000.
+
+
+    16.5 Fees.
+    If you commence arbitration in accordance with these Terms, i911 will
+
+    reimburse
+    you for your payment of the filing fee, unless your claim is for more than
+
+    $10,000,
+    in which case the payment of any fees will be decided by the AAA Rules.
+
+    Any
+    arbitration hearing will take place at a location to be agreed upon in jurisdiction
+    of
+
+    Delaware, but if the claim is for $10,000 or less, you may choose whether
+    the arbitration
+
+    will be conducted: (a) solely on the basis of documents
+    submitted to the arbitrator; (b)
+
+    through a non-appearance based telephone
+    hearing; or (c) by an inperson hearing as
+
+    established by the AAA Rules in
+    the county (or parish) of your billing address. If the
+
+    arbitrator finds
+    that either the substance of your claim or the relief sought in the Demand
+
+    is
+    frivolous or brought for an improper purpose (as measured by the standards set
+    forth
+
+    in Federal Rule of Civil Procedure 11(b)), then the payment of all
+    fees will be governed
+
+    by the AAA Rules. In that case, you agree to reimburse
+    i911 for all monies previously
+
+    disbursed by it that are otherwise your obligation
+    to pay under the AAA Rules.
+
+    Regardless of the manner in which the arbitration
+    is conducted, the arbitrator must issue
+
+    a reasoned written decision sufficient
+    to explain the essential findings and conclusions
+
+    on which the decision
+    and award, if any, are based. The arbitrator may make rulings
+
+    and resolve
+    disputes as to the payment and reimbursement of fees or expenses at any
+
+    time
+    during the proceeding and upon request from either party made within 14 days
+    of
+
+    the arbitrator''s ruling on the merits.
+
+
+    16.6 No Class Actions.
+    YOU AND i911 AGREE THAT, BASED ON THE
+
+    STIPULATIONS AND TERMS OF THIS AGREEMENT,
+    EACH MAY BRING
+
+    QUALIFYING CLAIMS AGAINST THE OTHER ONLY IN AN INDIVIDUAL
+    CAPACITY
+
+    AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS OR
+
+    REPRESENTATIVE
+    PROCEEDING. Further, unless both you and i911 agree
+
+    otherwise, the arbitrator
+    may not consolidate more than one person or entity''s claims
+
+    and may not
+    otherwise preside over any form of a representative or class proceeding.
+
+
+    16.7
+    Modifications. If i911 makes any future change to this arbitration provision
+    (other
+
+    than a change to i911''s address for Notice), you may reject the
+    change by sending us
+
+    written notice within 30 days of the change to i911''s
+    address for Notice, in which case
+
+    your account with i911 will be immediately
+    terminated and this arbitration provision, as
+
+    in effect immediately prior
+    to the amendments you reject will survive.
+
+
+    16.8 Enforceability. If Section
+    16.6 is found to be unenforceable or if the entirety of this
+
+    Section 16
+    is found to be unenforceable, then the entirety of this Section 16 will be null
+
+    and
+    void and, in that case, the parties agree that the exclusive jurisdiction and
+    venue
+
+    described in Section 14 will govern any action arising out of or related
+    to these Terms.
+
+
+    17. Consent to Electronic Communications
+
+
+    By using
+    the Service, you consent to receiving certain electronic communications from
+
+    us
+    as further described in our Privacy Policy. Please read our Privacy Policy to
+    learn
+
+    more about your choices regarding our electronic communications practices.
+    You agree
+
+    that any notices, agreements, disclosures, or other communications
+    that we send to you
+
+    electronically will satisfy any legal communication
+    requirements, including that those
+
+    communications be in writing.
+
+
+    18.
+    Contact Information
+
+
+    The Service is offered by i911, Inc., located at 500
+    Oleander Drive, Hallandale Beach,
+
+    Florida 33009. You may contact us by sending
+    correspondence to that address or by
+
+    emailing us at hello@i911.com. If you
+    are a California resident, you may have these
+
+    Terms mailed to you electronically
+    by sending a letter to the address above with your
+
+    electronic mail address
+    and a request for these Terms.
+
+
+    i911 Privacy Policy
+
+    Last Modified November
+    1st, 2019
+
+
+    Welcome, and thank you for your interest in i911, Inc. ("i911",
+    "we," or "us") and our
+
+    Website at i911.com (the "Site"), and our related
+    websites, networks, embeddable
+
+    widgets, downloadable software, and mobile
+    applications (including tablet
+
+    applications). This Privacy Notice applies
+    to the use of our website (www.i911.com)
+
+    and mobile applications, on which
+    a link to this Privacy Policy (this "Policy") is
+
+    displayed.
+
+
+    "i911"
+    "i911 service" or "the Service" refers to i911, Inc., a product built for the
+
+    purpose
+    of locating mobile devices of citizens with their consent, primarily for but
+    not
+
+    limited to public safety dispatch operations and search and rescue activities.
+    Use of
+
+    products, services, and offerings of i911, Inc. is governed by the
+    terms of use and
+
+    privacy policy of i911, Inc., and does not impute, incorporate,
+    or engage any parent
+
+    company of i911 in any manner.
+
+
+    This Policy describes
+    the information that we gather from you ("you") on the Service,
+
+    how we use
+    and disclose such information, and the steps we take to protect such
+
+    information.
+    By using the Service, you consent to the privacy practices described in
+
+    this
+    Policy.
+
+
+    This Policy is incorporated into and is subject to the i911 Terms
+    of Use. Capitalized
+
+    terms used but not defined in this Policy have the meaning
+    given to them in the i911
+
+    Terms of Use.
+
+
+    This Policy also applies to
+    your use of our mobile applications, and the non-public
+
+    portions of our
+    website that are accessible through a log-in (the "i911 Service"). This
+
+    Privacy
+    Notice describes the types of information we collect, how we may use or
+
+    share
+    the information, and the choices you may have regarding your information.
+
+
+    This
+    Privacy Notice is intended to explain our privacy practices and covers the
+
+    following
+    areas:
+
+    1. The i911 Services; Relationship Between i911 and Emergency Service
+    Providers
+
+    2. Personal Information We Collect
+
+    3. How We Use Personal
+    Information We Collect
+
+    4. Personal Information We Share
+
+    5. Data Retention
+
+    6.
+    Your Rights and Choices
+
+    7. Operating i911 Abroad
+
+    8. How We Protect
+    Personal Information
+
+    9. Links To Other Websites
+
+    10.Updates To Our Privacy
+    Notice
+
+    11.How To Contact Us
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2bea68d241121f245a20a0de9ffeb6d1, type: 2}
+  m_sharedMaterial: {fileID: 1475998191449698476, guid: 2bea68d241121f245a20a0de9ffeb6d1,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &3406221377989166313
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3406221377989166326}
+  - component: {fileID: 3406221377989166327}
+  - component: {fileID: 3406221377989166324}
+  m_Layer: 5
+  m_Name: ttxt_tos5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3406221377989166326
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377989166313}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3406221377747716048}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 556.5, y: -48561.926}
+  m_SizeDelta: {x: 947, y: 15033.65}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3406221377989166327
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377989166313}
+  m_CullTransparentMesh: 1
+--- !u!114 &3406221377989166324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221377989166313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: "1. The i911 Services; Relationship Between i911 and Emergency Service\r\nProviders\r\n\ni911
+    makes available the i911 Service to Emergency Service Providers. \"Emergency\r\nService
+    Provider\" or \"User\" includes any safety or emergency response provider\r\nincluding
+    law enforcement, fire, police, coast guard, emergency medical, emergency\r\nmanagement,
+    campus safety officials, or public health services, whether a municipal,\r\nlocal,
+    state, federal, or military, government agency, who uses i911/the Service to\r\nreceive
+    information in order to facilitate the provision of safety or emergency services,\r\nincluding
+    but not limited to utilizing the Service to send emergency and general\r\ninterest
+    notifications and updates to Subscribers and other Users.\r\nThe Emergency Service
+    Providers may authorize their employees or other individuals\r\nto use i911 Services.
+    This Privacy Notice does not apply to the privacy practices of\r\nany Emergency
+    Service Provider.\r\nA \"Subscriber\" is any individual member of the general
+    public who utilizes the i911\r\napplication (mobile website) or the Service to
+    receive assistance during an emergency\r\nresponse. Anyone who uses the Service
+    to communicate with, or receive\r\ncommunications from, Emergency Service Providers
+    or Users is a Subscriber.\r\nSubscribers should only provide the information
+    you want Emergency Service\r\nProviders, or Users, to have access to.\r\nSubscribers
+    understand and agree that once the content of your account is made\r\navailable
+    to Emergency Service Providers, it may be transmitted over unsecured\r\nEmergency
+    Service Provider radios or may otherwise be made accessible through\r\nunsecured
+    communications as part of the information disseminated to or by\r\nEmergency
+    Service Providers responding to a 9-1-1 call or to an emergency.\r\nIf you are
+    a Subscriber, you understand and agree and hereby authorize i911 to\r\nrelease
+    and disclose your account information to Emergency Service Providers and\r\nUsers
+    in connection with the Service.\r\n\n2. Personal Information We Collect\r\n\nIn
+    connection with your use of the public portions of our website or the i911 Services:\r\n\n\u2022
+    You may submit information to us directly;\r\n\u2022 We may obtain information
+    about you from Emergency Service Providers, or Users, or\r\ntheir employees;\r\n\u2022
+    We or our service providers may use automated means to collect certain information\r\nabout
+    your use of our website or the i911 Service.\r\nWhen you use the i911 Service,
+    you may provide and we may collect what is generally\r\ncalled personally identifiable
+    information, or personal information, which is information\r\nthat specifically
+    identifies an individual. For the purposes of this Privacy Policy, we\r\nrefer
+    to such information as \"Personal Information.\" Examples of Personal Information\r\ninclude
+    name, email address, mailing address, and mobile phone number. Personal\r\nInformation
+    also includes other information, such as date of birth, geographic area, or\r\npreferences,
+    when any such information is linked to information that identifies a\r\nspecific
+    individual. You may provide us with Personal Information in various ways on\r\nthe
+    i911 Service. For example, you provide us with Personal Information when you\r\nregister
+    for an account, use the i911 Service, or send us customer service-related\r\nrequests.
+    Personal Information will also include any information about other adults or\r\nchildren
+    (for whom you must have appropriate legal responsibility or appropriate prior\r\nconsent)
+    that you enter into the i911 Service. Personal Information will also include\r\nany
+    health-related information about yourself or others that you enter into or provide
+    to\r\nthe i911 Service. You are not required to provide any health-related information
+    in\r\norder to use the i911 Service, but if you do, that Personal Information
+    will be subject to\r\nthis Privacy Policy.\r\nWe do not collect, nor do we knowingly
+    permit third parties to collect, personal\r\ninformation about your activities
+    over time and across third-party websites or online\r\nservices.\r\nWhen you
+    use the Service, we collect geo-location information from your device to\r\ndetermine
+    your physical location.\r\nWhen you use the Service, we may send one or more
+    cookies - small text files\r\ncontaining a string of alphanumeric characters
+    - to your device. We may use both\r\nsession cookies and persistent cookies.
+    A session cookie disappears after you close\r\nyour browser. A persistent cookie
+    remains after you close your browser and may be\r\nused by your browser on subsequent
+    visits to the Service. Please review your web\r\nbrowser \"Help\" file to learn
+    the proper way to modify your cookie settings. Please note\r\nthat if you delete,
+    or choose not to accept, cookies from the Service, you may not be\r\nable to
+    utilize the features of the Service to their fullest potential.\r\nWe may also
+    automatically record certain information from your device by using\r\nvarious
+    types of technology, including \"clear gifs\" or \"web beacons.\" This\r\nautomatically
+    collected information may include your IP address or other device\r\naddress
+    or ID, web browser and/or device type, the web pages or sites that you visit\r\njust
+    before or just after you use the Service, the pages or other content you view
+    or\r\notherwise interact with on the Service, and the dates and times that you
+    visit, access,\r\nor use the Service. We also may use these technologies to collect
+    information\r\nregarding your interaction with email messages, such as whether
+    you opened, clicked\r\non, or forwarded a message. This information is gathered
+    from all users, and may be\r\nconnected with your Personal Information.\r\nWe
+    may also implement third-party content on the Service that may use clear gifs
+    or\r\nother forms of web beacons, which allow the third-party content provider
+    to read and\r\nwrite cookies to your browser in connection with your viewing
+    of the third party content\r\non the Service. Additionally, we may implement
+    third party buttons (such as Facebook\r\n\"like\" or \"share\" buttons) that
+    may allow third parties to collect information about you\r\nthrough such third
+    parties' browser cookies, even when you do not interact with the\r\nbutton. Information
+    collected through web beacons and buttons is collected directly by\r\nthese third
+    parties, and i911 does not participate in that data transmission. Information\r\ncollected
+    by a third party in this manner is subject to that third party's own data\r\ncollection,
+    use, and disclosure policies.\r\nWe may obtain information, including Personal
+    Information, from third parties and\r\nsources other than the Service, such as
+    our Emergency Service Provider partners. If\r\nwe combine or associate information
+    from other sources with Personal Information\r\nthat we collect through the Service,
+    we will treat the combined information as Personal\r\nInformation in accordance
+    with this Policy.\r\n\n3. How We Use Personal Information We Collect\r\n\nWe
+    use the information we collect on the Service in a variety of ways in providing
+    the\r\ni911 Service and operating our business, including the following:\r\nWe
+    use the information that we collect on the Service to operate, maintain, enhance\r\nand
+    provide all features of the Service, to provide services and information that
+    you\r\nrequest, to respond to comments and questions and otherwise to provide
+    support to\r\nusers, and to process and deliver entries and rewards in connection
+    with promotions\r\nthat may be offered from time to time on the Service. For
+    example, we use the\r\ninformation we collect to:\r\n\u2022 Make information
+    about you or your household available to Users or Emergency\r\nService Providers,
+    or other Subscribers, as applicable in accordance with any opt-in\r\npreferences
+    you set.\r\n\u2022 Allow you to communicate with Emergency Service Providers
+    or Users, or other\r\nSubscribers, via multiple communication means, including
+    telephonically, via\r\ntext/SMS, or via video.\r\n\u2022 Allow you to make information
+    about you or your household searchable to participating\r\nEmergency Service
+    Providers or Users, or other Subscribers, for the purposes of\r\nemergency planning
+    and/or response.\r\n\u2022 Allow Emergency Service Providers or Users to send
+    emergency and general interest\r\nnotifications (\"Notification Services\") to
+    you via various communication methods (e.g.,\r\nvoice calls, text messaging,
+    email, etc.).\r\n\u2022 Allow you to share your location and information with
+    Emergency Service Providers or\r\nUsers, or other Subscribers, in accordance
+    with any opt-in preference you set.\r\n\u2022 Allow you to send photo, text,
+    and other messages to Emergency Service Providers or\r\nUsers, or other Subscribers.\r\n\u2022
+    By registering with any of the Notification Services, you consent to be contacted\r\nthrough
+    SMS, email, or voice call via an automated dialer using a pre-recorded\r\nmessage,
+    by i911 or Emergency Service Providers.\r\n\u2022 By creating an account, you
+    consent to periodically receive text messages. The\r\nfrequency of these messages
+    will depend on how you use the Service, and how\r\nfrequently Emergency Service
+    Providers or Users, or other Subscribers, messages\r\nthrough the Service. Message
+    and data rates may apply.\r\n\u2022 At any time, you may stop messages from being
+    sent to your mobile phone by simply\r\nadjusting the settings on your i911 application.\r\nWe
+    use the information that we collect on the Service to understand and analyze
+    the\r\nusage trends and preferences of our users, to improve the Service, and
+    to develop\r\nnew products, services, features, and functionality.\r\nWe may
+    use your email address or other information we collect on the Service (i) to\r\ncontact
+    you for administrative purposes such as customer service or (ii) to send\r\ncommunications,
+    including updates on promotions and events, relating to products\r\nand services
+    offered by us and by third parties we work with. Generally, you have the\r\nability
+    to opt-out of receiving certain promotional communications, such as the i911\r\nNewsletter,
+    as described below under \"Your Rights & Choices.\"\r\nWe may use cookies and
+    automatically collected information we collect to: (i)\r\npersonalize our Service,
+    such as remembering your information so that you will not\r\nhave to re-enter
+    it during your visit or the next time you visit the Service; (ii) provide\r\ncustomized
+    content, and information; (iii) monitor and analyze the effectiveness of\r\nService;
+    (iv) monitor aggregate site usage metrics such as total number of visitors and\r\npages
+    viewed; and (v) track your entries, submissions, and status in any promotions\r\nor
+    other activities on the Service.\r\nYou may at any time prohibit the Service
+    from collecting location information by\r\nturning this feature off on the mobile
+    device, but the Service may not be able to\r\nfunction normally. You expressly
+    consent to our use of location-based services, and\r\nyou expressly waive and
+    release us from any and all liability, claims, causes of action\r\nor damages
+    arising from your use of the Service, or in any way relating to the use of\r\nthe
+    geo-location information from your device.\r\nWe also may use your personal information
+    in other ways for which we provide\r\nspecific notice at the time of collection.\r\n\n4.
+    Personal Information We Share/When We Disclose Information\r\n\nWe do not sell
+    or otherwise disclose your personal information, except as described in\r\nthis
+    Privacy Notice. The manner in which we share personal information obtained\r\nthrough
+    the public portions of our website and through the i911 Services may differ.\r\nWe
+    may disclose information to third parties if you consent to us doing so, as well
+    as\r\nin the following circumstances:\r\n\u2022 Any information that you voluntarily
+    choose to include in a publicly accessible area of\r\nthe i911 Service, will
+    be available to anyone who has access to that content.\r\n\u2022 We work with
+    third party service providers to provide website, application\r\ndevelopment,
+    hosting, maintenance, and other services for us. These third parties\r\nmay have
+    access to or process your information as part of providing those services for\r\nus.
+    Generally, we limit the information provided to these service providers to that\r\nwhich
+    is reasonably necessary for them to perform their functions, and we require\r\nthem
+    to agree to maintain the confidentiality of such information.\r\n\u2022 We may
+    make certain information (including Personal Information) available to third\r\nparties
+    for various purposes, including compliance with various reporting obligations.\r\n\u2022
+    We may disclose your information if required to do so by law or in the good-faith
+    belief\r\nthat such action is necessary to comply with state and federal laws,
+    in response to a\r\ncourt order, judicial or other government subpoena or warrant,
+    or to otherwise\r\ncooperate with law enforcement or other governmental agencies.\r\n\u2022
+    We also reserve the right to disclose your information that we believe, in good
+    faith, is\r\nappropriate or necessary to (i) take precautions against liability,
+    (ii) protect ourselves\r\nor others from fraudulent, abusive, or unlawful uses
+    or activity, (iii) investigate and\r\ndefend ourselves against any third-party
+    claims or allegations, (iv) protect the security\r\nor integrity of the Service
+    and any facilities or equipment used to make the Service\r\navailable, or (v)
+    protect our property or other legal rights (including, but not limited to,\r\nenforcement
+    of our agreements), or the rights, property, or safety of others.\r\n\u2022 Information
+    about Emergency Service Providers, Users, and Subscribers, including\r\nPersonal
+    Information, may be disclosed and otherwise transferred to an acquirer, or\r\nsuccessor
+    or assignee as part of any merger, acquisition, debt financing, sale of\r\nassets,
+    or similar transaction, as well as in the event of an insolvency, bankruptcy,
+    or\r\nreceivership in which information is transferred to one or more third parties
+    as one of\r\nour business assets. If we engage in such a sale or transfer, we
+    will use reasonable\r\nefforts to direct the recipient to use your personal information
+    in a manner that is\r\nconsistent with this Privacy Notice. After such a sale
+    or transfer, you may contact the\r\nrecipient with any inquiries concerning the
+    processing of your personal information.\r\nWe also may share the information
+    about you in other ways for which we provide\r\nspecific notice at the time of
+    collection.\r\n"
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2bea68d241121f245a20a0de9ffeb6d1, type: 2}
+  m_sharedMaterial: {fileID: 1475998191449698476, guid: 2bea68d241121f245a20a0de9ffeb6d1,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &3406221378051440343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3406221378051440338}
+  - component: {fileID: 3406221378051440341}
+  - component: {fileID: 3406221378051440340}
+  m_Layer: 5
+  m_Name: ttxt_tos7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3406221378051440338
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221378051440343}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3406221377747716048}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 556.5, y: -64783.566}
+  m_SizeDelta: {x: 947, y: 4795.21}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3406221378051440341
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221378051440343}
+  m_CullTransparentMesh: 1
+--- !u!114 &3406221378051440340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221378051440343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '7. Operating i911 Abroad
+
+
+    The i911 Service is hosted in the United
+    States and is intended for visitors located
+
+    within the United States. If
+    you choose to use the Service from the European Union or
+
+    other regions of
+    the world with laws governing data collection and use that may differ
+
+    from
+    U.S. law, then please note that you are transferring your Personal Information
+
+    outside
+    of those regions to the United States for storage and processing. Also, we
+
+    may
+    transfer your data from the U.S. to other countries or regions in connection
+    with
+
+    storage and processing of data, fulfilling your requests, and operating
+    the Service. By
+
+    providing any information, including Personal Information,
+    on or to the Service, you
+
+    consent to such transfer, storage, and processing.
+
+    An
+    Emergency Service Provider may choose to use i911 Services outside of the
+
+    United
+    States, for example in the course of an international emergency response.
+
+    While
+    operating i911 outside of the United States, we may transfer personal
+
+    information
+    that we collect in a foreign country back to Emergency Service Providers,
+
+    affiliates,
+    service providers, and other third parties in the United States, unless
+
+    otherwise
+    directed by the Emergency Service Provider.
+
+
+    8. How We Protect Personal
+    Information/Data Security
+
+
+    i911 maintains administrative, technical and
+    physical safeguards designed to protect
+
+    the personal information we maintain
+    against accidental, unlawful or unauthorized
+
+    destruction, loss, alteration,
+    access, disclosure or use. However, we cannot guarantee
+
+    that the measures
+    we maintain will guarantee the security of the personal information.
+
+    Any
+    transmission of personal information to us is completed at your own risk. We
+    also
+
+    cannot guarantee that such information may not be accessed, disclosed,
+    altered, or
+
+    destroyed by breach of any of our physical, technical, or managerial
+    safeguards.
+
+    Although we may allow you to adjust your privacy settings to
+    limit access to certain
+
+    Personal Information, please be aware that no security
+    measures are perfect or
+
+    impenetrable. We are not responsible for circumvention
+    of any privacy settings or
+
+    security measures on the Service. Additionally,
+    we cannot control the actions of other
+
+    Subscribers with whom you may choose
+    to share your information. Further, even after
+
+    information posted on the
+    Service is removed, caching and archiving services may
+
+    have saved that information,
+    and other users or third parties may have copied or
+
+    stored the information
+    available on the Service. We cannot and do not guarantee that
+
+    information
+    you post on or transmit to the Service will not be viewed by unauthorized
+
+    persons.
+    If we learn of a security systems breach, then we may attempt to notify you
+
+    electronically
+    so that you can take appropriate protective steps. We may post a notice
+
+    through
+    the Service if a security breach occurs.
+
+
+    9. Links To Other Websites
+
+
+    For
+    your convenience and information, we may provide links to websites that are not
+
+    owned
+    or operated by i911. These websites may have their own privacy notices or
+
+    policies.
+    i911 is not responsible for the privacy practices of any entity that it does
+    not
+
+    own or control.
+
+
+    10. Updates To Our Privacy Notice
+
+
+    When we
+    update this Privacy Notice, we will notify you of changes deemed material
+
+    under
+    applicable legal requirements by posting a notice on our website through the
+
+    i911
+    Services. We may also notify you of changes in the Privacy Notice in other ways
+
+    in
+    our discretion, such as via email or other contact information you have provided.
+
+    Any
+    changes to this Privacy Notice deemed material under applicable legal
+
+    requirements
+    will be effective thirty (30) calendar days following our posting of notice
+
+    of
+    the changes. Your continued use of the Service after the revised Policy has
+
+    become
+    effective indicates that you have read, understood and agreed to the current
+
+    version
+    of this Policy. We therefore encourage you to review this Privacy Notice from
+
+    time
+    to time to stay informed of how we are using personal information.
+
+
+    11.
+    How To Contact Us
+
+
+    You may contact us with questions or comments about this
+    Privacy Notice or our
+
+    privacy practices or to request access to or correction
+    of your information by
+
+    emailing hello@i911.com.'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2bea68d241121f245a20a0de9ffeb6d1, type: 2}
+  m_sharedMaterial: {fileID: 1475998191449698476, guid: 2bea68d241121f245a20a0de9ffeb6d1,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &3406221378070571344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3406221378070571345}
+  - component: {fileID: 3406221378070571358}
+  - component: {fileID: 3406221378070571359}
+  m_Layer: 5
+  m_Name: ttxt_tos1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3406221378070571345
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221378070571344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3406221377747716048}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 556.5, y: -8105.0103}
+  m_SizeDelta: {x: 947, y: 8596.82}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &3406221378070571358
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221378070571344}
+  m_CullTransparentMesh: 1
+--- !u!114 &3406221378070571359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221378070571344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '1. i911 Service Overview
+
+
+    The i911 Service ("the Service") provides
+    an additional avenue for registered individuals
+
+    to communicate with and
+    receive certain information from participating organizations,
+
+    including
+    but not limited to municipal, local, state, and federal government agencies,
+    first
+
+    responders and military, regarding safety, emergency response services,
+    public health,
+
+    and other services. The features of the Service that are
+    made available to you via the
+
+    Service may vary depending on if you are registered
+    as a Subscriber, Emergency
+
+    Service Provider or User.
+
+
+    2. Eligibility
+
+
+    Users
+    must be at least thirteen (13) years of age to use the Service. By agreeing to
+
+    these
+    Terms, you represent and warrant to us that: (a) you are at least thirteen (13)
+
+    years
+    of age; (b) you have not previously been suspended or removed from the Service;
+
+    and
+    (c) your registration and your use of the Service is in compliance with all applicable
+
+    laws
+    and regulations. If you are using the Service on behalf of an entity, organization,
+    or
+
+    company, you represent and warrant that you have the authority to bind
+    that
+
+    organization or company to these Terms and you agree to be bound by
+    these Terms on
+
+    behalf of that organization.
+
+
+    3. Accounts and Registration
+
+
+    3.1
+    To access most features of the Service, you must register for an account. When
+
+    you
+    register for an account, you may be required to provide us with some information
+
+    about
+    yourself, such as your government e-mail address, phone numbers or other
+
+    contact
+    information. You agree that the information you provide to us is accurate and
+
+    that
+    you will keep it accurate and up-to-date at all times. Your account information
+    will
+
+    also include any other information (which may include personally identifiable
+
+    information
+    or health-related information) that you provide to the Service. When you
+
+    register,
+    you will be asked to provide a password. You are solely responsible for
+
+    maintaining
+    the confidentiality of your account and password. You agree to accept
+
+    responsibility
+    for all activities that occur under your account. If you have reason to
+
+    believe
+    that your account is no longer secure, then you must immediately notify us at
+
+    hello@i911.com.
+
+
+    3.2
+    You understand and accept full legal responsibility for the content, accuracy,
+    and
+
+    sufficiency of all information that you include or do not include as
+    part of your account.
+
+    All information within your account is subject to
+    the i911 Privacy Policy.
+
+
+    3.3 By creating an account, you agree that i911
+    may contact you to validate the phone
+
+    number(s) you register with your account.
+    You also agree that if another individual
+
+    registers and validates a phone
+    number that you had previously registered, the phone
+
+    number will be removed
+    from your account and assigned to the other individual.
+
+
+    3.4 You must confirm,
+    at least once every one (1) year, that the information within your
+
+    account
+    is accurate. Failure to do so may prevent your ability to use the Service.
+
+
+    3.5
+    You agree your account will only include information about adults or children
+    for
+
+    whom you have appropriate legal responsibility or appropriate prior
+    consent, and that
+
+    the account does not infringe or invade the privacy of
+    anyone.
+
+
+    3.6 You understand and agree that you are the only person authorized
+    to create or edit
+
+    your account, unless you have authorized another person
+    to use your username and
+
+    password to enter or modify your account on your
+    behalf. You authorize i911 to release
+
+    any or all of your account information
+    to any person to whom you have provided the
+
+    username and password associated
+    with your account or phone number.
+
+
+    3.7 You further understand that the
+    content of your account may be stored as part of a
+
+    public record associated
+    with an emergency call if required by local statutes. You
+
+    understand and
+    accept that by utilizing the Service, the content of your communications
+
+    including
+    the content of your account will be made available to law enforcement for the
+
+    purposes
+    of litigation, should they request it.
+
+
+    3.8 If you are an Emergency Service
+    Provider or User, you understand and agree and
+
+    hereby authorize i911 to
+    release and disclose necessary User account information to
+
+    Subscribers in
+    connection with the Service, i.e., identification of Emergency Service
+
+    Provider''s
+    agency.
+
+
+    3.9 As part of your account, you may have identified additional
+    contacts or additional
+
+    persons in your household ("Additional Contacts").
+    If you are a Subscriber, you
+
+    understand and agree that i911 or any Emergency
+    Service Providers may, for reasons
+
+    outside their control, be unable to contact
+    or to notify any Additional Contacts in any
+
+    emergency situation. If you
+    are an Emergency Service Provider or User, you
+
+    understand and agree that
+    i911 may, for reasons outside their control, be unable to
+
+    contact or notify
+    any Additional Contacts of any information relating to your use of the
+
+    Service.
+
+
+    3.10
+    When you opt-in to the service as a Subscriber, we will send you an SMS message
+
+    to
+    confirm your signup. You are responsible for any SMS fees.
+
+
+
+    3.11 You can
+    cancel the SMS service at any time. Just text "STOP" to 20911. After
+
+    you
+    send the SMS message "STOP" to us, we will send you an SMS message to
+
+    confirm
+    that you have been unsubscribed. After this, you will no longer receive
+
+    SMS
+    messages from us. If you want to join again, just sign up as you did the first
+
+    time
+    and we will start sending SMS messages to you again.
+
+
+    3.12 If at any time
+    you forget what keywords are supported, just text "HELP" to 20911 .
+
+    After
+    you send the SMS message "HELP" to us, we will respond with instructions on
+
+    how
+    to use our service as well as how to unsubscribe.
+
+
+    3.13 We are able to deliver
+    messages to the following mobile phone carriers: Major
+
+    carriers: AT&T, Verizon
+    Wireless, Sprint, T-Mobile, MetroPCS, U.S. Cellular, Alltel,
+
+    Boost Mobile,
+    Nextel, and Virgin Mobile. Minor carriers: Alaska Communications
+
+    Systems
+    (ACS), Appalachian Wireless (EKN), Bluegrass Cellular, Cellular One of East
+
+    Central
+    IL (ECIT), Cellular One of Northeast Pennsylvania, Cincinnati Bell Wireless,
+
+    Cricket,
+    Coral Wireless (Mobi PCS), COX, Cross, Element Mobile (Flat Wireless), Epic
+
+    Touch
+    (Elkhart Telephone), GCI, Golden State, Hawkeye (Chat Mobility), Hawkeye
+
+    (NW
+    Missouri), Illinois Valley Cellular, Inland Cellular, iWireless (Iowa Wireless),
+
+    Keystone
+    Wireless (Immix Wireless/PC Man), Mosaic (Consolidated or CTC Telecom),
+
+    Nex-Tech
+    Wireless, NTelos, Panhandle Communications, Pioneer, Plateau (Texas
+
+    RSA
+    3 Ltd), Revol, RINA, Simmetry (TMP Corporation), Thumb Cellular, Union
+
+    Wireless,
+    United Wireless, Viaero Wireless, and West Central (WCC or 5 Star
+
+    Wireless).
+    ***Carriers are not liable for delayed or undelivered messages***
+
+
+    3.14
+    You will receive one message at the time of opt-in. i911 does not send recurring
+    or
+
+    promotional messages. If you have any questions about your text plan
+    or data plan, it is
+
+    best to contact your wireless provider. For all questions
+    about the services provided by
+
+    this short code, you can send an email to
+    hello@i911.com.
+
+
+    3.15 If you have any questions regarding privacy, please
+    read our Privacy Policy.
+
+
+    4. Payment
+
+
+    Access to the Service is free
+    and of no-cost to all Emergency Service Providers and
+
+    Subscribers. As always,
+    message and data rates may apply for any messages sent to
+
+    you from us and
+    to us from you.
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 2bea68d241121f245a20a0de9ffeb6d1, type: 2}
+  m_sharedMaterial: {fileID: 1475998191449698476, guid: 2bea68d241121f245a20a0de9ffeb6d1,
+    type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &3406221378297612316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3406221378297612317}
+  - component: {fileID: 3406221378297612312}
+  - component: {fileID: 3406221378297612315}
+  - component: {fileID: 3406221378297612314}
+  m_Layer: 5
+  m_Name: Sv_TOS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &3406221378297612317
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221378297612316}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3406221376452470436}
+  m_Father: {fileID: 3406221377174107961}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 1985.2683}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!222 &3406221378297612312
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221378297612316}
+  m_CullTransparentMesh: 0
+--- !u!114 &3406221378297612315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221378297612316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3e0a756a7b47af943b5fc09ddd082afd, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!114 &3406221378297612314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3406221378297612316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Content: {fileID: 3406221377747716048}
+  m_Horizontal: 0
+  m_Vertical: 1
+  m_MovementType: 1
+  m_Elasticity: 0.1
+  m_Inertia: 1
+  m_DecelerationRate: 0.135
+  m_ScrollSensitivity: 1
+  m_Viewport: {fileID: 3406221376452470436}
+  m_HorizontalScrollbar: {fileID: 0}
+  m_VerticalScrollbar: {fileID: 0}
+  m_HorizontalScrollbarVisibility: 2
+  m_VerticalScrollbarVisibility: 2
+  m_HorizontalScrollbarSpacing: -3
+  m_VerticalScrollbarSpacing: -3
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []

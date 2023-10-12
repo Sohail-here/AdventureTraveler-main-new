@@ -1,0 +1,1148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8236237949473024877
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2736773331362575523}
+  - component: {fileID: 5985143674894695545}
+  m_Layer: 0
+  m_Name: UI v1.2 Login
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2736773331362575523
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8236237949473024877}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5985143674894695545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8236237949473024877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cf80bbe4a3317749ac6e3dc47b289ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  excelDemoData:
+    languages:
+    - label: Sign In or Signup
+      content:
+        english: Sign In or Signup
+        french: "Iniciar sesi?n o registrarse\r"
+        spanish: Connectez-vous ou inscrivez-vous
+    - label: Email
+      content:
+        english: Email
+        french: "Correo Electr?nico\r"
+        spanish: le courriel/E-mail
+    - label: Facebook
+      content:
+        english: Facebook
+        french: "Facebook\r"
+        spanish: Facebook
+    - label: Google
+      content:
+        english: Google
+        french: "Google\r"
+        spanish: Google
+    - label: Apple
+      content:
+        english: Apple
+        french: "Apple\r"
+        spanish: Apple
+    - label: 'By signing in, you agree to Adventure Traveler''s '
+      content:
+        english: 'By signing in, you agree to Adventure Traveler''s '
+        french: "Al registrarse, usted acepta las condiciones de uso y servicios
+          del Adventure Traveler.\r"
+        spanish: En vous connectant, vous acceptez les conditions d'Adventure Traveler's
+    - label: Terms of Use and Services
+      content:
+        english: Terms of Use and Services
+        french: "\r"
+        spanish: Conditions d'utilisation et services
+    - label: 'Email Signin '
+      content:
+        english: 'Email Signin '
+        french: "Iniciar sesi?n con correo\r"
+        spanish: courriel connexion
+    - label: Enter Email
+      content:
+        english: Enter Email
+        french: "Correo Electr?nico\r"
+        spanish: entrer courriel
+    - label: Enter Password
+      content:
+        english: Enter Password
+        french: "Contrase?a\r"
+        spanish: Entrer le mot de passe
+    - label: Forget Password
+      content:
+        english: Forget Password
+        french: "?Olvidaste tu contrase?a?\r"
+        spanish: mot de passe oubli?
+    - label: CREATE ACCOUNT
+      content:
+        english: CREATE ACCOUNT
+        french: "CREAR CUENTA\r"
+        spanish: cr?er un compte
+    - label: SIGN IN
+      content:
+        english: SIGN IN
+        french: "INICIAR SESI?N\r"
+        spanish: Connectez-vous
+    - label: 'Sign in or sign up '
+      content:
+        english: 'Sign in or sign up '
+        french: "Iniciar sesi?n o registrarse\r"
+        spanish: Connectez-vous ou inscrivez-vous
+    - label: Continue with Email
+      content:
+        english: Continue with Email
+        french: "Continuar con su correo electr?nico\r"
+        spanish: continuer avec courriel
+    - label: Continue with Facebook
+      content:
+        english: Continue with Facebook
+        french: "Continuar con Facebook\r"
+        spanish: continuer avec Facebook
+    - label: Continue with Google
+      content:
+        english: Continue with Google
+        french: "Continuar con Google\r"
+        spanish: continuer avec Google
+    - label: Login with Facebook
+      content:
+        english: Login with Facebook
+        french: "Iniciar sesi?n con Facebook\r"
+        spanish: se connecter avec Facebook
+    - label: You previously logged in to Adventure Traveler with Facebook Would you
+        like to continue?
+      content:
+        english: You previously logged in to Adventure Traveler with Facebook Would
+          you like to continue?
+        french: "Tu ultima ingresar lo era con tu cuenta de Facebook\n?Quieres continuar?\r"
+        spanish: Vous vous ?tes d?j? connect? ??l'Adventure?Traveler?avec Facebook,
+          Voulez-vous continuer?
+    - label: Incorrect login
+      content:
+        english: Incorrect login
+        french: "Inicio de sesi?n fallido\r"
+        spanish: connexion incorrect
+    - label: 'We were unable to login with the email and password you have provided.
+        Please try again. '
+      content:
+        english: 'We were unable to login with the email and password you have provided.
+          Please try again. '
+        french: "Nos hemos podido iniciar la sesi?n con esa correo electr?nico o
+          contrase?a. Por favor, int?ntelo de nuevo.\r"
+        spanish: Nous n'avons pas pu nous connecter avec le courriel?et le mot de
+          passe que vous avez fournis. Veuillez r?essayer.
+    - label: Back
+      content:
+        english: Back
+        french: "Atr?s\r"
+        spanish: Arri?re
+    - label: 'Create Account
+
+        Input name'
+      content:
+        english: 'Create Account
+
+          Input name'
+        french: "Crear Cuenta.       \r"
+        spanish: cr?er un compte, nom d'entr?e
+    - label: Enter User Name
+      content:
+        english: Enter User Name
+        french: "Introduzca un nombre de usuario\r"
+        spanish: Entrez votre nom d'utilisateur
+    - label: 'Enter First Name '
+      content:
+        english: 'Enter First Name '
+        french: "Introduzca su nombre\r"
+        spanish: Entrez votre pr?nom
+    - label: 'Enter Last Name '
+      content:
+        english: 'Enter Last Name '
+        french: "Introduzca su apellido\r"
+        spanish: Entrer le nom de famille
+    - label: "By clicking \uFFFD\uFFFDContinue\uFFFD\uFFFD I agree with Adventure
+        Traveler\uFFFD\uFFFDs "
+      content:
+        english: "By clicking \uFFFD\uFFFDContinue\uFFFD\uFFFD I agree with Adventure
+          Traveler\uFFFD\uFFFDs "
+        french: "Al hacer clic en \"Continuar\" estoy de acuerdo con Adventure Traveler's
+          condiciones de uso y servicios\r"
+        spanish: En cliquant sur "Continuer", je suis d'accord avec Adventure Traveler's
+    - label: Continue
+      content:
+        english: Continue
+        french: "Continuar\r"
+        spanish: Continuez
+    - label: Field Entry
+      content:
+        english: Field Entry
+        french: "El Campo de Entrada\r"
+        spanish: Entr?e de champ
+    - label: Please complete entry on all fields to continue
+      content:
+        english: Please complete entry on all fields to continue
+        french: "Por favor, rellene todos los campos para continuar\r"
+        spanish: Veuillez remplir tous les champs pour continuer
+    - label: Create Account
+      content:
+        english: Create Account
+        french: "Crear Cuenta\r"
+        spanish: cr?er un compt
+    - label: Email and Password
+      content:
+        english: Email and Password
+        french: "Correo electr?nico y Contrase?a\r"
+        spanish: couriel et mot de passe
+    - label: Re-Enter Email Address
+      content:
+        english: Re-Enter Email Address
+        french: "Confirmar su correo electr?nico\r"
+        spanish: Rentrer le courriel
+    - label: Re-Enter Password
+      content:
+        english: Re-Enter Password
+        french: "Confirmar la Contrase?a\r"
+        spanish: 
+    - label: 'Please enter a password with at least:
+
+        1 Capital letter
+
+        8
+        Character long
+
+        1 Number'
+      content:
+        english: 'Please enter a password with at least:
+
+          1 Capital letter
+
+          8
+          Character long
+
+          1 Number'
+        french: "Por favor, introduzca una contrase?a con al menos:\n\n1 Letra May?scula\n8
+          Caracteres\n1 N?mero\r"
+        spanish: Veuillez entrer un mot de passe avec au moins?:1 lettre majuscule,
+          8 caract?res longs, 1 num?ro
+    - label: Please Verify Email
+      content:
+        english: Please Verify Email
+        french: "Confirmar su  Correo Electr?nico\r"
+        spanish: Veuillez v?rifier le courriel
+    - label: 'A verfication link has been sent to your email
+
+
+        Please active
+        the validation link to continue account creation'
+      content:
+        english: 'A verfication link has been sent to your email
+
+
+          Please
+          active the validation link to continue account creation'
+        french: "Se ha enviado un enlace de verificaci?n a su correo electr?nico\n\nPor
+          favor, active el enlace de validaci?n para continuar con la creaci?n de
+          su cuenta\r"
+        spanish: Un lien de v?rification a ?t? envoy? ? votre e-mail, Veuillez activer
+          le lien de validation pour continuer la cr?ation du compte
+    - label: RESEND LINK
+      content:
+        english: RESEND LINK
+        french: "REENVIAR ENLACE\r"
+        spanish: RENVOYER LE LIEN
+    - label: Link Accounts
+      content:
+        english: Link Accounts
+        french: "Vincular sus cuentas\r"
+        spanish: Lier des comptes
+    - label: "The email \uFFFD\uFFFD\uFFFD\uFFFD is already in our system. \n\nWould
+        you like to link your [Facebook / Apple ID/ Gmail] login with this pre-exsisting
+        Adventure Traveler account? "
+      content:
+        english: "The email \uFFFD\uFFFD\uFFFD\uFFFD is already in our system. \n\nWould
+          you like to link your [Facebook / Apple ID/ Gmail] login with this pre-exsisting
+          Adventure Traveler account? "
+        french: "Tu correo electr?nico ya est? en nuestra sistema. \n\nDesea vincular
+          su [Facebook / Apple ID/ Gmail] cuenta con esta cuenta de Adventure Traveler?\r"
+        spanish: 'le courriel est d?j? dans notre syst?me.
+
+
+          Souhaitez-vous
+          associer votre connexion [Facebook / Apple ID / Gmail] ? ce compte Adventure
+          Traveler pr?existant ?'
+    - label: Cancel
+      content:
+        english: Cancel
+        french: "Cancelar\r"
+        spanish: Annuler
+    - label: 'Account Detail '
+      content:
+        english: 'Account Detail '
+        french: "Detalles de cuenta\r"
+        spanish: D?tails du compte
+    - label: Enter user name
+      content:
+        english: Enter user name
+        french: "Introduzca un nombre de usuario\r"
+        spanish: Entrez votre nom d'utilisateur
+    - label: Enter first name
+      content:
+        english: Enter first name
+        french: "Introduzca su nombre\r"
+        spanish: Entrez votre pr?nom
+    - label: Enter last name
+      content:
+        english: Enter last name
+        french: "Introduzca su apellido\r"
+        spanish: Entrer le nom de famille
+    - label: Re-Enter Email
+      content:
+        english: Re-Enter Email
+        french: "Confirmar tu Correo Electr?nico\r"
+        spanish: Rentrer le courriel
+    - label: Medical Information
+      content:
+        english: Medical Information
+        french: "Informaci?n M?dica\r"
+        spanish: Information m?dicale
+    - label: Date of Birth
+      content:
+        english: Date of Birth
+        french: "Fecha de nacimiento\r"
+        spanish: Jeu De Naissance
+    - label: e.g 06/29/1998
+      content:
+        english: e.g 06/29/1998
+        french: "p.ej. 06/29/1998\r"
+        spanish: 
+    - label: Gender
+      content:
+        english: Gender
+        french: "G?nero\r"
+        spanish: le sexe
+    - label: Select gender
+      content:
+        english: Select gender
+        french: "Selecciona G?nero\r"
+        spanish: s?lectionnez le sexe
+    - label: Height
+      content:
+        english: Height
+        french: "Estatura\r"
+        spanish: la taille
+    - label: Input height
+      content:
+        english: Input height
+        french: "Introduzca Estatura\r"
+        spanish: hauteur d'entr?e
+    - label: Weight
+      content:
+        english: Weight
+        french: "Peso\r"
+        spanish: Poids
+    - label: Input weight
+      content:
+        english: Input weight
+        french: "Introduzca Peso\r"
+        spanish: poids d'entr?e
+    - label: Blood Type
+      content:
+        english: Blood Type
+        french: "Grupo Sangu?neo\r"
+        spanish: Groupe sanguin
+    - label: e.g Negative O
+      content:
+        english: e.g Negative O
+        french: "p. ej. A, B, AB, O\r"
+        spanish: par exemple O n?gatif
+    - label: Contact Number
+      content:
+        english: Contact Number
+        french: "N?mero de Contacto\r"
+        spanish: Num?ro de contact
+    - label: e.g 213-398-8541
+      content:
+        english: e.g 213-398-8541
+        french: "p. ej. 213-398-8541\r"
+        spanish: 
+    - label: ' Enter Medical Allergies'
+      content:
+        english: ' Enter Medical Allergies'
+        french: "Introduzca sus alergias\r"
+        spanish: entrer les allergies m?dicales
+    - label: "Input any medical allergies you\uFFFD\uFFFDve had in the past"
+      content:
+        english: "Input any medical allergies you\uFFFD\uFFFDve had in the past"
+        french: "Introduzca cualquier alergias que haya tenido en el pasado\r"
+        spanish: Entrez toutes les allergies m?dicales que vous avez eues dans le
+          pass?
+    - label: List Medical Conditions. If any.
+      content:
+        english: List Medical Conditions. If any.
+        french: "Inscribir todas tus condiciones m?dicas, si las hay\r"
+        spanish: '
+
+          ?num?rez les conditions m?dicales. Si seulement.'
+    - label: "Input any medical conditions you\uFFFD\uFFFDve had in the past"
+      content:
+        english: "Input any medical conditions you\uFFFD\uFFFDve had in the past"
+        french: "Introduzca cualquier condiciones m?dicas que haya tenido en el pasado\r"
+        spanish: '
+
+          Entrez toutes les conditions m?dicales que vous avez
+          eues dans le pass?'
+    - label: Additional Notes
+      content:
+        english: Additional Notes
+        french: "Notas Adicionales\r"
+        spanish: Notes compl?mentaires
+    - label: "Input any additional medical notes that you\uFFFD\uFFFDd like us to
+        know"
+      content:
+        english: "Input any additional medical notes that you\uFFFD\uFFFDd like us
+          to know"
+        french: "Introduzca cualquier notas m?dica adicional que desee que conozcamos\r"
+        spanish: Saisissez toutes les notes m?dicales suppl?mentaires que vous souhaitez
+          que nous sachions
+    - label: "By clicking \uFFFD\uFFFDFinish Signup\uFFFD\uFFFD I agree with Adventure
+        Traveler\uFFFD\uFFFDs "
+      content:
+        english: "By clicking \uFFFD\uFFFDFinish Signup\uFFFD\uFFFD I agree with
+          Adventure Traveler\uFFFD\uFFFDs "
+        french: "Al hacer clic en \"Finalizar el Registro\", acepto las condiciones
+          de uso y servicios de Adventure Traveler\r"
+        spanish: En cliquant sur "Terminer l'inscription", je suis d'accord avec
+          Adventure Traveler's
+    - label: LOAD MORE
+      content:
+        english: LOAD MORE
+        french: "Cargar m?s\r"
+        spanish: CHARGER PLUS
+    - label: FINISH SIGNUP
+      content:
+        english: FINISH SIGNUP
+        french: "COMPLETAR REGISTRO\r"
+        spanish: TERMINER L'INSCRIPTION
+    - label: Retrieve Password
+      content:
+        english: Retrieve Password
+        french: "Recuperar contrase?a \r"
+        spanish: R?cup?rer mot de passe
+    - label: Enter Email Address
+      content:
+        english: Enter Email Address
+        french: "Introduzca el Correo Electr?nico\r"
+        spanish: entrer courriel
+    - label: For password update please enter an email address that is registered
+        to the account you are trying to update
+      content:
+        english: For password update please enter an email address that is registered
+          to the account you are trying to update
+        french: "Para actualizar la contrase?a, introduzca el correo electr?nico
+          lo que est? registrada en la cuenta que est? intentando actualizar\r"
+        spanish: Pour la mise ? jour du mot de passe, veuillez entrer une adresse
+          e-mail enregistr?e sur le compte que vous essayez de mettre ? jour
+    - label: UPDATE PASSWORD
+      content:
+        english: UPDATE PASSWORD
+        french: "ACTUALIZAR CONTRASE?A\r"
+        spanish: METTRE ? JOUR LE MOT DE PASSE
+    - label: Enter new password
+      content:
+        english: Enter new password
+        french: "Introducir nueva contrase?a\r"
+        spanish: Entrez un nouveau mot de passe
+  languageUnits:
+  - label: Sign In or Signup
+    content:
+      english: Sign In or Signup
+      french: "Iniciar sesi?n o registrarse\r"
+      spanish: Connectez-vous ou inscrivez-vous
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Email
+    content:
+      english: Email
+      french: "Correo Electr?nico\r"
+      spanish: le courriel/E-mail
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Facebook
+    content:
+      english: Facebook
+      french: "Facebook\r"
+      spanish: Facebook
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Google
+    content:
+      english: Google
+      french: "Google\r"
+      spanish: Google
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Apple
+    content:
+      english: Apple
+      french: "Apple\r"
+      spanish: Apple
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: 'By signing in, you agree to Adventure Traveler''s '
+    content:
+      english: 'By signing in, you agree to Adventure Traveler''s '
+      french: "Al registrarse, usted acepta las condiciones de uso y servicios del
+        Adventure Traveler.\r"
+      spanish: En vous connectant, vous acceptez les conditions d'Adventure Traveler's
+    unitText: []
+    unitTextMesh: []
+  - label: Terms of Use and Services
+    content:
+      english: Terms of Use and Services
+      french: "\r"
+      spanish: Conditions d'utilisation et services
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: 'Email Signin '
+    content:
+      english: 'Email Signin '
+      french: "Iniciar sesi?n con correo\r"
+      spanish: courriel connexion
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Enter Email
+    content:
+      english: Enter Email
+      french: "Correo Electr?nico\r"
+      spanish: entrer courriel
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Enter Password
+    content:
+      english: Enter Password
+      french: "Contrase?a\r"
+      spanish: Entrer le mot de passe
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Forget Password
+    content:
+      english: Forget Password
+      french: "?Olvidaste tu contrase?a?\r"
+      spanish: mot de passe oubli?
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: CREATE ACCOUNT
+    content:
+      english: CREATE ACCOUNT
+      french: "CREAR CUENTA\r"
+      spanish: cr?er un compte
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: SIGN IN
+    content:
+      english: SIGN IN
+      french: "INICIAR SESI?N\r"
+      spanish: Connectez-vous
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: 'Sign in or sign up '
+    content:
+      english: 'Sign in or sign up '
+      french: "Iniciar sesi?n o registrarse\r"
+      spanish: Connectez-vous ou inscrivez-vous
+    unitText: []
+    unitTextMesh: []
+  - label: Continue with Email
+    content:
+      english: Continue with Email
+      french: "Continuar con su correo electr?nico\r"
+      spanish: continuer avec courriel
+    unitText: []
+    unitTextMesh: []
+  - label: Continue with Facebook
+    content:
+      english: Continue with Facebook
+      french: "Continuar con Facebook\r"
+      spanish: continuer avec Facebook
+    unitText: []
+    unitTextMesh: []
+  - label: Continue with Google
+    content:
+      english: Continue with Google
+      french: "Continuar con Google\r"
+      spanish: continuer avec Google
+    unitText: []
+    unitTextMesh: []
+  - label: Login with Facebook
+    content:
+      english: Login with Facebook
+      french: "Iniciar sesi?n con Facebook\r"
+      spanish: se connecter avec Facebook
+    unitText: []
+    unitTextMesh: []
+  - label: You previously logged in to Adventure Traveler with Facebook Would you
+      like to continue?
+    content:
+      english: You previously logged in to Adventure Traveler with Facebook Would
+        you like to continue?
+      french: "Tu ultima ingresar lo era con tu cuenta de Facebook\n?Quieres continuar?\r"
+      spanish: Vous vous ?tes d?j? connect? ??l'Adventure?Traveler?avec Facebook,
+        Voulez-vous continuer?
+    unitText: []
+    unitTextMesh: []
+  - label: Incorrect login
+    content:
+      english: Incorrect login
+      french: "Inicio de sesi?n fallido\r"
+      spanish: connexion incorrect
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: 'We were unable to login with the email and password you have provided.
+      Please try again. '
+    content:
+      english: 'We were unable to login with the email and password you have provided.
+        Please try again. '
+      french: "Nos hemos podido iniciar la sesi?n con esa correo electr?nico o contrase?a.
+        Por favor, int?ntelo de nuevo.\r"
+      spanish: Nous n'avons pas pu nous connecter avec le courriel?et le mot de passe
+        que vous avez fournis. Veuillez r?essayer.
+    unitText: []
+    unitTextMesh: []
+  - label: Back
+    content:
+      english: Back
+      french: "Atr?s\r"
+      spanish: Arri?re
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: 'Create Account
+
+      Input name'
+    content:
+      english: 'Create Account
+
+        Input name'
+      french: "Crear Cuenta.       \r"
+      spanish: cr?er un compte, nom d'entr?e
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Enter User Name
+    content:
+      english: Enter User Name
+      french: "Introduzca un nombre de usuario\r"
+      spanish: Entrez votre nom d'utilisateur
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: 'Enter First Name '
+    content:
+      english: 'Enter First Name '
+      french: "Introduzca su nombre\r"
+      spanish: Entrez votre pr?nom
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: 'Enter Last Name '
+    content:
+      english: 'Enter Last Name '
+      french: "Introduzca su apellido\r"
+      spanish: Entrer le nom de famille
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: "By clicking \uFFFD\uFFFDContinue\uFFFD\uFFFD I agree with Adventure Traveler\uFFFD\uFFFDs "
+    content:
+      english: "By clicking \uFFFD\uFFFDContinue\uFFFD\uFFFD I agree with Adventure
+        Traveler\uFFFD\uFFFDs "
+      french: "Al hacer clic en \"Continuar\" estoy de acuerdo con Adventure Traveler's
+        condiciones de uso y servicios\r"
+      spanish: En cliquant sur "Continuer", je suis d'accord avec Adventure Traveler's
+    unitText: []
+    unitTextMesh: []
+  - label: Continue
+    content:
+      english: Continue
+      french: "Continuar\r"
+      spanish: Continuez
+    unitText: []
+    unitTextMesh: []
+  - label: Field Entry
+    content:
+      english: Field Entry
+      french: "El Campo de Entrada\r"
+      spanish: Entr?e de champ
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Please complete entry on all fields to continue
+    content:
+      english: Please complete entry on all fields to continue
+      french: "Por favor, rellene todos los campos para continuar\r"
+      spanish: Veuillez remplir tous les champs pour continuer
+    unitText: []
+    unitTextMesh: []
+  - label: Create Account
+    content:
+      english: Create Account
+      french: "Crear Cuenta\r"
+      spanish: cr?er un compt
+    unitText: []
+    unitTextMesh: []
+  - label: Email and Password
+    content:
+      english: Email and Password
+      french: "Correo electr?nico y Contrase?a\r"
+      spanish: couriel et mot de passe
+    unitText: []
+    unitTextMesh: []
+  - label: Re-Enter Email Address
+    content:
+      english: Re-Enter Email Address
+      french: "Confirmar su correo electr?nico\r"
+      spanish: Rentrer le courriel
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Re-Enter Password
+    content:
+      english: Re-Enter Password
+      french: "Confirmar la Contrase?a\r"
+      spanish: 
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: 'Please enter a password with at least:
+
+      1 Capital letter
+
+      8
+      Character long
+
+      1 Number'
+    content:
+      english: 'Please enter a password with at least:
+
+        1 Capital letter
+
+        8
+        Character long
+
+        1 Number'
+      french: "Por favor, introduzca una contrase?a con al menos:\n\n1 Letra May?scula\n8
+        Caracteres\n1 N?mero\r"
+      spanish: Veuillez entrer un mot de passe avec au moins?:1 lettre majuscule,
+        8 caract?res longs, 1 num?ro
+    unitText:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Please Verify Email
+    content:
+      english: Please Verify Email
+      french: "Confirmar su  Correo Electr?nico\r"
+      spanish: Veuillez v?rifier le courriel
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: 'A verfication link has been sent to your email
+
+
+      Please active
+      the validation link to continue account creation'
+    content:
+      english: 'A verfication link has been sent to your email
+
+
+        Please active
+        the validation link to continue account creation'
+      french: "Se ha enviado un enlace de verificaci?n a su correo electr?nico\n\nPor
+        favor, active el enlace de validaci?n para continuar con la creaci?n de su
+        cuenta\r"
+      spanish: Un lien de v?rification a ?t? envoy? ? votre e-mail, Veuillez activer
+        le lien de validation pour continuer la cr?ation du compte
+    unitText: []
+    unitTextMesh: []
+  - label: RESEND LINK
+    content:
+      english: RESEND LINK
+      french: "REENVIAR ENLACE\r"
+      spanish: RENVOYER LE LIEN
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Link Accounts
+    content:
+      english: Link Accounts
+      french: "Vincular sus cuentas\r"
+      spanish: Lier des comptes
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: "The email \uFFFD\uFFFD\uFFFD\uFFFD is already in our system. \n\nWould
+      you like to link your [Facebook / Apple ID/ Gmail] login with this pre-exsisting
+      Adventure Traveler account? "
+    content:
+      english: "The email \uFFFD\uFFFD\uFFFD\uFFFD is already in our system. \n\nWould
+        you like to link your [Facebook / Apple ID/ Gmail] login with this pre-exsisting
+        Adventure Traveler account? "
+      french: "Tu correo electr?nico ya est? en nuestra sistema. \n\nDesea vincular
+        su [Facebook / Apple ID/ Gmail] cuenta con esta cuenta de Adventure Traveler?\r"
+      spanish: 'le courriel est d?j? dans notre syst?me.
+
+
+        Souhaitez-vous
+        associer votre connexion [Facebook / Apple ID / Gmail] ? ce compte Adventure
+        Traveler pr?existant ?'
+    unitText: []
+    unitTextMesh: []
+  - label: Cancel
+    content:
+      english: Cancel
+      french: "Cancelar\r"
+      spanish: Annuler
+    unitText: []
+    unitTextMesh: []
+  - label: 'Account Detail '
+    content:
+      english: 'Account Detail '
+      french: "Detalles de cuenta\r"
+      spanish: D?tails du compte
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Enter user name
+    content:
+      english: Enter user name
+      french: "Introduzca un nombre de usuario\r"
+      spanish: Entrez votre nom d'utilisateur
+    unitText: []
+    unitTextMesh: []
+  - label: Enter first name
+    content:
+      english: Enter first name
+      french: "Introduzca su nombre\r"
+      spanish: Entrez votre pr?nom
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Enter last name
+    content:
+      english: Enter last name
+      french: "Introduzca su apellido\r"
+      spanish: Entrer le nom de famille
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Re-Enter Email
+    content:
+      english: Re-Enter Email
+      french: "Confirmar tu Correo Electr?nico\r"
+      spanish: Rentrer le courriel
+    unitText: []
+    unitTextMesh: []
+  - label: Medical Information
+    content:
+      english: Medical Information
+      french: "Informaci?n M?dica\r"
+      spanish: Information m?dicale
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Date of Birth
+    content:
+      english: Date of Birth
+      french: "Fecha de nacimiento\r"
+      spanish: Jeu De Naissance
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: e.g 06/29/1998
+    content:
+      english: e.g 06/29/1998
+      french: "p.ej. 06/29/1998\r"
+      spanish: 
+    unitText:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    unitTextMesh: []
+  - label: Gender
+    content:
+      english: Gender
+      french: "G?nero\r"
+      spanish: le sexe
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Select gender
+    content:
+      english: Select gender
+      french: "Selecciona G?nero\r"
+      spanish: s?lectionnez le sexe
+    unitText: []
+    unitTextMesh: []
+  - label: Height
+    content:
+      english: Height
+      french: "Estatura\r"
+      spanish: la taille
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Input height
+    content:
+      english: Input height
+      french: "Introduzca Estatura\r"
+      spanish: hauteur d'entr?e
+    unitText: []
+    unitTextMesh: []
+  - label: Weight
+    content:
+      english: Weight
+      french: "Peso\r"
+      spanish: Poids
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Input weight
+    content:
+      english: Input weight
+      french: "Introduzca Peso\r"
+      spanish: poids d'entr?e
+    unitText: []
+    unitTextMesh: []
+  - label: Blood Type
+    content:
+      english: Blood Type
+      french: "Grupo Sangu?neo\r"
+      spanish: Groupe sanguin
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: e.g Negative O
+    content:
+      english: e.g Negative O
+      french: "p. ej. A, B, AB, O\r"
+      spanish: par exemple O n?gatif
+    unitText: []
+    unitTextMesh: []
+  - label: Contact Number
+    content:
+      english: Contact Number
+      french: "N?mero de Contacto\r"
+      spanish: Num?ro de contact
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: e.g 213-398-8541
+    content:
+      english: e.g 213-398-8541
+      french: "p. ej. 213-398-8541\r"
+      spanish: 
+    unitText:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    unitTextMesh: []
+  - label: ' Enter Medical Allergies'
+    content:
+      english: ' Enter Medical Allergies'
+      french: "Introduzca sus alergias\r"
+      spanish: entrer les allergies m?dicales
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: "Input any medical allergies you\uFFFD\uFFFDve had in the past"
+    content:
+      english: "Input any medical allergies you\uFFFD\uFFFDve had in the past"
+      french: "Introduzca cualquier alergias que haya tenido en el pasado\r"
+      spanish: Entrez toutes les allergies m?dicales que vous avez eues dans le pass?
+    unitText: []
+    unitTextMesh: []
+  - label: List Medical Conditions. If any.
+    content:
+      english: List Medical Conditions. If any.
+      french: "Inscribir todas tus condiciones m?dicas, si las hay\r"
+      spanish: '
+
+        ?num?rez les conditions m?dicales. Si seulement.'
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: "Input any medical conditions you\uFFFD\uFFFDve had in the past"
+    content:
+      english: "Input any medical conditions you\uFFFD\uFFFDve had in the past"
+      french: "Introduzca cualquier condiciones m?dicas que haya tenido en el pasado\r"
+      spanish: '
+
+        Entrez toutes les conditions m?dicales que vous avez eues
+        dans le pass?'
+    unitText: []
+    unitTextMesh: []
+  - label: Additional Notes
+    content:
+      english: Additional Notes
+      french: "Notas Adicionales\r"
+      spanish: Notes compl?mentaires
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: "Input any additional medical notes that you\uFFFD\uFFFDd like us to know"
+    content:
+      english: "Input any additional medical notes that you\uFFFD\uFFFDd like us
+        to know"
+      french: "Introduzca cualquier notas m?dica adicional que desee que conozcamos\r"
+      spanish: Saisissez toutes les notes m?dicales suppl?mentaires que vous souhaitez
+        que nous sachions
+    unitText: []
+    unitTextMesh: []
+  - label: "By clicking \uFFFD\uFFFDFinish Signup\uFFFD\uFFFD I agree with Adventure
+      Traveler\uFFFD\uFFFDs "
+    content:
+      english: "By clicking \uFFFD\uFFFDFinish Signup\uFFFD\uFFFD I agree with Adventure
+        Traveler\uFFFD\uFFFDs "
+      french: "Al hacer clic en \"Finalizar el Registro\", acepto las condiciones
+        de uso y servicios de Adventure Traveler\r"
+      spanish: En cliquant sur "Terminer l'inscription", je suis d'accord avec Adventure
+        Traveler's
+    unitText: []
+    unitTextMesh: []
+  - label: LOAD MORE
+    content:
+      english: LOAD MORE
+      french: "Cargar m?s\r"
+      spanish: CHARGER PLUS
+    unitText: []
+    unitTextMesh: []
+  - label: FINISH SIGNUP
+    content:
+      english: FINISH SIGNUP
+      french: "COMPLETAR REGISTRO\r"
+      spanish: TERMINER L'INSCRIPTION
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  - label: Retrieve Password
+    content:
+      english: Retrieve Password
+      french: "Recuperar contrase?a \r"
+      spanish: R?cup?rer mot de passe
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Enter Email Address
+    content:
+      english: Enter Email Address
+      french: "Introduzca el Correo Electr?nico\r"
+      spanish: entrer courriel
+    unitText: []
+    unitTextMesh: []
+  - label: For password update please enter an email address that is registered to
+      the account you are trying to update
+    content:
+      english: For password update please enter an email address that is registered
+        to the account you are trying to update
+      french: "Para actualizar la contrase?a, introduzca el correo electr?nico lo
+        que est? registrada en la cuenta que est? intentando actualizar\r"
+      spanish: Pour la mise ? jour du mot de passe, veuillez entrer une adresse e-mail
+        enregistr?e sur le compte que vous essayez de mettre ? jour
+    unitText: []
+    unitTextMesh: []
+  - label: UPDATE PASSWORD
+    content:
+      english: UPDATE PASSWORD
+      french: "ACTUALIZAR CONTRASE?A\r"
+      spanish: METTRE ? JOUR LE MOT DE PASSE
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+    - {fileID: 0}
+  - label: Enter new password
+    content:
+      english: Enter new password
+      french: "Introducir nueva contrase?a\r"
+      spanish: Entrez un nouveau mot de passe
+    unitText: []
+    unitTextMesh:
+    - {fileID: 0}
+  OnLanguageSetting:
+    m_PersistentCalls:
+      m_Calls: []

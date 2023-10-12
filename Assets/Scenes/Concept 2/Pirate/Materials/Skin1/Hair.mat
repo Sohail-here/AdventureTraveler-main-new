@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hair
+  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: _METALLICGLOSSMAP _PARALLAXMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaClip:
+        m_Texture: {fileID: 2800000, guid: 01ed1ff6d22a77746bf10f8c757767c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorTex:
+        m_Texture: {fileID: 2800000, guid: 7e72d83c44826954a8155b1cc0878182, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 2800000, guid: 7e106577ecb547449a09707bc073c8de, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HairToneVariation:
+        m_Texture: {fileID: 2800000, guid: 7e106577ecb547449a09707bc073c8de, type: 3}
+        m_Scale: {x: 0, y: 0}
+        m_Offset: {x: 0, y: 0}
+    - _HairsNormal:
+        m_Texture: {fileID: 2800000, guid: d66749308f3c990468939087f389255f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 01ed1ff6d22a77746bf10f8c757767c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 2800000, guid: 7e106577ecb547449a09707bc073c8de, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 2800000, guid: 588e2adfcd700a4498f9bc9b1ff2400b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - PixelSnap: 0
+    - _AO: 2.4
+    - _BaseLight: 0.35
+    - _BumpScale: 1
+    - _Cutoff: 0.15
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EnableExternalAlpha: 0
+    - _FastSlow: 150
+    - _GlossMapScale: 0
+    - _Gloss_Variation: 0.5
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _HairSpecCol_Mixing: 1.25
+    - _InvFade: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _MotionAmount: 0.01
+    - _Occlusion: 7.5
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Shininess: 0.078125
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SquashAmount: 1
+    - _SrcBlend: 1
+    - _TipAmount: 0.79
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColorGloss: {r: 0.3207547, g: 0.06976999, b: 0.0257209, a: 1}
+    - _Color: {r: 0.5283019, g: 0.26126832, b: 0.116625115, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _NormalShift: {r: 0, g: 0.5, b: 0, a: 0}
+    - _ShineColor_ToneBoost: {r: 0.8207547, g: 0.41703877, b: 0.10453009, a: 1}
+    - _ShineColor_ToneBost: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _TipColor_Mix: {r: 0.735849, g: 0.22562897, b: 0.05206478, a: 1}
+    - _Tip_Color: {r: 0.8018868, g: 0.39148718, b: 0.21560162, a: 0.5}
+    - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

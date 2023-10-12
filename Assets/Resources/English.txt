@@ -1,0 +1,36 @@
+Record:Record
+Home:Home
+Activity:Activity
+Goals:Goals
+Account:Account
+Type of Adventure:Type of Adventure
+Please choose the type of adventure you will be doing:Please choose the type of adventure you will be doing
+Select Activity:Select Activity
+Done:Done
+Cycling:Cycling
+Hiking:Hiking
+Walking:Walking
+Boating:Boating
+Canoeing:Canoeing
+Kayaking:Kayaking
+E-biking:E-biking
+Fishing:Fishing
+Golfing:Golfing
+Skiing:Skiing
+Ice Skating:Ice Skating
+Jetskiing:Jetskiing
+Mountain Biking:Mountain Biking
+Rowing:Rowing
+Sailing:Sailing
+Surfing:Surfing
+Swiming:Swiming
+Walking:Walking
+Snow Boarding:Snow Boarding
+Paddle Boarding:Paddle Boarding
+Other:Other
+Share journey:Share journey
+Duration:Duration
+Miles:Miles
+Finish Journey:Finish Journey
+Capture:Capture
+Take a water break and start again:Take a water break and start again

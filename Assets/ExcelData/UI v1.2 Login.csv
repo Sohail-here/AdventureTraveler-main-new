@@ -1,0 +1,97 @@
+﻿Default(English),French,Spanish
+Sign In or Signup,Connectez-vous ou inscrivez-vous,Iniciar sesión o registrarse
+Email,le courriel/E-mail,Correo Electrónico
+Facebook,Facebook,Facebook
+Google,Google,Google
+Apple,Apple,Apple
+"By signing in, you agree to Adventure Traveler's ","En vous connectant, vous acceptez les conditions d'Adventure Traveler's","Al registrarse, usted acepta las condiciones de uso y servicios del Adventure Traveler."
+Terms of Use and Services,Conditions d'utilisation et services,Condiciones de uso y servicios
+Email Signin ,courriel connexion,Iniciar sesión con correo
+Enter Email,entrer courriel,Correo Electrónico
+Enter Password,Entrer le mot de passe,Contraseña
+Forget Password,mot de passe oubli?,¿Olvidaste tu contraseña?
+CREATE ACCOUNT,cr?er un compte,CREAR CUENTA
+SIGN IN,Connectez-vous,INICIAR SESIÓN
+Sign in or sign up ,Connectez-vous ou inscrivez-vous,Iniciar sesión o registrarse
+Continue with Email,continuer avec courriel,Continuar con su correo electrónico
+Continue with Facebook,continuer avec Facebook,Continuar con Facebook
+Continue with Google,continuer avec Google,Continuar con Google
+Login with Facebook,se connecter avec Facebook,Iniciar sesión con Facebook
+You previously logged in to Adventure Traveler with Facebook Would you like to continue?,"Vous vous êtes déjà connecté à l'Adventure Traveler avec Facebook, Voulez-vous continuer?","Tu ultima ingresar lo era con tu cuenta de Facebook
+?Quieres continuar?"
+Incorrect login,connexion incorrect,Inicio de sesión fallido
+We were unable to login with the email and password you have provided. Please try again. ,Nous n'avons pas pu nous connecter avec le courriel et le mot de passe que vous avez fournis. Veuillez réessayer.,"Nos hemos podido iniciar la sesión con esa correo electrónico o contraseña. Por favor, inténtelo de nuevo."
+Back,Arrière,Atrás
+"Create Account
+Input name","créer un compte, nom d'entrée",Crear Cuenta.       
+Enter User Name,Entrez votre nom d'utilisateur,Introduzca un nombre de usuario
+Enter First Name ,Entrez votre prénom,Introduzca su nombre
+Enter Last Name ,Entrer le nom de famille,Introduzca su apellido
+"By clicking ""Continue"" I agree with Adventure Traveler’s ","En cliquant sur ""Continuer"", je suis d'accord avec Adventure Traveler's","Al hacer clic en ""Continuar"" estoy de acuerdo con Adventure Traveler's condiciones de uso y servicios"
+Continue,Continuez,Continuar
+Field Entry,Entrée de champ,El Campo de Entrada
+Please complete entry on all fields to continue,Veuillez remplir tous les champs pour continuer,"Por favor, rellene todos los campos para continuar"
+Email and Password,couriel et mot de passe,Correo electrónico y Contraseña
+Re-Enter Email Address,Rentrer le courriel,Confirmar su correo electrónico
+Re-Enter Password,,Confirmar la Contraseña
+"Please enter a password with at least:
+1 Capital letter
+8 Character long
+1 Number","Veuillez entrer un mot de passe avec au moins :
+1 lettre majuscule
+8 caractères longs
+1 numéro","Por favor, introduzca una contraseña con al menos:
+1 Letra Mayúscula
+8 Caracteres
+1 Número"
+Please Verify Email,Veuillez vérifier le courriel,Confirmar su  Correo Electrónico
+"A verfication link has been sent to your email
+
+Please active the validation link to continue account creation","Un lien de vérification a été envoyé à votre e-mail
+
+Veuillez activer le lien de validation pour continuer la création du compte","Se ha enviado un enlace de verificación a su correo electrónico
+
+Por favor, active el enlace de validación para continuar con la creación de su cuenta"
+RESEND LINK,RENVOYER LE LIEN,REENVIAR ENLACE
+Link Accounts,Lier des comptes,Vincular sus cuentas
+"The email """" is already in our system. 
+
+Would you like to link your [Facebook / Apple ID/ Gmail] login with this pre-exsisting Adventure Traveler account? ","le courriel est déjà dans notre système.
+
+Souhaitez-vous associer votre connexion [Facebook / Apple ID / Gmail] à ce compte Adventure Traveler préexistant ?","Tu correo electrónico ya está en nuestra sistema. 
+
+Desea vincular su [Facebook / Apple ID/ Gmail] cuenta con esta cuenta de Adventure Traveler?"
+Cancel,Annuler,Cancelar
+Account Detail ,Détails du compte,Detalles de cuenta
+Enter first name,Entrez votre prénom,Introduzca su nombre
+Enter last name,Entrer le nom de famille,Introduzca su apellido
+Re-Enter Email,Rentrer le courriel,Confirmar tu Correo Electrónico
+Medical Information,Information médicale,Información Médica
+Date of Birth,Jeu De Naissance,Fecha de nacimiento
+e.g 06/29/1998,e.g 06/29/1998,e.g 06/29/1998
+Gender,le sexe,Género
+Select gender,sélectionnez le sexe,Selecciona Género
+Height,la taille,Estatura
+Input height,hauteur d'entrée,Introduzca Estatura
+Weight,Poids,Peso
+Input weight,poids d'entr?e,Introduzca Peso
+Blood Type,Groupe sanguin,Grupo Sanguíneo
+e.g Negative O,par exemple O négatif,"p. ej. A, B, AB, O"
+Contact Number,Numéro de contact,Número de Contacto
+e.g 213-398-8541,e.g 213-398-8541,p. ej. 213-398-8541
+ Enter Medical Allergies,entrer les allergies médicales,Introduzca sus alergias
+Input any medical allergies you’ve had in the past,Entrez toutes les allergies médicales que vous avez eues dans le passé,Introduzca cualquier alergias que haya tenido en el pasado
+List Medical Conditions. If any.,"
+Énumérez les conditions médicales. Si seulement.","Inscribir todas tus condiciones médicas, si las hay"
+Input any medical conditions you’ve had in the past,"
+Entrez toutes les conditions médicales que vous avez eues dans le passé",Introduzca cualquier condiciones médicas que haya tenido en el pasado
+Additional Notes,Notes complémentaires,Notas Adicionales
+Input any additional medical notes that you’d like us to know,Saisissez toutes les notes médicales supplémentaires que vous souhaitez que nous sachions,Introduzca cualquier notas médica adicional que desee que conozcamos
+"By clicking ""Finish Signup"" I agree with Adventure Traveler's ","En cliquant sur ""Terminer l'inscription"", je suis d'accord avec Adventure Traveler's","Al hacer clic en ""Finalizar el Registro"", acepto las condiciones de uso y servicios de Adventure Traveler"
+LOAD MORE,CHARGER PLUS,Cargar más
+FINISH SIGNUP,TERMINER L'INSCRIPTION,COMPLETAR REGISTRO
+Retrieve Password,Récupérer mot de passe,Recuperar contraseña 
+Enter Email Address,entrer courriel,Introduzca el Correo Electrónico
+For password update please enter an email address that is registered to the account you are trying to update,"Pour la mise à jour du mot de passe, veuillez entrer une adresse e-mail enregistrée sur le compte que vous essayez de mettre à jour","Para actualizar la contraseña, introduzca el correo electrónico lo que esté registrada en la cuenta que está intentando actualizar"
+UPDATE PASSWORD,METTRE À JOUR LE MOT DE PASSE,ACTUALIZAR CONTRASEÑA
+Enter new password,Entrez un nouveau mot de passe,Introducir nueva contraseña

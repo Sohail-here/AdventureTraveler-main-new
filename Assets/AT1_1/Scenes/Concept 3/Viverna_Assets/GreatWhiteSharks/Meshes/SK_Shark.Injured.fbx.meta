@@ -1,0 +1,196 @@
+fileFormatVersion: 2
+guid: fd4fd0fafa09481449fc86d3d3788271
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: BN_Bt_BackFin_00
+    100002: BN_C_Lip_00
+    100004: BN_DorsalFin_00
+    100006: BN_DorsalFin_01
+    100008: BN_DorsalFin_02
+    100010: BN_DorsalFin_03
+    100012: BN_DorsalFin_Side_00
+    100014: BN_Head_00
+    100016: BN_Jaw_00
+    100018: BN_L_BigFin_00
+    100020: BN_L_BigFin_01
+    100022: BN_L_BigFin_02
+    100024: BN_L_BigFin_03
+    100026: BN_L_Eye_00
+    100028: BN_L_Lip_00
+    100030: BN_L_SmallFin_00
+    100032: BN_L_SmallFin_01
+    100034: BN_L_SmallFin_02
+    100036: BN_Neck_00
+    100038: BN_Neck_01
+    100040: BN_R_BigFin_00
+    100042: BN_R_BigFin_01
+    100044: BN_R_BigFin_02
+    100046: BN_R_BigFin_03
+    100048: BN_R_Eye_00
+    100050: BN_R_Lip_00
+    100052: BN_R_SmallFin_00
+    100054: BN_R_SmallFin_01
+    100056: BN_R_SmallFin_02
+    100058: BN_Root
+    100060: BN_Spine_01
+    100062: BN_Spine_02
+    100064: BN_Spine_03
+    100066: BN_Spine_04
+    100068: BN_Spine_05
+    100070: BN_Spine_06
+    100072: BN_Spine_07
+    100074: BN_Tail_00
+    100076: BN_Tail_01
+    100078: BN_Tail_02
+    100080: BN_Tail_03
+    100082: BN_Tail__01
+    100084: BN_Tail__02
+    100086: BN_Tail__03
+    100088: BN_Tp_BackFin_00
+    100090: Great_White_Shark_Injured
+    100092: Spine_00
+    100094: //RootNode
+    100096: Great_White_Shark_Injured_2
+    400000: BN_Bt_BackFin_00
+    400002: BN_C_Lip_00
+    400004: BN_DorsalFin_00
+    400006: BN_DorsalFin_01
+    400008: BN_DorsalFin_02
+    400010: BN_DorsalFin_03
+    400012: BN_DorsalFin_Side_00
+    400014: BN_Head_00
+    400016: BN_Jaw_00
+    400018: BN_L_BigFin_00
+    400020: BN_L_BigFin_01
+    400022: BN_L_BigFin_02
+    400024: BN_L_BigFin_03
+    400026: BN_L_Eye_00
+    400028: BN_L_Lip_00
+    400030: BN_L_SmallFin_00
+    400032: BN_L_SmallFin_01
+    400034: BN_L_SmallFin_02
+    400036: BN_Neck_00
+    400038: BN_Neck_01
+    400040: BN_R_BigFin_00
+    400042: BN_R_BigFin_01
+    400044: BN_R_BigFin_02
+    400046: BN_R_BigFin_03
+    400048: BN_R_Eye_00
+    400050: BN_R_Lip_00
+    400052: BN_R_SmallFin_00
+    400054: BN_R_SmallFin_01
+    400056: BN_R_SmallFin_02
+    400058: BN_Root
+    400060: BN_Spine_01
+    400062: BN_Spine_02
+    400064: BN_Spine_03
+    400066: BN_Spine_04
+    400068: BN_Spine_05
+    400070: BN_Spine_06
+    400072: BN_Spine_07
+    400074: BN_Tail_00
+    400076: BN_Tail_01
+    400078: BN_Tail_02
+    400080: BN_Tail_03
+    400082: BN_Tail__01
+    400084: BN_Tail__02
+    400086: BN_Tail__03
+    400088: BN_Tp_BackFin_00
+    400090: Great_White_Shark_Injured
+    400092: Spine_00
+    400094: //RootNode
+    400096: Great_White_Shark_Injured_2
+    2100000: Mat
+    2100002: Great.White.Shark
+    4300000: Great_White_Shark_Injured
+    4300002: Great_White_Shark_Injured_2
+    9500000: //RootNode
+    13700000: Great_White_Shark_Injured
+    13700002: Great_White_Shark_Injured_2
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

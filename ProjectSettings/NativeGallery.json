@@ -1,0 +1,6 @@
+{
+    "AutomatedSetup": true,
+    "PhotoLibraryUsageDescription": "ct with it.uires access to Photos to interact with it.",
+    "PhotoLibraryAdditionsUsageDescription": "The app requires access to Photos to save media to it.",
+    "DontAskLimitedPhotosPermissionAutomaticallyOnIos14": true
+}
