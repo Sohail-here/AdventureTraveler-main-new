@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-//using Facebook.Unity;
+using Facebook.Unity;
 using Intergration;
 
 public class FacebookLogin : MonoBehaviour
@@ -16,7 +16,7 @@ public class FacebookLogin : MonoBehaviour
     public GameObject RegisterPanel;
     public GameObject LinkPanel;
 
-    /*private void Awake()
+    private void Awake()
     {
         if (!FB.IsInitialized)
         {
@@ -126,5 +126,5 @@ public class FacebookLogin : MonoBehaviour
 
         urlLogin.Instance.Login("facebook", FacebookEmail, FacebookToken);
     }
-    */
+    
 }
