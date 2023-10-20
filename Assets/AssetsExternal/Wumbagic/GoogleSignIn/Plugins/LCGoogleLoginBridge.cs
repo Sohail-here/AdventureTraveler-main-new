@@ -378,9 +378,7 @@ public class LCGoogleLoginBridge : MonoBehaviour {
 	public static bool ChangeLoggingLevel(bool enabled)
 	{
 		debugLogs = enabled;
-#if UNITY_EDITOR
-		return false;
-#elif UNITY_ANDROID
+#if UNITY_ANDROID
 		return LCGoogleLoginAndroid.CallAndroidInBoolMethod(LCGoogleLoginAndroid.kInBoolChangeLogLevel, enabled);
 #elif UNITY_IOS
 		LCGoogleLoginiOS.changeLogLevel (enabled);
