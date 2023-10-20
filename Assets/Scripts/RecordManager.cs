@@ -9,6 +9,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Xml;
 
+using System.Text;
+using System.Security.Cryptography;
+
 public class RecordManager : MonoSingleton<RecordManager>
 {
     public const string ES_RECORD_KEY = "RecordSaveing";
@@ -59,7 +62,8 @@ public class RecordManager : MonoSingleton<RecordManager>
     private bool mSaveBG = false;
     //public const string API_PATH = "https://localhost:44370/API";
     //public const string API_PATH = "http://i911record.ddns.net/API";
-    public const string API_PATH = "http://ec2-52-14-232-110.us-east-2.compute.amazonaws.com/URecordAPI/API";
+    //public const string API_PATH = "http://ec2-52-14-232-110.us-east-2.compute.amazonaws.com/URecordAPI/API";
+    public const string API_PATH = "http://18.219.108.69/rest.php";
     const int COMMAND_TRY_MAX_COUNT = 5;
     int mCmdTryCount = 0;
     protected override void Awake()
@@ -163,7 +167,7 @@ public class RecordManager : MonoSingleton<RecordManager>
         DelJourney();
     }
 
-    string POSTAPI(string apiCMD, string sqlCMD, Method method = Method.POST)
+    /*string POSTAPI(string apiCMD, string sqlCMD, Method method = Method.POST)
     {
         RestClient client = new RestClient(API_PATH);
         RestRequest request = new RestRequest($"Values/{apiCMD}", method);
@@ -171,6 +175,77 @@ public class RecordManager : MonoSingleton<RecordManager>
         var response = client.Execute(request);
         Debug.LogWarning($"apiCMD:{apiCMD}\nsqlCMD:{sqlCMD}\nStatusCode:{response.StatusCode}\nContent:{response.Content}");
         return response.Content != null && string.IsNullOrEmpty(response.Content) == false ? JsonConvert.DeserializeObject<string>(response.Content) : string.Empty;
+    }*/
+    string POSTAPI(string apiCMD, string sqlCMD, Method method = Method.POST)
+    {
+
+
+
+        RestClient client = new RestClient(API_PATH);
+        RestRequest request = new RestRequest($"Values/{apiCMD}", method);
+
+
+
+        // Set content type to x-www-form-urlencoded
+        request.AddHeader("Content-Type", "application/x-www-form-urlencoded");
+
+
+
+        // Add parameters to the body
+        request.AddParameter("sqlCMD", sqlCMD);
+        request.AddParameter("fingerprint", GenerateFingerprint());
+
+
+
+        // Execute the request
+        var response = client.Execute(request);
+
+
+
+        // Debugging and error handling
+        Debug.LogWarning($"apiCMD:{apiCMD}\nsqlCMD:{sqlCMD}\nStatusCode:{response.StatusCode}\nContent:{response.Content}");
+
+
+
+        // Deserialize the response content
+        return response.Content != null && string.IsNullOrEmpty(response.Content) == false ? JsonConvert.DeserializeObject<string>(response.Content) : string.Empty;
+
+
+
+        /*
+        RestClient client = new RestClient(API_PATH);
+        RestRequest request = new RestRequest($"Values/{apiCMD}", method);
+        request.AddJsonBody(sqlCMD);
+        var response = client.Execute(request);
+        Debug.LogWarning($"apiCMD:{apiCMD}\nsqlCMD:{sqlCMD}\nStatusCode:{response.StatusCode}\nContent:{response.Content}");
+        return response.Content != null && string.IsNullOrEmpty(response.Content) == false ? JsonConvert.DeserializeObject<string>(response.Content) : string.Empty;
+        */
+    }
+
+
+
+    public string GenerateFingerprint()
+    {
+        string secretKey = "IMIEMWORN8882MMFMKAMDSKMK";
+        long epochSeconds = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
+        long hourlyEpoch = epochSeconds / 3600;
+
+
+
+        using MD5 md5 = MD5.Create();
+        byte[] hash = md5.ComputeHash(Encoding.UTF8.GetBytes(secretKey + hourlyEpoch.ToString()));
+
+
+
+        StringBuilder sb = new StringBuilder();
+        foreach (byte b in hash)
+        {
+            sb.Append(b.ToString("x2"));
+        }
+
+
+
+        return sb.ToString();
     }
 
     public void ReView(RecordSQLData recordData)
@@ -337,18 +412,18 @@ public class RecordManager : MonoSingleton<RecordManager>
 
     void FinishJourneyCheck()
     {
-        m_SaveJourneyPage.SetActive(true);
-        //if (trackSegment.points.Count < 5 || distance <= 0.05f)
-        //{
-        //    ULog.Penguin.Log($"FinishJourney Fail");
-        //    mIsPause = true;
-        //    m_ShortTipPage.OpenUI(() => { mIsPause = false; }, () => { CancelRecord(); m_TrackingJourneyPage.SetActive(false); });
-        //}
-        //else
-        //{
-        //    ULog.Penguin.Log($"FinishJourney OK!!");
-        //    m_SaveJourneyPage.SetActive(true);
-        //}
+        //m_SaveJourneyPage.SetActive(true);
+        if (trackSegment.points.Count < 5 || distance <= 0.05f)
+        {
+            ULog.Penguin.Log($"FinishJourney Fail");
+            mIsPause = true;
+            m_ShortTipPage.OpenUI(() => { mIsPause = false; }, () => { CancelRecord(); m_TrackingJourneyPage.SetActive(false); });
+        }
+        else
+        {
+            ULog.Penguin.Log($"FinishJourney OK!!");
+            m_SaveJourneyPage.SetActive(true);
+        }
     }
 
     public void PauseRecord(bool isPause)
