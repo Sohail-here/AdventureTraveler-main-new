@@ -640,27 +640,78 @@ public class RecordManager : MonoSingleton<RecordManager>
         }
     }
 
+    //public bool SaveBuildRecordData()
+    //{
+    //    try
+    //    {
+    //        var json = GetRecordSQLDataJson("B");
+
+    //        ES3.Save(ES_RECORD_KEY, json);
+
+    //        var client = new RestClient(API_PATH);
+    //        var request = new RestRequest($"Values", Method.POST);
+    //        request.AddJsonBody(json);
+    //        var response = client.ExecuteAsync(request);
+    //        response.Wait();
+    //        ULog.Penguin.Log($"SaveBuildRecordData To DB\nStatusCode:{response.Result.StatusCode}\nContent:{response.Result.Content}");
+    //        ULog.Penguin.Log($"sqlCMD:{json}");
+    //        return response.Result.StatusCode == HttpStatusCode.OK;
+    //    }
+    //    catch (Exception ex)
+    //    {
+    //        ULog.Penguin.Log(ex.ToString());
+    //    }
+
+    //    return false;
+    //}
+
+    // Updated function
     public bool SaveBuildRecordData()
     {
         try
         {
             var json = GetRecordSQLDataJson("B");
 
-            ES3.Save(ES_RECORD_KEY, json);
 
+
+            ES3.Save(ES_RECORD_KEY, json);
             var client = new RestClient(API_PATH);
             var request = new RestRequest($"Values", Method.POST);
+            request.AddHeader("fingerprint", GenerateFingerprint());
             request.AddJsonBody(json);
+
+
+
+            ULog.Penguin.Log(API_PATH);
+            //request.AddParameter("fingerprint", GenerateFingerprint());
+            //ULog.Penguin.Log(SerializeRestRequestToJson(request));
             var response = client.ExecuteAsync(request);
             response.Wait();
+            /*
+            try
+            {
+            //ULog.Penguin.Log(response.Result.Content);
+            //ULog.Penguin.Log(response.Result.StatusCode);
+            //File.WriteAllText("/output.txt", json);
+            }catch(Exception ex)
+            {
+            ULog.Penguin.Log("Unable to deserialize value");
+
+
+
+            }*/
             ULog.Penguin.Log($"SaveBuildRecordData To DB\nStatusCode:{response.Result.StatusCode}\nContent:{response.Result.Content}");
             ULog.Penguin.Log($"sqlCMD:{json}");
+            ULog.Penguin.Log((response.Result.StatusCode == HttpStatusCode.OK).ToString());
             return response.Result.StatusCode == HttpStatusCode.OK;
         }
         catch (Exception ex)
         {
+            ULog.Penguin.Log("FAILED SaveBuildRecordData");
             ULog.Penguin.Log(ex.ToString());
         }
+
+
 
         return false;
     }
