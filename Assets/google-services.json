@@ -7,6 +7,44 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:43333396819:android:d746aed956d6d8e275d9a6",
+        "android_client_info": {
+          "package_name": "com.i911.AT"
+        }
+      },
+      "oauth_client": [
+        {
+                      
+          "client_id": "43333396819-8qhj9vbgta8092hkb66qekaloirq5ns1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1XC8p0LcIROTwR-zjYpRGixLS-hiOQhM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43333396819-8qhj9vbgta8092hkb66qekaloirq5ns1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {           
+              "client_id": "43333396819-hfdqbg9asfvecblhvjfdt5dv75evpa1p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.i911.AdventureTraveler",
+                "app_store_id": "com.i911.AdventureTraveler"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:43333396819:android:1a7877f22791c1f675d9a6",
         "android_client_info": {
           "package_name": "com.i911.AdventureTraveler"
