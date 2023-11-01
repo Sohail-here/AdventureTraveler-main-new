@@ -11,8 +11,8 @@ public static class LCGoogleSignInPostProcess {
 
 #warning Google Login: Provide iOS's configuration plist file name & android's configuration json file. Template sample follows..
 	// It could also be a path relative to Assets folder e.g. "foldername/<file name>.plist"
-	const string iOSFileName = "client_<YourFileData>.apps.googleusercontent.com.plist";
-	
+	//const string iOSFileName = "client_<YourFileData>.apps.googleusercontent.com.plist";
+	const string iOSFileName = "credentials.plist";
 	//If you have a different path for plist file, you can modify the path here and check usage in this class
 #if UNITY_IOS
 	static string googleInfoPlistFilePath = iOSFileName;

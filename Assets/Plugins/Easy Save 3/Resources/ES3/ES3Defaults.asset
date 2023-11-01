@@ -38,7 +38,6 @@ MonoBehaviour:
     - FancyScrollView
     - NativeGallery.Editor
     - NativeGallery.Runtime
-    - Purchasing.Common
     - NativeShare.Runtime
     - UniWebView-CSharp.Editor
     - AppleAuth.Editor

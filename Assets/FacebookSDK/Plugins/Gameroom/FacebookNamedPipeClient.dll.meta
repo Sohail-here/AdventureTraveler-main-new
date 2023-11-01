@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 082cd93ddb11e4437b52ea3d121816d8
-timeCreated: 1561663365
+guid: cfd587f32401443d0b223aa6246fe5bc
+timeCreated: 1561663364
 licenseType: Pro
 PluginImporter:
   externalObjects: {}
@@ -13,7 +13,7 @@ PluginImporter:
   - first:
       Any: 
     second:
-      enabled: 0
+      enabled: 1
       settings: {}
   - first:
       Editor: Editor
@@ -22,15 +22,11 @@ PluginImporter:
       settings:
         DefaultValueInitialized: true
   - first:
-      Facebook: WebGL
+      Windows Store Apps: WindowsStoreApps
     second:
-      enabled: 1
-      settings: {}
-  - first:
-      WebGL: WebGL
-    second:
-      enabled: 1
-      settings: {}
+      enabled: 0
+      settings:
+        CPU: AnyCPU
   userData: 
   assetBundleName: 
   assetBundleVariant: 

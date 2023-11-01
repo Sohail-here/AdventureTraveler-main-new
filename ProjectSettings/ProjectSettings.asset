@@ -133,7 +133,7 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
-  bundleVersion: 1.4.5
+  bundleVersion: 1.4.6
   preloadedAssets:
   - {fileID: 0}
   - {fileID: 0}
@@ -143,13 +143,6 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  - {fileID: 11400000, guid: 794d09bc7932c4ce0b28c480579e3ba5, type: 2}
-  - {fileID: 11400000, guid: ffa407119317347929cf9388c118b354, type: 2}
-  - {fileID: -4193178347779000465, guid: ee606193bc0bc436bb78c371b86cba5a, type: 2}
-  - {fileID: -3536328549074904884, guid: 215385731d553db48981382238eda407, type: 2}
-  - {fileID: 11400000, guid: f58458c3de7814624994d26fe06112ef, type: 2}
-  - {fileID: 4800000, guid: c9f956787b1d945e7b36e0516201fc76, type: 3}
-  - {fileID: 4800000, guid: 0945859e5a1034c2cb6dce53cb4fb899, type: 3}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -169,17 +162,17 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.i911.AdventureTraveler
+    Android: com.i911.AT
     Standalone: com.i911.AdventureTraveler
     Tizen: com.enoxsoftware.facetrackerexample
     iPhone: com.i911.AdventureTraveler
     tvOS: com.enoxsoftware.facetrackerexample
   buildNumber:
     Standalone: 0
-    iPhone: 0
+    iPhone: 1
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
-  AndroidBundleVersionCode: 7
+  AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 24
   AndroidTargetSdkVersion: 33
   AndroidPreferredInstallLocation: 1
@@ -269,8 +262,8 @@ PlayerSettings:
   AndroidTargetDevices: 1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{inproject}: Assets/Resources/AT.keystore'
-  AndroidKeyaliasName: adventurertraveler
+  AndroidKeystoreName: '{inproject}: adventurenew.keystore'
+  AndroidKeyaliasName: adventurenew
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
@@ -902,8 +895,8 @@ PlayerSettings:
     4: UNITY_XR_ARKIT_FACE_TRACKING_ENABLED;UNITY_XR_ARKIT_LOADER_ENABLED;VUPLEX_CCU
     7: VUPLEX_CCU
     Android: VUPLEX_CCU;VUPLEX_OCULUS;ADVANCEDINPUTFIELD_TEXTMESHPRO;VUPLEX_DISABLE_SRP_WARNING
-    Standalone: VUPLEX_CCU
-    iPhone: UNITY_XR_ARKIT_FACE_TRACKING_ENABLED;UNITY_XR_ARKIT_LOADER_ENABLED;VUPLEX_CCU;VUPLEX_OCULUS;ADVANCEDINPUTFIELD_TEXTMESHPRO
+    Standalone: VUPLEX_CCU;VUPLEX_OCULUS
+    iPhone: UNITY_XR_ARKIT_FACE_TRACKING_ENABLED;UNITY_XR_ARKIT_LOADER_ENABLED;VUPLEX_CCU;ADVANCEDINPUTFIELD_TEXTMESHPRO;VUPLEX_OCULUS
   additionalCompilerArguments: {}
   platformArchitecture:
     iPhone: 1
@@ -936,7 +929,7 @@ PlayerSettings:
   suppressCommonWarnings: 1
   allowUnsafeCode: 0
   useDeterministicCompilation: 1
-  selectedPlatform: 2
+  selectedPlatform: 3
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
   gcIncremental: 0
@@ -1023,11 +1016,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 4f00584c-ca75-4291-9ae2-46adb50d94d6
+  cloudProjectId: f2359827-5ad7-4735-bea9-8abf1d856baf
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: AdventureTraveler (2)
-  organizationId: sohailrana
+  projectName: AdventureTraveler
+  organizationId: juhee_unity266
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
   hmiLoadingImage: {fileID: 0}

@@ -224,6 +224,10 @@ public class UIManager : MonoSingleton<UIManager>
 
     public void CloseApp()
     {
+        if(Intergration.Login.loginMode== "google")
+        {
+            LCGoogleLoginBridge.LogoutUser();
+        }
         ES3.DeleteKey(AutoLogin.AUTO_LOGIN_KEY);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         //Application.Quit();
