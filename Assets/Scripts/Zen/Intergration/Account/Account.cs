@@ -63,7 +63,25 @@ public class Account : MonoSingleton<Account>
     public AdvancedInputField vehicleColour;
     public AdvancedInputField vehicleLicenseNo;
     public AdvancedInputField additionalNotes;
-    
+
+    #endregion
+
+
+    #region MyCrew
+    // TO DO: Figure out how to load these variables from the UNITY interface.
+    [Header("MyBoat")]
+    //public TMP_Dropdown drpBoatType;
+    public AdvancedInputField emergencyContactName1;
+    public AdvancedInputField contactName1;
+    public TMP_Dropdown drpRelationType1;
+    public AdvancedInputField emergencyContactName2;
+    public AdvancedInputField contactName2;
+    public TMP_Dropdown drpRelationType2;
+    public AdvancedInputField emergencyContactName3;
+    public AdvancedInputField contactName3;
+    public TMP_Dropdown drpRelationType3;
+    public AdvancedInputField myCrewAdditionalNotes;
+
     #endregion
 
     // Start is called before the first frame update
@@ -137,6 +155,19 @@ public class Account : MonoSingleton<Account>
     public void MyCrewLoad()
     {
         // TO DO:  Needs to load crew data.
+        emergencyContactName1.Text = UnDestroyData._CrewData.emergencyContactName1;
+        contactName1.Text = UnDestroyData._CrewData.contactName1;
+        drpRelationType1.value = drpRelationType1.options.FindIndex(drpRelationType1 => drpRelationType1.text == UnDestroyData._CrewData.drpRelationType1);
+
+        emergencyContactName2.Text = UnDestroyData._CrewData.emergencyContactName2;
+        contactName2.Text = UnDestroyData._CrewData.contactName2;
+        drpRelationType2.value = drpRelationType2.options.FindIndex(drpRelationType2 => drpRelationType2.text == UnDestroyData._CrewData.drpRelationType2);
+
+        emergencyContactName3.Text = UnDestroyData._CrewData.emergencyContactName3;
+        contactName3.Text = UnDestroyData._CrewData.contactName3;
+        drpRelationType3.value = drpRelationType3.options.FindIndex(drpRelationType3 => drpRelationType3.text == UnDestroyData._CrewData.drpRelationType3);
+
+        myCrewAdditionalNotes.Text = UnDestroyData._CrewData.myCrewAdditionalNotes;
     }
 
     public void ProfileLoad()
@@ -188,17 +219,17 @@ public class Account : MonoSingleton<Account>
 
     public void BtnSaveCrewData()
     {
-        //if (SaveFieldCheck())
-        //{
+        StartCoroutine(ReLoadCrewData());
+
+        /*if (SaveBoatFieldCheck())
+        {
             StartCoroutine(ReLoadBoatData());
-        //}
-        /*
+        }
         else
         {
             UIManager.Instance.WarnPanelTitle("Entry Field!");
             UIManager.Instance.WarnPanelContent("Please complete entry on all" + "\n" + "fields to continue");
-        }
-        */
+        }*/
     }
     public void BtnSaveBoatData()
     {
@@ -216,11 +247,22 @@ public class Account : MonoSingleton<Account>
 
     }
 
+
     IEnumerator ReLoadBoatData()
     {
         yield return new WaitUntil(() => SetBoaterData() == true);
-        yield return urlUpdateBoater.Instance.urlPUT_UpdateBoater();
-        //urlUpdateBoater.Instance.UpdateBoater();
+        //yield return urlUpdateBoater.Instance.urlPUT_UpdateBoater();
+        urlUpdateBoater.Instance.UpdateBoater();
+
+        //TitleName.text = Username.Text;
+
+
+    }
+    IEnumerator ReLoadCrewData()
+    {
+        yield return new WaitUntil(() => SetCrewData() == true);
+        //yield return urlUpdateBoater.Instance.urlPUT_UpdateBoater();
+        urlUpdateCrew.Instance.UpdateCrew();
 
         //TitleName.text = Username.Text;
 
@@ -354,8 +396,8 @@ public class Account : MonoSingleton<Account>
 
     public bool SetBoaterData()
     {
-        UnDestroyData._BoaterData.boatType= drpBoatType.transform.GetChild(0).GetComponent<TMP_Text>().text;
-        UnDestroyData._BoaterData.boatStyle= boatStyle.Text;
+        UnDestroyData._BoaterData.boatType = drpBoatType.transform.GetChild(0).GetComponent<TMP_Text>().text;
+        UnDestroyData._BoaterData.boatStyle = boatStyle.Text;
         UnDestroyData._BoaterData.boatRegistration = boatRegistration.Text;
         UnDestroyData._BoaterData.boatHullColours = boatHullColours.Text;
         UnDestroyData._BoaterData.boatTopColours = boatTopColours.Text;
@@ -366,6 +408,23 @@ public class Account : MonoSingleton<Account>
         UnDestroyData._BoaterData.vehicleColour = vehicleColour.Text;
         UnDestroyData._BoaterData.vehicleLicenseNo = vehicleLicenseNo.Text;
         UnDestroyData._BoaterData.additionalNotes = additionalNotes.Text;
+        return true;
+    }
+    public bool SetCrewData()
+    {
+        UnDestroyData._CrewData.emergencyContactName1 = emergencyContactName1.Text;
+        UnDestroyData._CrewData.contactName1 = contactName1.Text;
+        UnDestroyData._CrewData.drpRelationType1 = drpRelationType1.transform.GetChild(0).GetComponent<TMP_Text>().text;
+
+        UnDestroyData._CrewData.emergencyContactName2 = emergencyContactName2.Text;
+        UnDestroyData._CrewData.contactName2 = contactName2.Text;
+        UnDestroyData._CrewData.drpRelationType2 = drpRelationType2.transform.GetChild(0).GetComponent<TMP_Text>().text;
+
+        UnDestroyData._CrewData.emergencyContactName3 = emergencyContactName3.Text;
+        UnDestroyData._CrewData.contactName3 = contactName3.Text;
+        UnDestroyData._CrewData.drpRelationType3 = drpRelationType3.transform.GetChild(0).GetComponent<TMP_Text>().text;
+
+        UnDestroyData._CrewData.myCrewAdditionalNotes = myCrewAdditionalNotes.Text;
         return true;
     }
 

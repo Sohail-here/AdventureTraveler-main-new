@@ -47,7 +47,7 @@ public class AutoLogin : MonoBehaviour
                 UnDestroyData.userData.user_name = data.user_name;
 
 
-
+                //Loading data of Boaters page from PlayerPrefs
                 UnDestroyData._BoaterData.boatType = PlayerPrefs.GetString("boatType");
                 UnDestroyData._BoaterData.boatStyle = PlayerPrefs.GetString("boatStyle");
                 UnDestroyData._BoaterData.boatRegistration = PlayerPrefs.GetString("boatRegistration");
@@ -61,7 +61,23 @@ public class AutoLogin : MonoBehaviour
                 UnDestroyData._BoaterData.vehicleLicenseNo = PlayerPrefs.GetString("vehicleLicenseNo");
                 UnDestroyData._BoaterData.additionalNotes = PlayerPrefs.GetString("additionalNotes");
                 //Debug.Log("Vehical Year---------------" + UnDestroyData._BoaterData.vehicleYear);
-               // Debug.Log("additionalNotes---------------" + UnDestroyData._BoaterData.additionalNotes);
+                // Debug.Log("additionalNotes---------------" + UnDestroyData._BoaterData.additionalNotes);
+
+                //Loading data of crew page from PlayerPrefs
+                UnDestroyData._CrewData.emergencyContactName1 = PlayerPrefs.GetString("emergencyContactName1");
+                UnDestroyData._CrewData.contactName1 = PlayerPrefs.GetString("contactName1");
+                UnDestroyData._CrewData.drpRelationType1 = PlayerPrefs.GetString("drpRelationType1");
+
+                UnDestroyData._CrewData.emergencyContactName2 = PlayerPrefs.GetString("emergencyContactName2");
+                UnDestroyData._CrewData.contactName2 = PlayerPrefs.GetString("contactName2");
+                UnDestroyData._CrewData.drpRelationType2 = PlayerPrefs.GetString("drpRelationType2");
+
+                UnDestroyData._CrewData.emergencyContactName3 = PlayerPrefs.GetString("emergencyContactName3");
+                UnDestroyData._CrewData.contactName3 = PlayerPrefs.GetString("contactName3");
+                UnDestroyData._CrewData.drpRelationType3 = PlayerPrefs.GetString("drpRelationType3");
+
+                UnDestroyData._CrewData.myCrewAdditionalNotes = PlayerPrefs.GetString("myCrewAdditionalNotes");
+
 
                 Debug.Log("GetProfile");
 

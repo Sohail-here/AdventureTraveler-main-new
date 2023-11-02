@@ -27,6 +27,10 @@ public class urlUpdateBoater : MonoSingleton<urlUpdateBoater>
         PlayerPrefs.SetString("vehicleLicenseNo", UnDestroyData._BoaterData.vehicleLicenseNo);
         PlayerPrefs.SetString("additionalNotes", UnDestroyData._BoaterData.additionalNotes);
         PlayerPrefs.Save();
+
+        //UIManager.Instance.OpenWaitingPanel();
+        UIManager.Instance.WarnPanelTitle("Data Saved!");
+        UIManager.Instance.WarnPanelContent("Your information has been successfully stored.");
         //StartCoroutine(urlPUT_UpdateBoater());
     }
 

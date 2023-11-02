@@ -200,19 +200,21 @@ public class UnDestroyData : MonoBehaviour
 
     public struct CrewData
     {
-        public string emergencyContact1;
-        public string crewNumber1;
-        public string relationshipType1;
+        public string emergencyContactName1;
+        public string contactName1;
+        public string drpRelationType1;
 
-        public string emergencyContact2;
-        public string crewNumber2;
-        public string relationshipType2;
+        public string emergencyContactName2;
+        public string contactName2;
+        public string drpRelationType2;
 
-        public string emergencyContact3;
-        public string crewNumber3;
-        public string relationshipType3;
+        public string emergencyContactName3;
+        public string contactName3;
+        public string drpRelationType3;
+
+        public string myCrewAdditionalNotes;
     }
-    public CrewData _CrewData;
+    public static CrewData _CrewData;
 
     [Serializable]
     public struct Journeys
