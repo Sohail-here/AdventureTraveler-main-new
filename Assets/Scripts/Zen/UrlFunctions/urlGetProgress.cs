@@ -21,8 +21,8 @@ public class urlGetProgress : MonoBehaviour
     {
         WWWForm form = new WWWForm();
 
-        //using (UnityWebRequest www = UnityWebRequest.Get("https://api.i911adventure.com/progress/"))
-        using (UnityWebRequest www = UnityWebRequest.Get("https://staging.i911adventure.com/progress/"))
+        using (UnityWebRequest www = UnityWebRequest.Get("https://api.i911adventure.com/progress/"))
+        //using (UnityWebRequest www = UnityWebRequest.Get("https://staging.i911adventure.com/progress/"))
         {
             www.SetRequestHeader("Content-Type", "application/json");
             www.SetRequestHeader("Authorization", "JWT " + UnDestroyData.token);

@@ -585,6 +585,7 @@ public class RecordManager : MonoSingleton<RecordManager>
 
     public void ShareFriend()
     {
+        Debug.Log("ShareFriend Called");
         try
         {
             ULog.Penguin.Log($"ShareFriend {mShareCode}");
@@ -597,6 +598,7 @@ public class RecordManager : MonoSingleton<RecordManager>
                 ULog.Penguin.Log($"{response.StatusCode} : {response.Content}");
                 if (response.StatusCode == HttpStatusCode.OK)
                 {
+                    Debug.Log("----------------------response success");
                     ULog.Penguin.Log(response.Content);
                     mShareCode = response.Content.Replace("\"", "");
 
@@ -614,6 +616,10 @@ public class RecordManager : MonoSingleton<RecordManager>
                         }
                     }
                 }
+                else
+                {
+                    Debug.Log("----------------------response Fails");
+                }
             }
             else
             {
@@ -623,7 +629,7 @@ public class RecordManager : MonoSingleton<RecordManager>
         }
         catch (Exception ex)
         {
-            ex.ToString();
+            Debug.LogError("Exception-----" + ex.ToString());
         }
     }
 
